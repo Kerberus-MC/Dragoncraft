@@ -1,0 +1,787 @@
+
+[general]
+	#How often should player data be synced to other players? -1 disables it
+	#Range: -1 ~ 72000
+	serverSyncTime = 600
+	#Whether dragons are allowed to use Elytra
+	elytraForDragon = false
+	#Should the player be teleported to the overworld when they fall in the end?
+	endVoidTeleport = false
+	#Should suffocation damage be disabled for dragon players?
+	disableDragonSuffocation = false
+	#Should the dragon altar interface be opened when the player first joins the world?
+	startWithDragonChoice = true
+	#The minimum size variation in percentage
+	#Range: -1000.0 ~ 0.0
+	minSizeVari = -10.0
+	#The maximum size variation in percentage
+	#Range: 0.0 ~ 1000.0
+	maxSizeVari = 10.0
+	#If you should be able to move while casting certain skills or if player movement can be prevented.
+	canMoveWhileCasting = false
+	#If players are allowed to move while performing emotes
+	canMoveInEmote = true
+	#If players are allowed to hide their claws and teeth from other players. If it is important to you to see your opponent's weapon during pvp, set false.
+	syncClawRender = true
+	#Whether to keep items in the claw slots on death otherwise they will drop on death.
+	keepClawItems = false
+	#Whether dragon altars are craftable or not. When disabled you can only use the command or creative mode to become a dragon.
+	altarCraftable = true
+	#How long of a cooldown in seconds the altar has after each use.
+	#Range: 0 ~ 1000
+	altarUsageCooldown = 0
+
+[wings]
+	#How many ticks it takes for one hunger point to be drained while flying, this is based on hover flight.
+	#Range: 1 ~ 72000
+	flightHungerTicks = 50
+	#Should hovering be completely stable similar to creative flight?
+	stableHover = false
+	#The cooldown in seconds in between uses of the spin attack in flight
+	#Range: 0 ~ 100000
+	flightSpinCooldown = 5
+	#Whether to use flight similar to creative rather then gliding.
+	alternateFlight = false
+	#Whether your wings will fold automatically when landing. Has protection against accidental triggering, so the wings do not always close. If False you must close the wings manually.
+	foldWingsOnLand = false
+	#Whether fall damage from flight is lethal, otherwise it will leave you at half a heart
+	lethalFallDamage = false
+	#Whether fall damage in flight is included. If true dragon will take damage from the fall.
+	enableFlightFallDamage = true
+	#Whether you use up hunger while flying.
+	flyingUsesHunger = true
+	#If the player's hunger is below this parameter, he can't open his wings.
+	#Range: 0 ~ 20
+	flightHungerThreshold = 6
+	#Whether dragons can fly when totally hungry. You can't open your wings if you're hungry.
+	allowFlyingWhenTotallyHungry = false
+	#Whether you should be able to obtain the spin ability from the ender dragon.
+	enderDragonGrantsSpin = true
+	#Whether dragons born with wings.
+	startWithWings = true
+	#Maximum acceleration fly speed up and down. Take into account the chunk load speed. A speed of 0.3 is optimal.
+	#Range: 0.1 ~ 1.0
+	maxFlightSpeed = 0.3
+
+[magic]
+	#How fast in seconds should mana be recovered in normal conditions
+	#Range: 1 ~ 1000
+	normalManaRegen = 10
+	#How fast in seconds should mana be recovered in favorable conditions
+	#Range: 1 ~ 1000
+	favorableManaRegen = 1
+	#The multiplier that is used to increase the passive skill costs per level
+	#Range: 0.0 ~ 100.0
+	passiveScalingCost = 6.0
+	#The initial exp cost for leveling passive skills.
+	#Range: 0 ~ 100
+	initialPassiveCost = 4
+	#Whether to use exp instead of mana if mana is empty
+	consumeEXPAsMana = true
+	#Disable the exp requirements for leveling up active skills
+	noEXPRequirements = false
+	#Whether sea dragon abilities should be enabled
+	seaDragonAbilities = true
+	#Whether forest dragon abilities should be enabled
+	forestDragonAbilities = true
+	#Whether cave dragon abilities should be enabled
+	caveDragonAbilities = true
+	#Whether dragon abilities should be enabled
+	dragonAbilities = true
+
+	[magic.abilities]
+		#Whether to save passives skills when changing dragon type
+		saveAllAbilities = false
+
+		[magic.abilities.sea_dragon]
+
+			[magic.abilities.sea_dragon.passives]
+				#Whether the water ability should be enabled
+				water = true
+				#The percentage chance that spectral impact will proc. This is multiplied by the level of the skill.
+				#Range: 0 ~ 100
+				spectralImpactProcChance = 15
+				#Whether the spectralImpact ability should be enabled
+				spectralImpact = true
+				#Whether the sea magic ability should be enabled
+				seaMagic = true
+				#Whether the sea athletics ability should be enabled
+				seaAthletics = true
+
+			[magic.abilities.sea_dragon.actives]
+
+				[magic.abilities.sea_dragon.actives.storm_breath]
+					#List of entities that will not receive the charged effect at all Format: modid:id
+					chargedBlacklist = ["minecraft:armor_stand", "minecraft:cat", "minecraft:cart", "minecraft:guardian", "minecraft:elder_guardian", "minecraft:enderman"]
+					#List of entities that will not spread the charged effect. Format: modid:id
+					chargedSpreadBlacklist = ["minecraft:armor_stand", "minecraft:cat", "minecraft:cart", "minecraft:guardian", "minecraft:elder_guardian", "minecraft:enderman"]
+					#The amount of damage the charged effect deals each second
+					#Range: 0 ~ 100
+					chargedEffectDamage = 1
+					#The max distance in blocks the storm breath and charged effect is able to chain to mobs
+					#Range: 0 ~ 100
+					chargedChainRange = 4
+					#How many times the charged effect is able to chain.
+					#Range: -1 ~ 100
+					chargedEffectMaxChain = 5
+					#How many mobs the charged effect is able to chain to at once
+					#Range: 0 ~ 100
+					chargedEffectChainCount = 2
+					#How many mobs stormbreath is able to chain to at once
+					#Range: 0 ~ 100
+					stormBreathChainCount = 2
+					#Blocks that have a chance to be broken by storm breath. Formatting: block/modid:id
+					stormBreathBlockBreaks = ["minecraft:impermeable", "minecraft:crops", "minecraft:flowers", "minecraft:replaceable_plants"]
+					#How often in ticks, mana is consumed while using storm breath
+					#Range: 0 ~ 100
+					stormBreathManaTicks = 40
+					#The mana cost of sustaining the storm breath ability
+					#Range: 0 ~ 100
+					stormBreathOvertimeMana = 1
+					#The cast time in ticks of the storm breath ability
+					#Range: 1 ~ 10000
+					stormBreathCasttime = 10
+					#The cooldown in ticks of the storm breath ability
+					#Range: 1 ~ 10000
+					stormBreathCooldown = 200
+					#The mana cost for starting the storm breath ability
+					#Range: 0 ~ 100
+					stormBreathInitialMana = 2
+					#The amount of damage the storm breath ability deals. This value is multiplied by the skill level.
+					#Range: 0.0 ~ 100.0
+					stormBreathDamage = 1.0
+					#Whether the storm breath ability should be enabled
+					stormBreath = true
+
+				[magic.abilities.sea_dragon.actives.sea_vision]
+					#Should the night vision effect of sea vision stay when outside of water?
+					seaVisionoutOfWater = false
+					#The mana cost for using the sea vision ability
+					#Range: 0 ~ 100
+					seaVisionManaCost = 1
+					#The cast time in ticks of the sea vision ability
+					#Range: 1 ~ 10000
+					seaEyesCasttime = 40
+					#The cooldown in ticks of the sea vision ability
+					#Range: 1 ~ 10000
+					seaVisionCooldown = 1200
+					#The duration in seconds of the sea vision effect given when the ability is used
+					#Range: 0 ~ 10000
+					seaVisionDuration = 1400
+					#Whether the sea vision ability should be enabled
+					seaVision = true
+
+				[magic.abilities.sea_dragon.actives.revealing_the_soul]
+					#The multiplier that is applied to exp with revealing the soul, the extra exp is in addition to the normal drops. so 1.0 = 100% increase
+					#Range: 0.0 ~ 10000.0
+					revealingTheSoulMultiplier = 1.0
+					#The max amount of increased exp that can be gained from a single mob with reavling the soul
+					#Range: 0 ~ 10000
+					revealingTheSoulMaxEXP = 20
+					#The mana cost for using the revealing The Soul ability
+					#Range: 0 ~ 100
+					revealingTheSoulManaCost = 1
+					#The cast time in ticks of the revealing the soul ability
+					#Range: 1 ~ 10000
+					revealingTheSoulCasttime = 60
+					#The cooldown in ticks of the revealing the soul ability
+					#Range: 1 ~ 10000
+					revealingTheSoulCooldown = 600
+					#The duration in seconds of the revealing The Soul effect given when the ability is used
+					#Range: 0 ~ 10000
+					revealingTheSoulDuration = 1800
+					#Whether the revealing The Soul ability should be enabled
+					revealingTheSoul = true
+
+				[magic.abilities.sea_dragon.actives.ball_lightning]
+					#The mana cost for using the lightning ball ability
+					#Range: 0 ~ 100
+					ballLightningManaCost = 1
+					#The amount of damage the lightning ball ability deals. This value is multiplied by the skill level.
+					#Range: 0.0 ~ 100.0
+					ballLightningDamage = 4.0
+					#The cast time in ticks of the ball lightning ability
+					#Range: 1 ~ 10000
+					ballLightningCasttime = 40
+					#The cooldown in ticks of the ball lightning ability
+					#Range: 1 ~ 10000
+					ballLightningCooldown = 400
+					#Whether the lightning ball ability should be enabled
+					ballLightning = true
+
+		[magic.abilities.forest_dragon]
+
+			[magic.abilities.forest_dragon.passives]
+				#Whether the light in darkness ability should be enabled
+				lightInDarkness = true
+				#Whether the forest magic ability should be enabled
+				forestMagic = true
+				#Whether the forest athletics ability should be enabled
+				forestAthletics = true
+				#Whether the cliffhanger ability should be enabled
+				cliffHanger = true
+
+			[magic.abilities.forest_dragon.actives]
+
+				[magic.abilities.forest_dragon.actives.spike]
+					#The mana cost for using the spike ability
+					#Range: 0 ~ 100
+					spikeManaCost = 1
+					#The amount of damage the spike ability deals. This value is multiplied by the skill level.
+					#Range: 0.0 ~ 100.0
+					spikeDamage = 2.0
+					#The cooldown in ticks of the spike ability
+					#Range: 1 ~ 10000
+					spikeCooldown = 60
+					#Whether the spike ability should be enabled
+					spike = true
+
+				[magic.abilities.forest_dragon.actives.inspiration]
+					#The mana cost for using the inspiration ability
+					#Range: 0 ~ 100
+					inspirationManaCost = 1
+					#The duration in seconds of the inspiration effect given when the ability is used
+					#Range: 0 ~ 10000
+					inspirationDuration = 1200
+					#The cast time in ticks of the inspiration ability
+					#Range: 1 ~ 10000
+					inspirationCasttime = 100
+					#The cooldown in ticks of the inspiration ability
+					#Range: 1 ~ 10000
+					inspirationCooldown = 1200
+					#Whether the inspiration ability should be enabled
+					inspiration = true
+
+				[magic.abilities.forest_dragon.actives.hunter]
+					#The mana cost for using the inspiration ability
+					#Range: 0 ~ 100
+					hunterManaCost = 1
+					#The damage bonus the hunter effect gives when invisible. This value is multiplied by the skill level.
+					#Range: 0.0 ~ 100.0
+					hunterDamageBonus = 1.5
+					#The cast time in ticks of the hunter ability
+					#Range: 1 ~ 10000
+					hunterCasttime = 60
+					#The cooldown in ticks of the hunter ability
+					#Range: 1 ~ 10000
+					hunterCooldown = 600
+					#The duration in seconds of the inspiration effect given when the ability is used
+					#Range: 0 ~ 10000
+					hunterDuration = 600
+					#Whether the hunter ability should be enabled
+					hunter = true
+
+				[magic.abilities.forest_dragon.actives.forest_breath]
+					#Blocks that will not be grown by the forest breath. Formatting: block/modid:id
+					forestBreathGrowBlacklist = []
+					#Blocks that have a chance to be broken by forest breath. Formatting: block/modid:id
+					forestBreathBlockBreaks = ["minecraft:banners"]
+					#How often in ticks, mana is consumed while using forest breath
+					#Range: 0 ~ 100
+					forestBreathManaTicks = 40
+					#The mana cost of sustaining the forest breath ability
+					#Range: 0 ~ 100
+					forestBreathOvertimeMana = 1
+					#The mana cost for starting the forest breath ability
+					#Range: 0 ~ 100
+					forestBreathInitialMana = 2
+					#The casttime in ticks of the forest breath ability
+					#Range: 1 ~ 10000
+					forestBreathCasttime = 20
+					#The cooldown in ticks of the forest breath ability
+					#Range: 1 ~ 10000
+					forestBreathCooldown = 100
+					#The amount of damage the forest breath ability deals. This value is multiplied by the skill level.
+					#Range: 0.0 ~ 100.0
+					forestBreathDamage = 2.0
+					#Whether the forest breath ability should be enabled
+					forestBreath = true
+
+		[magic.abilities.cave_dragon]
+
+			[magic.abilities.cave_dragon.passives]
+				#Whether the contrast shower ability should be enabled
+				contrastShower = true
+				#Whether the cave magic ability should be enabled
+				caveMagic = true
+				#Whether the cave athletics ability should be enabled
+				caveAthletics = true
+				#Whether the burn ability should be enabled
+				burn = true
+
+			[magic.abilities.cave_dragon.actives]
+
+				[magic.abilities.cave_dragon.actives.tough_skin]
+					#The amount of extra armor given per level of tough skin effect
+					#Range: 0.0 ~ 10000.0
+					toughSkinArmorValue = 3.0
+					#The mana cost for using the tough skin ability
+					#Range: 0 ~ 100
+					toughSkinManaCost = 1
+					#The cast time in ticks of the tough skin ability
+					#Range: 1 ~ 10000
+					toughSkinCasttime = 60
+					#The cooldown in ticks of the tough skin ability
+					#Range: 1 ~ 10000
+					toughSkinCooldown = 600
+					#The duration in seconds of the tough skin effect given when the ability is used
+					#Range: 0 ~ 10000
+					toughSkinDuration = 3600
+					#Whether the tough skin ability should be enabled
+					toughSkin = true
+
+				[magic.abilities.cave_dragon.actives.fire_breath]
+					#The cast time in ticks of the fire breath ability
+					#Range: 1 ~ 10000
+					fireBreathCasttime = 20
+					#The cooldown in ticks of the fire breath ability
+					#Range: 1 ~ 10000
+					fireBreathCooldown = 100
+					#Blocks that have a chance to be broken by fire breath. Formatting: block/modid:id
+					fireBreathBlockBreaks = ["minecraft:impermeable", "minecraft:crops", "minecraft:flowers", "minecraft:replaceable_plants", "minecraft:cobweb"]
+					#Whether the fire breath actually spreads fire when used
+					fireBreathSpreadsFire = true
+					#How often in ticks, mana is consumed while using fire breath
+					#Range: 0 ~ 100
+					fireBreathManaTicks = 40
+					#The mana cost of sustaining the firebreath ability
+					#Range: 0 ~ 100
+					fireBreathOvertimeMana = 1
+					#The mana cost for starting the firebreath ability
+					#Range: 0 ~ 100
+					fireBreathInitialMana = 2
+					#The amount of damage the firebreath ability deals. This value is multiplied by the skill level.
+					#Range: 0.0 ~ 100.0
+					fireBreathDamage = 3.0
+					#Whether the firebreath ability should be enabled
+					fireBreath = true
+
+				[magic.abilities.cave_dragon.actives.lava_vision]
+					#The mana cost for using the lava vision ability
+					#Range: 0 ~ 100
+					lavaVisionManaCost = 1
+					#The cast time in ticks of the lava vision ability
+					#Range: 1 ~ 10000
+					lavaVisionCasttime = 40
+					#The cooldown in ticks of the lava vision ability
+					#Range: 1 ~ 10000
+					lavaVisionCooldown = 600
+					#The duration in seconds of the lava vision effect given when the ability is used
+					#Range: 0 ~ 10000
+					lavaVisionDuration = 1400
+					#Whether the lava vision ability should be enabled
+					lavaVision = true
+
+				[magic.abilities.cave_dragon.actives.fireball]
+					#The mana cost for using the fireball ball ability
+					#Range: 0 ~ 100
+					fireballManaCost = 1
+					#The amount of damage the fireball ability deals. This value is multiplied by the skill level.
+					#Range: 0.0 ~ 100.0
+					fireballDamage = 5.0
+					#The cast time in ticks of the fireball ability
+					#Range: 1 ~ 10000
+					fireballCasttime = 40
+					#The cooldown in ticks of the fireball ability
+					#Range: 1 ~ 10000
+					fireballCooldown = 150
+					#Whether the fireball ability should be enabled
+					fireball = true
+
+	[magic.mana]
+		#Blocks that will restore mana quicker when a cave dragon is standing on it. Formatting: block/modid:blockid
+		caveDragonManaBlocks = ["dragonsurvival:cave_source_of_magic", "minecraft:campfires", "minecraft:lava", "minecraft:smoker", "minecraft:furnace", "minecraft:magma_block", "minecraft:blast_furnace", "netherdepthsupgrade:wet_lava_sponge"]
+		#Blocks that will restore mana quicker when a forest dragon is standing on it. Formatting: block/modid:blockid
+		forestDragonManaBlocks = ["dragonsurvival:forest_source_of_magic", "minecraft:grass_block", "minecraft:grass_block", "minecraft:small_flowers", "minecraft:flowers", "minecraft:tall_flowers", "minecraft:lily_pad", "minecraft:red_mushroom", "minecraft:brown_mushroom", "minecraft:sweet_berry_bush", "minecraft:oak_leaves"]
+		#Blocks that will restore mana quicker when a sea dragon is standing on it. Formatting: block/modid:blockid
+		seaDragonManaBlocks = ["dragonsurvival:sea_source_of_magic", "minecraft:ice", "minecraft:snow", "minecraft:snow_block", "minecraft:powder_snow", "minecraft:water", "minecraft:wet_sponge", "minecraft:cauldron"]
+
+[dragon_beacons]
+	#Effects of Fire beacon
+	fireBeaconEffects = ["dragonsurvival:fire", "dragonsurvival:strong_leather"]
+	#Effects of Magic beacon
+	magicBeaconEffects = ["dragonsurvival:magic", "minecraft:haste"]
+	#Effects of Peace beacon
+	peaceBeaconEffects = ["dragonsurvival:peace", "dragonsurvival:animal_peace"]
+	#Duration of effect given in exchange for experience in minutes
+	#Range: 1 ~ 120
+	temporaryEffect = 10
+	#Duration of effect given by beacon constantly in seconds
+	#Range: 1 ~ 3600
+	constantEffect = 20
+
+[dragon_hunters]
+	#Highest Y value allowed for princess and hunter spawning
+	#Range: 64 ~ 250
+	princessAndHuntersUpperSpawnBound = 80
+	#Lowest Y value allowed for princess and hunter spawning
+	#Range: 6 ~ 128
+	princessAndHuntersLowerSpawnBound = 32
+	#Preserve effect 'Evil dragon' after death?
+	preserveRoyalChaseAfterDeath = false
+	#Entities which give 'Evil dragon' status on death
+	royalChaseStatusGivers = ["minecraft:villager", "minecraft:iron_golem", "dragonsurvival:hunter_hound", "dragonsurvival:knight", "dragonsurvival:shooter", "dragonsurvival:squire", "dragonsurvival:prince", "dragonsurvival:princess", "dragonsurvival:princess_entity", "guardvillagers:guard"]
+	#How many experience points are gained for killing a villager
+	#Range: 10 ~ 1000
+	villagerKillxp = 10
+	#Princess and prince spawning enabled?
+	allowPrinceAndPrincessSpawning = true
+	#Dragon Knight hound spawning enabled?
+	allowHoundSpawning = true
+	#Dragon Hunter spawning enabled?
+	allowHunterSpawning = true
+	#Dragon Squire spawning enabled?
+	allowSquireSpawning = true
+	#Dragon knight spawning enabled?
+	allowKnightSpawning = true
+	#Minimum delay between Dragon hunter group spawning, in minutes
+	#Range: 12 ~ 240
+	hunterGroupSpawnDelay = 20
+	#In how many minutes the Prince and Princess will disappear after the call with the summon scroll. Default is 15 minutes
+	#Range: 1 ~ 1000
+	royalDisappearInMinutes = 15
+	#Minimum delay between prince or princess spawning around village, in minutes
+	#Range: 10 ~ 240
+	princessSpawnDelay = 240
+	#Any dragon hunter, princess and prince group may despawn after this many minutes
+	#Range: 1 ~ 120
+	hunterDespawnDelay = 20
+
+	[dragon_hunters.prince]
+		#Prince armor
+		#Range: 0.0 ~ 20.0
+		princeArmor = 6.0
+		#Prince speed
+		#Range: 0.2 ~ 0.6
+		princeSpeed = 0.3
+		#Prince health
+		#Range: 10.0 ~ 60.0
+		princeHealth = 40.0
+		#Prince base damage
+		#Range: 1.0 ~ 20.0
+		princeDamage = 1.0
+
+	[dragon_hunters.squire]
+		#Dragon Squire armor
+		#Range: 0.0 ~ 20.0
+		squireArmor = 2.0
+		#Dragon Squire speed
+		#Range: 0.1 ~ 0.6
+		squireSpeed = 0.35
+		#Dragon Squire damage
+		#Range: 2.0 ~ 20.0
+		squireDamage = 6.0
+		#Dragon Squire health
+		#Range: 10.0 ~ 60.0
+		squireHealth = 24.0
+
+	[dragon_hunters.hunter]
+		#Dragon Hunter armor
+		#Range: 0.0 ~ 20.0
+		hunterArmor = 0.0
+		#Dragon Hunter speed
+		#Range: 0.1 ~ 0.6
+		hunterSpeed = 0.35
+		#Dragon Hunter damage
+		#Range: 2.0 ~ 20.0
+		hunterDamage = 5.0
+		#Dragon Hunter health
+		#Range: 10.0 ~ 60.0
+		hunterHealth = 24.0
+
+	[dragon_hunters.hound]
+		#Does Knight Hound apply speed slowdown?
+		houndDoesSlowdown = true
+		#Knight Hound speed
+		#Range: 0.1 ~ 0.6
+		houndSpeed = 0.45
+		#Knight Hound damage
+		#Range: 1.0 ~ 10.0
+		houndDamage = 2.0
+		#Knight Hound health
+		#Range: 8.0 ~ 40.0
+		houndHealth = 10.0
+
+	[dragon_hunters.knight]
+		#Chance of having shield
+		#Range: 0.0 ~ 1.0
+		knightShieldChance = 0.1
+		#Dragon Knight speed
+		#Range: 0.1 ~ 0.6
+		knightSpeed = 0.3
+		#Dragon Knight armor
+		#Range: 0.0 ~ 30.0
+		knightArmor = 10.0
+		#Dragon Knight base damage
+		#Range: 1.0 ~ 32.0
+		knightDamage = 12.0
+		#Dragon Knight health
+		#Range: 10.0 ~ 80.0
+		knightHealth = 40.0
+
+[food]
+	#How long in seconds should the cave fire effect from charged soup last. (Default to 5min) Set to 0 to disable.
+	#Range: 0 ~ 10000
+	chargedSoupBuffDuration = 300
+	#Items which will cause damage to forest dragons when consumed. Formatting: item/modid:itemid:damage
+	hurtfulToForestDragon = []
+	#Items which will cause damage to sea dragons when consumed. Formatting: item/modid:itemid:damage
+	hurtfulToSeaDragon = []
+	#Items which will cause damage to cave dragons when consumed. Formatting: item/modid:itemid:damage
+	hurtfulToCaveDragon = ["minecraft:potion:2", "minecraft:water_bottle:2", "minecraft:milk_bucket:2"]
+	#Should eating wrong food items give hunger effect?
+	foodHungerEffect = true
+	#Dragon food formatting: id:food:saturation
+	#Food/saturation values are optional as the human values will be used if missing.
+	seaDragon = ["forge:raw_fishes:6:4", "minecraft:kelp:1:1", "minecraft:pufferfish:8:8", "dragonsurvival:sea_dragon_treat:4:8", "dragonsurvival:seasoned_fish:12:10", "dragonsurvival:golden_coral_pufferfish:12:14", "dragonsurvival:frozen_raw_fish:2:1", "dragonsurvival:golden_turtle_egg:15:12", "aoa3:raw_candlefish:9:9", "aoa3:raw_crimson_skipper:8:8", "aoa3:raw_fingerfish:4:4", "aoa3:raw_pearl_stripefish:5:4", "aoa3:raw_limefish:5:5", "aoa3:raw_sailback:6:5", "netherdepthsupgrade:soulsucker:6:7", "netherdepthsupgrade:obsidianfish:6:7", "netherdepthsupgrade:lava_pufferfish:8:7", "netherdepthsupgrade:searing_cod:6:7", "netherdepthsupgrade:glowdine:6:7", "netherdepthsupgrade:warped_kelp:2:2", "netherdepthsupgrade:lava_pufferfish_slice:2:2", "netherdepthsupgrade:glowdine_slice:2:2", "netherdepthsupgrade:soulsucker_slice:2:2", "netherdepthsupgrade:obsidianfish_slice:2:2", "netherdepthsupgrade:searing_cod_slice:2:2", "crittersandcompanions:clam:10:3", "aoa3:raw_golden_gullfish:10:2", "aoa3:raw_turquoise_stripefish:7:6", "aoa3:raw_violet_skipper:7:7", "aoa3:raw_rocketfish:4:10", "aoa3:raw_crimson_stripefish:8:7", "aoa3:raw_sapphire_strider:9:8", "aoa3:raw_dark_hatchetfish:9:9", "aoa3:raw_ironback:10:9", "aoa3:raw_rainbowfish:11:11", "aoa3:raw_razorfish:12:14", "alexsmobs:lobster_tail:4:5", "alexsmobs:blobfish:8:9", "oddwatermobs:raw_ghost_shark:8:8", "oddwatermobs:raw_isopod:4:2", "oddwatermobs:raw_mudskipper:6:7", "oddwatermobs:raw_coelacanth:9:10", "oddwatermobs:raw_anglerfish:6:6", "oddwatermobs:deep_sea_fish:4:2", "oddwatermobs:crab_leg:5:6", "simplefarming:raw_calamari:5:6", "unnamedanimalmod:elephantnose_fish:5:6", "unnamedanimalmod:flashlight_fish:5:6", "unnamedanimalmod:rocket_killifish:5:6", "unnamedanimalmod:leafy_seadragon:5:6", "unnamedanimalmod:elephantnose_fish:5:6", "betteranimalsplus:eel_meat_raw:5:6", "betteranimalsplus:calamari_raw:4:5", "betteranimalsplus:crab_meat_raw:4:4", "aquaculture:fish_fillet_raw:2:2", "aquaculture:goldfish:8:4", "aquaculture:algae:3:2", "betterendforge:end_fish_raw:6:7", "betterendforge:hydralux_petal:3:3", "betterendforge:charnia_green:2:2", "shroomed:raw_shroomfin:5:6", "undergarden:raw_gwibling:5:6", "bettas:betta_fish:4:5", "quark:crab_leg:4:4", "pamhc2foodextended:rawtofishitem", "fins:banded_redback_shrimp:6:1", "fins:night_light_squid:6:2", "fins:night_light_squid_tentacle:6:2", "fins:emerald_spindly_gem_crab:7:2", "fins:amber_spindly_gem_crab:7:2", "fins:rubby_spindly_gem_crab:7:2", "fins:sapphire_spindly_gem_crab:7:2", "fins:pearl_spindly_gem_crab:7:2", "fins:papa_wee:6:2", "fins:bugmeat:4:2", "fins:raw_golden_river_ray_wing:6:2", "fins:red_bull_crab_claw:4:4", "fins:white_bull_crab_claw:4:4", "fins:wherble_fin:1:1", "forbidden_arcanus:tentacle:5:2", "pneumaticcraft:raw_salmon_tempura:6:10", "rats:ratfish:4:2", "upgrade_aquatic:purple_pickerelweed:2:2", "upgrade_aquatic:blue_pickerelweed:2:2", "upgrade_aquatic:polar_kelp:2:2", "upgrade_aquatic:tongue_kelp:2:2", "upgrade_aquatic:thorny_kelp:2:2", "upgrade_aquatic:ochre_kelp:2:2", "upgrade_aquatic:lionfish:8:9", "aquaculture:sushi:6:5", "freshwarriors:fresh_soup:15:10", "freshwarriors:beluga_caviar:10:3", "freshwarriors:piranha:4:1", "freshwarriors:tilapia:4:1", "freshwarriors:stuffed_piranha:4:1", "freshwarriors:tigerfish:5:5", "freshwarriors:toe_biter_leg:3:3", "untamedwilds:egg_arowana:4:4", "untamedwilds:egg_trevally_jack:4:4", "untamedwilds:egg_trevally:4:4", "untamedwilds:egg_giant_salamander:6:4", "untamedwilds:egg_giant_salamander_hellbender:6:4", "untamedwilds:egg_giant_salamander_japanese:6:4", "untamedwilds:giant_clam:4:4", "untamedwilds:giant_clam_derasa:4:4", "untamedwilds:giant_clam_maxima:4:4", "untamedwilds:giant_clam_squamosa:4:4", "untamedwilds:egg_trevally_giant:6:4", "untamedwilds:egg_trevally:6:4", "untamedwilds:egg_trevally_bigeye:6:4", "untamedwilds:egg_sunfish:6:4", "untamedwilds:egg_sunfish_sunfish:6:4", "untamedwilds:egg_giant_clam_squamosa:6:4", "untamedwilds:egg_giant_clam_gigas:6:4", "untamedwilds:egg_giant_clam_derasa:6:4", "untamedwilds:egg_giant_clam:6:4", "untamedwilds:egg_football_fish:6:4", "untamedwilds:egg_arowana:6:4", "untamedwilds:egg_arowana_jardini:6:4", "untamedwilds:egg_arowana_green:6:4", "mysticalworld:raw_squid:6:5", "aquafina:fresh_soup:10:10", "aquafina:beluga_caviar:10:3", "aquafina:raw_piranha:4:1", "aquafina:raw_tilapia:4:1", "aquafina:stuffed_piranha:4:1", "aquafina:tigerfish:5:5", "aquafina:toe_biter_leg:3:3", "aquafina:raw_angelfish:4:1", "aquafina:raw_football_fish:4:1", "aquafina:raw_foxface_fish:4:1", "aquafina:raw_royal_gramma:4:1", "aquafina:raw_starfish:4:1", "aquafina:spider_crab_leg:4:1", "aquafina:raw_stingray_slice:4:1", "prehistoricfauna:raw_ceratodus:5:5", "prehistoricfauna:raw_cyclurus:4:4", "prehistoricfauna:raw_potamoceratodus:5:5", "prehistoricfauna:raw_myledaphus:4:4", "prehistoricfauna:raw_gar:4:4", "prehistoricfauna:raw_oyster:4:3", "prehistoric_delight:prehistoric_fillet:3:3", "seadwellers:rainbow_trout:10:10", "crittersandcompanions:koi_fish:5:5", "aquamirae:elodea:3:3", "croptopia:clam:3:3", "croptopia:calamari:2:3", "croptopia:anchovy:3:2", "croptopia:crab:6:8", "croptopia:glowing_calamari:4:5", "croptopia:oyster:2:4", "croptopia:roe:1:2", "croptopia:shrimp:2:2", "croptopia:tuna:6:4", "aquamirae:spinefish:4:4", "alexsmobs:flying_fish:6:4", "untamedwilds:egg_triggerfish:2:4", "untamedwilds:egg_catfish:2:4", "netherdepthsupgrade:eyeball:3:3", "netherdepthsupgrade:eyeball_fish:3:3", "oceansdelight:guardian:4:3", "oceansdelight:guardian_tail:1:3", "oceansdelight:cut_tentacles:3:1", "oceansdelight:tentacles:3:4", "oceansdelight:tentacle_on_a_stick:3:4", "oceansdelight:fugu_slice:5:4", "oceansdelight:elder_guardian_slice:8:6", "oceansdelight:elder_guardian_slab:15:15", "upgrade_aquatic:elder_eye:15:15", "unusualprehistory:golden_scau:15:15", "unusualprehistory:raw_scau:4:3", "unusualprehistory:raw_stetha:4:3", "unusualprehistory:stetha_eggs:4:3", "unusualprehistory:beelze_eggs:4:3", "unusualprehistory:scau_eggs:4:3", "unusualprehistory:ammon_eggs:4:3", "unusualprehistory:dunk_eggs:4:3"]
+	#Dragon food formatting: id:food:saturation
+	#Food/saturation values are optional as the human values will be used if missing.
+	forestDragon = ["forge:raw_meats:6:4", "minecraft:glow_berries:2:1", "minecraft:sweet_berries:1:1", "minecraft:rotten_flesh:2:4", "minecraft:spider_eye:6:8", "minecraft:rabbit:7:8", "minecraft:poisonous_potato:7:8", "minecraft:chorus_fruit:9:8", "minecraft:brown_mushroom:2:1", "minecraft:red_mushroom:2:3", "minecraft:honey_bottle:6:1", "minecraft:warped_fungus:3:3", "minecraft:crimson_fungus:3:3", "dragonsurvival:forest_dragon_treat:4:8", "dragonsurvival:meat_chorus_mix:12:8", "nocubes_better_frogs:raw_frog_leg:4:4", "infernalexp:raw_hogchop:6:6", "phantasm:chorus_fruit_salad:10:10", "dragonsurvival:meat_wild_berries:12:10", "dragonsurvival:smelly_meat_porridge:6:10", "dragonsurvival:diamond_chorus:15:12", "dragonsurvival:luminous_ointment:5:3", "dragonsurvival:sweet_sour_rabbit:10:6", "chinchillas:chinchilla_meat:6:8", "aquaculture:turtle_soup:8:8", "netherdepthsupgrade:wither_bonefish:4:6", "netherdepthsupgrade:bonefish:4:6", "infernalexp:raw_hogchop:8:8", "aoa3:fiery_chops:6:7", "aoa3:raw_chimera_chop:6:7", "aoa3:raw_furlion_chop:6:7", "aoa3:raw_halycon_beef:7:8", "aoa3:raw_charger_shank:6:7", "aoa3:trilliad_leaves:8:11", "pamhc2foodextended:rawtofabbititem", "pamhc2foodextended:rawtofickenitem", "quark:golden_frog_leg:12:14", "pamhc2foodextended:rawtofuttonitem", "alexsmobs:kangaroo_meat:5:6", "alexsmobs:moose_ribs:6:8", "simplefarming:raw_horse_meat:5:6", "simplefarming:raw_bacon:3:3", "simplefarming:raw_chicken_wings:2:3", "simplefarming:raw_sausage:3:4", "xenoclustwo:raw_tortice:7:8", "unnamedanimalmod:musk_ox_shank:7:8", "unnamedanimalmod:frog_legs:5:6", "unnamedanimalmod:mangrove_fruit:4:7", "betteranimalsplus:venisonraw:7:6", "betteranimalsplus:pheasantraw:7:5", "betteranimalsplus:turkey_leg_raw:4:5", "infernalexp:raw_hogchop:6:7", "infernalexp:cured_jerky:10:7", "rats:raw_rat:4:5", "aquaculture:frog:4:5", "aquaculture:frog_legs_raw:4:4", "aquaculture:box_turtle:4:5", "aquaculture:arrau_turtle:4:5", "aquaculture:starshell_turtle:4:5", "undergarden:raw_gloomper_leg:4:5", "undergarden:raw_dweller_meat:6:7", "farmersdelight:chicken_cuts:3:3", "farmersdelight:bacon:3:3", "farmersdelight:ham:9:10", "farmersdelight:minced_beef:5:3", "farmersdelight:mutton_chops:5:3", "abnormals_delight:duck_fillet:2:3", "abnormals_delight:venison_shanks:7:3", "autumnity:foul_berries:2:4", "autumnity:turkey:7:8", "autumnity:turkey_piece:2:4", "autumnity:foul_soup:12:8", "endergetic:bolloom_fruit:3:4", "quark:frog_leg:4:5", "nethers_delight:hoglin_loin:8:6", "nethers_delight:raw_stuffed_hoglin:18:10", "xreliquary:zombie_heart:4:7", "xreliquary:bat_wing:2:2", "eidolon:zombie_heart:7:7", "forbidden_arcanus:bat_wing:5:2", "twilightforest:raw_venison:7:7", "twilightforest:raw_meef:9:5", "twilightforest:hydra_chop", "cyclic:chorus_flight", "cyclic:chorus_spectral", "cyclic:toxic_carrot:15:15", "artifacts:everlasting_beef", "resourcefulbees:rainbow_honey_bottle", "resourcefulbees:diamond_honeycomb:5:5", "byg:soul_shroom:9:5", "byg:death_cap:9:8", "minecolonies:chorus_bread", "wyrmroost:raw_lowtier_meat:3:2", "wyrmroost:raw_common_meat:5:3", "wyrmroost:raw_apex_meat:8:6", "wyrmroost:raw_behemoth_meat:11:12", "wyrmroost:desert_wyrm:4:3", "eanimod:rawchicken_darkbig:9:5", "eanimod:rawchicken_dark:5:4", "eanimod:rawchicken_darksmall:3:2", "eanimod:rawchicken_pale:5:3", "eanimod:rawchicken_palesmall:4:3", "eanimod:rawrabbit_small:4:4", "environmental:duck:4:3", "environmental:venison:7:7", "cnb:lizard_item_jungle:4:4", "cnb:lizard_item_mushroom:4:4", "cnb:lizard_item_jungle_2:4:4", "cnb:lizard_item_desert_2:4:4", "cnb:lizard_egg:5:2", "cnb:lizard_item_desert:4:4", "snowpig:frozen_porkchop:7:3", "snowpig:frozen_ham:5:7", "untamedwilds:spawn_snake:4:4", "untamedwilds:snake_green_mamba:4:4", "untamedwilds:snake_rattlesnake:4:4", "untamedwilds:snake_emerald:4:4", "untamedwilds:snake_carpet_python:4:4", "untamedwilds:snake_corn:4:4", "untamedwilds:snake_gray_kingsnake:4:4", "untamedwilds:snake_coral:4:4", "untamedwilds:snake_ball_python:4:4", "untamedwilds:snake_black_mamba:4:4", "untamedwilds:snake_western_rattlesnake:4:4", "untamedwilds:snake_taipan:4:4", "untamedwilds:snake_adder:4:4", "untamedwilds:snake_rice_paddy:4:4", "untamedwilds:snake_coral_blue:4:4", "untamedwilds:snake_cave_racer:4:4", "untamedwilds:snake_swamp_moccasin:4:4", "untamedwilds:softshell_turtle_pig_nose:4:4", "untamedwilds:softshell_turtle_flapshell:4:4", "untamedwilds:softshell_turtle_chinese:4:4", "untamedwilds:tortoise_asian_box:4:4", "untamedwilds:tortoise_gopher:4:4", "untamedwilds:tortoise_leopard:4:4", "untamedwilds:spawn_softshell_turtle:4:4", "untamedwilds:softshell_turtle_nile:4:4", "untamedwilds:softshell_turtle_spiny:4:4", "untamedwilds:tortoise_sulcata:4:4", "untamedwilds:tortoise_star:4:4", "untamedwilds:spawn_tortoise:4:4", "naturalist:venison:7:6", "leescreatures:raw_boarlin:6:6", "mysticalworld:venison:5:5", "toadterror:toad_chops:8:7", "prehistoricfauna:raw_large_thyreophoran_meat:7:6", "prehistoricfauna:raw_large_marginocephalian_meat:8:6", "prehistoricfauna:raw_small_ornithischian_meat:4:3", "prehistoricfauna:raw_large_sauropod_meat:11:9", "prehistoricfauna:raw_small_sauropod_meat:4:4", "prehistoricfauna:raw_large_theropod_meat:7:7", "prehistoricfauna:raw_small_theropod_meat:4:4", "prehistoricfauna:raw_small_archosauromorph_meat:3:3", "prehistoricfauna:raw_large_archosauromorph_meat:6:5", "prehistoricfauna:raw_small_reptile_meat:4:3", "prehistoricfauna:raw_large_synapsid_meat:5:6", "ends_delight:dragon_leg:15:15", "ends_delight:raw_dragon_meat:10:10", "ends_delight:raw_dragon_meat_cuts:5:2", "ends_delight:dragon_breath_and_chorus_soup:15:15", "ends_delight:ender_sauce:8:15", "ends_delight:raw_ender_mite_meat:1:1", "ends_delight:non_hatchable_dragon_egg:8:5", "ends_delight:shulker_meat:7:4", "unusualend:chorus_juice:2:2", "ends_delight:liquid_dragon_egg:3:3", "ends_delight:shulker_meat_slice:4:1", "unusualend:ender_firefly_egg:2:3", "unusualend:chorus_petal:1:1", "unusualend:chorus_pie:3:4", "unusualend:ender_stew:6:1", "unusualprehistory:kentro_eggs:3:3", "unusualprehistory:hwacha_eggs:3:3", "unusualprehistory:ulugh_eggs:3:3", "unusualprehistory:antarcto_eggs:3:3", "unusualprehistory:austro_eggs:3:3", "unusualprehistory:pachy_eggs:3:3", "unusualprehistory:raptor_eggs:3:3", "unusualprehistory:trike_eggs:4:4", "unusualprehistory:rex_eggs:6:3", "unusualprehistory:coty_eggs:3:3", "unusualprehistory:meaty_buffet:12:15", "unusualprehistory:majunga_eggs:3:3", "unusualprehistory:anuro_eggs:3:3", "unusualprehistory:raw_austro:6:3", "unusualprehistory:raw_coty:5:3", "nourished_nether:raw_hoglin:8:8", "gothic:meat:7:8", "gothic:bug_meat:2:2", "gothic:scavenger_egg:3:3", "gothic:snapperweed:1:1", "gothic:blue_elder:1:1", "unusualend:wandering_stew:1:1", "nethersdelight:raw_stuffed_hoglin:15:15", "nethersdelight:hoglin_ear:1:1", "nethersdelight:ground_strider:6:2", "nethersdelight:strider_slice:8:8", "nethersdelight:hoglin_ear:1:1", "nethersdelight:hoglin_loin:6:6", "nethersdelight:propelpearl:1:1", "orcz:squig_eye:6:6", "orcz:orceye:4:4", "goated:chevon:6:6", "rottencreatures:frozen_rotten_flesh:4:4", "regions_unexplored:tall_green_bioshroom:3:3", "regions_unexplored:green_bioshroom:3:3", "regions_unexplored:blue_bioshroom:3:3", "regions_unexplored:tall_blue_bioshroom:3:3", "regions_unexplored:tall_pink_bioshroom:3:3", "regions_unexplored:pink_bioshroom:3:3", "regions_unexplored:yellow_bioshroom:3:3", "regions_unexplored:tall_yellow_bioshroom:3:3", "quark:glow_shroom:3:3", "gothic:cave_mushrooms:3:3", "gothic:tall_mushrooms:3:3", "gothic:miners_food_wild:3:3", "gothic:black_mushroom:3:3", "phantasm:putac_shroom:3:3", "farmersdelight:red_mushroom_colony:10:3", "farmersdelight:brown_mushroom_colony:10:3", "gothic:miners_food:3:3", "gothic:black_mushroom_item:3:3", "gothic:blue_elder:3:3", "frozen_delight:truffle_slice:4:8", "frozenup:truffle:8:4", "frozen_delight:mushroom_mix:16:3", "nourished_nether:nether_fungus_stew:7:3", "nethersdelight:warped_fungus_colony:10:3", "nethersdelight:crimson_fungus_colony:10:3", "unusualend:chorus_fungus:3:3", "orcz:orcshroom:3:3", "orcz:blue_orcshroom:3:3", "waterstrainer:worm:1:1", "aquaculture:worm:1:1"]
+	#Dragon food formatting: id:food:saturation
+	#Food/saturation values are optional as the human values will be used if missing.
+	caveDragon = ["minecraft:coals:1:1", "minecraft:charcoal:1:2", "dragonsurvival:charged_coal:6:1", "dragonsurvival:charred_meat:8:10", "dragonsurvival:cave_dragon_treat:4:8", "dragonsurvival:charred_seafood:7:11", "dragonsurvival:charred_vegetable:8:9", "dragonsurvival:charred_mushroom:9:9", "dragonsurvival:charged_soup:15:15", "dragonsurvival:hot_dragon_rod:4:15", "dragonsurvival:explosive_copper:6:4", "dragonsurvival:double_quartz:8:6", "dragonsurvival:quartz_explosive_copper:12:18", "netherdepthsupgrade:blazefish:6:7", "netherdepthsupgrade:cooked_magmacubefish_slice:2:2", "netherdepthsupgrade:blazefish_slice:2:2", "infernalexp:molten_gold_cluster:2:6", "netherdepthsupgrade:magmacubefish:6:7", "desolation:cinder_fruit:6:7", "desolation:powered_cinder_fruit:8:12", "desolation:activatedcharcoal:2:2", "desolation:infused_powder:10:10", "desolation:primed_ash:7:8", "undergarden:ditchbulb:5,6", "xreliquary:molten_core:1:1", "silents_mechanisms:coal_generator_fuels:1:1", "mekanism:dust_charcoal:1:1", "mekanism:dust_coal:1:1", "rats:nether_cheese", "potionsmaster:charcoal_powder:1:1", "potionsmaster:coal_powder:1:1", "potionsmaster:activated_charcoal:2:2", "thermal:coal_coke:1:1", "infernalexp:glowcoal:2:3", "resourcefulbees:coal_honeycomb:5:5", "resourcefulbees:netherite_honeycomb:5:5", "lazierae2:coal_dust:1:1", "silents_mechanisms:coal_dust:1:1", "potionsmaster:calcinatedcoal_powder:1:1", "thermal:basalz_rod:2:4", "thermal:basalz_powder:1:2", "druidcraft:fiery_glass:2:2", "create:blaze_cake:10:10", "create:creative_blaze_cake:50:50", "upgradednetherite:fire_essence:12:4", "netherdepthsupgrade:fortress_grouper:3:1", "nethersdelight:nether_skewer:6:8"]
+	#Force dragons to eat a unique diet for their type.
+	dragonFoods = true
+
+[ore]
+	#The tag that contains all ores that can drop dust/bones when harvested. Will not drop if the ore drops another of the items in this tag. Format: modid:id
+	oresTag = "forge:ores"
+	#The odds of a bone dropping when a dragon harvests an ore.
+	#Range: 0.0 ~ 1.0
+	dragonOreBoneChance = 0.01
+	#The odds of a bone dropping when a human harvests an ore.
+	#Range: 0.0 ~ 1.0
+	humanOreBoneChance = 0.0
+	#The odds of dust dropping when a dragon harvests an ore.
+	#Range: 0.0 ~ 1.0
+	dragonOreDustChance = 0.2
+	#The odds of dust dropping when a human harvests an ore.
+	#Range: 0.0 ~ 1.0
+	humanOreDustChance = 0.1
+
+[penalties]
+	#List of slots to handle blacklistedItems option
+	blacklistedSlots = [0, 1, 2, 3, 4, 5, 6, 7, 8, 40, 45]
+	#List of items that disallowed to be used by dragons. Format: item/modid:id
+	blacklistedItems = ["minecraft:bow", "spartanshields:shield_basic_nickel", "spartanshields:shield_basic_invar", "spartanshields:shield_basic_constantan", "spartanshields:shield_basic_platinum", "spartanshields:shield_mekanism_refined_glowstone", "spartanshields:shield_tower_wood", "spartanshields:shield_tower_stone", "spartanshields:shield_tower_iron", "spartanshields:shield_tower_gold", "spartanshields:shield_tower_diamond", "spartanshields:shield_tower_netherite", "spartanshields:shield_tower_obsidian", "spartanshields:shield_tower_copper", "spartanshields:shield_tower_tin", "spartanshields:shield_tower_bronze", "spartanshields:shield_tower_steel", "spartanshields:shield_tower_silver", "spartanshields:shield_tower_lead", "spartanshields:shield_tower_nickel", "spartanshields:shield_tower_constantan", "spartanshields:shield_tower_invar", "spartanshields:shield_tower_platinum", "spartanshields:shield_tower_electrum", "spartanshields:shield_mekanism_powered_ultimate", "quark:flamerang", "quark:pickarang", "spartanshields:shield_botania_manasteel", "spartanshields:shield_botania_elementium", "spartanshields:shield_mekanism_osmium", "spartanshields:shield_mekanism_lapis_lazuli", "spartanshields:shield_basic_electrum", "spartanshields:shield_mekanism_refined_obsidian", "spartanshields:shield_mekanism_powered_basic", "spartanshields:shield_mekanism_powered_advanced", "spartanshields:shield_mekanism_powered_elite", "spartanweaponry:boomerang_steel", "spartanweaponry:boomerang_invar", "spartanweaponry:boomerang_platinum", "spartanweaponry:boomerang_electrum", "spartanshields:shield_basic_bronze", "spartanshields:shield_basic_tin", "spartanshields:shield_basic_copper", "spartanshields:shield_basic_obsidian", "spartanshields:shield_basic_netherite", "spartanshields:shield_basic_diamond", "spartanshields:shield_basic_gold", "spartanshields:shield_basic_iron", "spartanshields:shield_basic_stone", "spartanshields:shield_basic_wood", "spartanweaponry:boomerang_lead", "spartanweaponry:boomerang_nickel", "spartanshields:shield_basic_steel", "spartanshields:shield_basic_silver", "spartanshields:shield_basic_lead", "spartanweaponry:boomerang_bronze", "spartanweaponry:boomerang_tin", "spartanweaponry:boomerang_copper", "spartanweaponry:boomerang_netherite", "spartanweaponry:boomerang_gold", "spartanweaponry:boomerang_iron", "spartanweaponry:boomerang_stone", "spartanweaponry:heavy_crossbow_bronze", "mowziesmobs:wrought_axe", "spartanshields:shield_botania_terrasteel", "spartanweaponry:heavy_crossbow_leather", "spartanweaponry:heavy_crossbow_iron", "spartanweaponry:heavy_crossbow_gold", "spartanweaponry:heavy_crossbow_diamond", "spartanweaponry:heavy_crossbow_netherite", "spartanweaponry:heavy_crossbow_copper", "spartanweaponry:heavy_crossbow_tin", "spartanweaponry:boomerang_wood", "nethers_exoticism:rambutan_shield", "minecraft:shield", "minecraft:trident", "spartanweaponry:heavy_crossbow_lead", "spartanweaponry:heavy_crossbow_nickel", "spartanweaponry:heavy_crossbow_electrum", "spartanweaponry:heavy_crossbow_platinum", "spartanweaponry:heavy_crossbow_invar", "spartanweaponry:heavy_crossbow_silver", "spartanweaponry:heavy_crossbow_steel", "spartanweaponry:boomerang_diamond", "spartanweaponry:heavy_crossbow_wood", "minecraft:crossbow", "aquaculture:neptunium_bow", "spartanweaponry:longbow_electrum", "spartanweaponry:longbow_invar", "infernalexp:glowsilk_bow", "spartanweaponry:longbow_wood", "spartanweaponry:longbow_leather", "spartanweaponry:longbow_silver", "spartanweaponry:longbow_steel", "spartanweaponry:longbow_bronze", "spartanweaponry:longbow_tin", "spartanweaponry:longbow_copper", "spartanweaponry:longbow_netherite", "spartanweaponry:longbow_diamond", "spartanweaponry:longbow_gold", "spartanweaponry:longbow_iron", "spartanweaponry:boomerang_diamond", "spartanweaponry:boomerang_iron", "spartanweaponry:boomerang_wood", "spartanweaponry:boomerang_gold", "spartanweaponry:boomerang_netherite", "spartanweaponry:boomerang_copper", "spartanweaponry:boomerang_tin", "spartanweaponry:boomerang_bronze", "spartanweaponry:boomerang_stone", "spartanweaponry:boomerang_platinum", "spartanweaponry:boomerang_electrum", "spartanweaponry:boomerang_steel", "spartanweaponry:boomerang_lead", "spartanweaponry:boomerang_invar", "spartanweaponry:boomerang_nickel"]
+	#Should dragons be limited by which entities they can ride
+	limitedRiding = true
+	#List of rideable entities. Format: modid:id
+	allowedVehicles = ["minecraft:boat", "littlelogistics:seater_barge", "minecraft:minecart", "create:seat", "create:contraption", "create:gantry_contraption", "create:stationary_contraption", "hexerei:broom", "botania:player_mover", "quark:quark_boat"]
+	#Set to false to toggle off all dragon penalties.
+	penalties = true
+
+	[penalties.sea]
+		#Additional modded USEABLE items that restore water when used (called from LivingEntityUseItemEvent.Finish). Format: item/modid:id
+		seaHydrationItems = ["immersive_weathering:icicle"]
+		#How many ticks do water restoration items restore when used. Set to 0 to disable.
+		#Range: 0 ~ 100000
+		waterItemRestorationTicks = 5000
+		#Set to false to disable sea dragons using vanilla water bottles to avoid dehydration.
+		allowWaterBottles = true
+		#When sea dragons stand on these blocks, hydration is restored. Format: block/modid:id
+		seaHydrationBlocks = ["minecraft:ice", "minecraft:snow", "minecraft:powder_snow", "minecraft:snow_block", "minecraft:muddy_mangrove_roots", "minecraft:mud", "minecraft:wet_sponge", "dragonsurvival:sea_source_of_magic", "immersive_weathering:thin_ice", "immersive_weathering:cryosol", "immersive_weathering:permafrost", "immersive_weathering:frosty_grass", "immersive_weathering:frosty_fern", "ecologics:thin_ice", "ecologics:ice_bricks", "ecologics:ice_brick_stairs", "ecologics:ice_brick_slab", "ecologics:ice_brick_wall", "ecologics:snow_bricks", "ecologics:snow_brick_stairs", "ecologics:snow_brick_slab", "ecologics:snow_brick_wall", "architects_palette:poliched_packed_ice", "architects_palette:poliched_packed_ice_slab", "architects_palette:poliched_packed_ice_vertical_slab", "architects_palette:poliched_packed_ice_stairs", "architects_palette:poliched_packed_ice_wall", "architects_palette:chiseled_packed_ice", "architects_palette:packed_ice_pillar", "architects_palette:coarse_snow", "fantasyfurniture:decorations/snowballs", "immersive_weathering:icicle", "regions_unexplored:plains_mud", "regions_unexplored:forest_mud"]
+		#The amount of damage taken per tick while dehydrated (once every 40 ticks unless fully dehydrated, then once every 20 ticks).
+		#Range: 0.5 ~ 100.0
+		dehydrationDamage = 1.0
+		#Whether the sea dragon should lose more water in warmer biomes and less during the night.
+		waterConsumptionDependsOnTemperature = true
+		#The number of ticks out of water before the sea dragon will start taking dehydration damage. Set to 0 to disable. Note: This value can stack up to double while dehydrated.
+		#Range: 0 ~ 100000
+		ticksWithoutWater = 1000
+
+	[penalties.forest]
+		#The amount of exhaustion applied per 10 ticks during the stress effect.
+		#Range: 0.1 ~ 4.0
+		stressExhaustion = 1.0
+		#The number of seconds the stress effect lasts for.
+		#Range: 2 ~ 100000
+		stressEffectDuration = 10
+		#The number of ticks in darkness before the forest dragon gets Stress effect. Set to 0 to disable to stress effect.
+		#Range: 0 ~ 10000
+		ticksBeforeStressed = 100
+
+	[penalties.cave]
+		#The amount of damage taken when hit with a snowball or a water bottle. Set to 0.0 to disable splash damage.
+		#Range: 0.0 ~ 100.0
+		splashDamage = 2.0
+		#The amount of damage taken per rain damage tick (once every 40 ticks). Set to 0.0 to disable rain damage.
+		#Range: 0.0 ~ 100.0
+		rainDamage = 1.0
+		#The amount of damage taken per water damage tick (once every 10 ticks). Set to 0.0 to disable water damage.
+		#Range: 0.0 ~ 100.0
+		waterDamage = 1.0
+
+[bonuses]
+	#The speed effect level for dragon block-specific speedups. Set to 0 to disable.
+	#Range: 0 ~ 100
+	speedupEffectLevel = 2
+	#The stage that dragons unlock the bonus harvest level.
+	#Allowed Values: NEWBORN, YOUNG, ADULT
+	bonusUnlockedAt = "YOUNG"
+	#The harvest level to apply to a dragons specific tool type once unlocked.
+	#Range: -1 ~ 100
+	bonusHarvestLevel = 1
+	#The harvest level to apply when dragons breaks a block, regardless of dragon/tool type.
+	#Range: -1 ~ 100
+	baseHarvestLevel = 0
+	#Whether dragon claws function as tools.
+	clawsAreTools = true
+	#Jumping height for a adult dragon. Default is 2 block.
+	#Range: 0.0 ~ 0.9
+	adultJump = 0.15
+	#Jumping height for a young dragon. Default is 1.5 block.
+	#Range: 0.0 ~ 0.9
+	youngJump = 0.1
+	#Jumping height for a newborn dragon. Default is 1 block.
+	#Range: 0.0 ~ 0.9
+	newbornJump = 0.025
+	#Attack modifier for adult dragons.
+	#Range: 0.0 ~ 100.0
+	adultAttackMod = 3.0
+	#Attack modifier for young dragons.
+	#Range: 0.0 ~ 100.0
+	youngAttackMod = 2.0
+	#Attack modifier for baby dragons.
+	#Range: 0.0 ~ 100.0
+	babyAttackMod = 1.0
+	#Apply an attack damage modifier for dragons.
+	attackMod = true
+	#Set too false to toggle off all dragon bonuses and play as human.
+	bonuses = true
+	#Apply a health modifier for dragons. The older the dragon, the more health it has.
+	healthMod = true
+
+	[bonuses.sea]
+		#Blocks sea dragons gain speed when standing above. Formatting: block/modid:id
+		seaSpeedupBlocks = ["minecraft:ice", "minecraft:impermeable", "minecraft:sand", "minecraft:coral_blocks", "forge:sand", "minecraft:dirt_path", "minecraft:sandstone", "minecraft:cut_sandstone", "minecraft:chiseled_sandstone", "minecraft:smooth_sandstone", "minecraft:red_sandstone", "minecraft:cut_red_sandstone", "minecraft:chiseled_red_sandstone", "minecraft:smooth_red_sandstone", "minecraft:water", "quark:permafrost", "immersive_weathering:permafrost", "architects_palette:polished_packed_ice"]
+		#Whether sea dragons gain bonus swim speed and unlimited air.
+		waterBonuses = true
+
+	[bonuses.forest]
+		#Blocks forest dragons gain speed when standing above. Formatting: block/modid:id
+		forestSpeedupBlocks = ["minecraft:logs", "minecraft:leaves", "minecraft:planks", "forge:dirt", "minecraft:grass", "minecraft:dirt", "minecraft:wooden_slab"]
+		#Whether forest dragons are immune to Cactus damage.
+		cactiImmunity = true
+		#Whether forest dragons are immune to Sweet Berry Bush damage.
+		bushImmunity = true
+		#How many blocks of fall damage is mitigated for forest dragons. Set to 0.0 to disable.
+		#Range: 0.0 ~ 100.0
+		fallReduction = 5.0
+
+	[bonuses.cave]
+		#Blocks cave dragons gain speed when standing above. Formatting: block/modid:id
+		caveSpeedupBlocks = ["minecraft:base_stone_nether", "minecraft:base_stone_overworld", "minecraft:stone_bricks", "minecraft:beacon_base_blocks", "forge:cobblestone", "forge:sandstone", "forge:stone", "forge:ores", "quark:deepslate", "quark:deepslate_bricks", "quark:cobbled_deepslate"]
+		#The maximum number of ticks a cave dragon can swim in lava. Set to 0 to allow unlimited air while under lava.
+		#Range: 0 ~ 100000
+		lavaSwimTicks = 3600
+		#Set to false to disable cave dragon fast lava swimming.
+		lavaSwimming = true
+		#Whether cave dragons are immune to fire damage types.
+		fireImmunity = true
+
+[source_of_magic]
+	#How long duration of the infinite magic effect using elder dragon heart gives in seconds. Note that you also spend 10 seconds while waiting.
+	#Range: 1 ~ 10000
+	elderDragonHeartTime = 1010
+	#How long duration of the infinite magic effect using weak dragon heart gives in seconds. Note that you also spend 10 seconds while waiting.
+	#Range: 1 ~ 10000
+	weakDragonHeartTime = 310
+	#How long duration of the infinite magic effect using weak heart shard gives in seconds. Note that you also spend 10 seconds while waiting.
+	#Range: 1 ~ 10000
+	weakHeartShardTime = 110
+	#How long duration of the infinite magic effect using elder dragon bone gives in seconds. Note that you also spend 10 seconds while waiting.
+	#Range: 1 ~ 10000
+	elderDragonBoneTime = 60
+	#How long duration of the infinite magic effect using elder dragon dust gives in seconds. Note that you also spend 10 seconds while waiting.
+	#Range: 1 ~ 10000
+	elderDragonDustTime = 20
+	#Whether you are able to use all types of source of magic no matter your dragon type.
+	canUseAllSourcesOfMagic = false
+	#Whether using the the source of magic intended for another dragon type will hurt you.
+	damageWrongSourceOfMagic = true
+	#Whether using the source of magic block will grant the infinite magic buff.
+	sourceOfMagicInfiniteMagic = true
+
+[treasure]
+	#The max amount of additional treasure that can be used to reduce the regen time
+	#Range: 1 ~ 10000000
+	maxTreasures = 240
+	#The amount of ticks each additional treasure reduces the regen time by
+	#Range: 1 ~ 10000000
+	treasureRegenTicksReduce = 100
+	#The time in ticks it takes to recover 1hp while sleeping on one treasure. A large number of treasures in one place reduces time.
+	#Range: 1 ~ 10000000
+	treasureRegenTicks = 24010
+	#Whether sleeping on treasure will recover health or not. 
+	treasureHealthRegen = true
+
+[drops]
+	#Should the elderDragonHeartUseList be used instead of the health requirement?
+	elderDragonHeartUseList = false
+	#Should the weakDragonHeartUseList be used instead of the health requirement?
+	weakDragonHeartUseList = false
+	#Should the dragonHeartEntityList be used instead of the health requirement?
+	dragonHeartUseList = false
+	#Should the elderDragonHeartEntityList be treated as an allowlist rather than a block list?
+	elderDragonHeartWhiteList = false
+	#Should the weakDragonHeartEntityList be treated as an allowlist rather than a block list?
+	weakDragonHeartWhiteList = false
+	#Should the dragonHeartEntityList be treated as an allowlist rather than a block list?
+	dragonHeartWhiteList = false
+	#Decide which entities can drop elder dragon hearts
+	elderDragonHeartEntityList = []
+	#Decide which entities can drop weak dragon hearts
+	weakDragonHeartEntityList = []
+	#Decide which entities can drop dragon hearts
+	dragonHeartEntityList = []
+	#The chance for dragon heart to drop from any mobs with max health above 50
+	#Range: 0.0 ~ 1.0
+	elderDragonHeartChance = 0.01
+	#The chance for weak dragon heart to drop from any mobs with max health between 20-50
+	#Range: 0.0 ~ 1.0
+	weakDragonHeartChance = 0.01
+	#The chance for dragon heart shards to drop from any mobs with max health between 14-20
+	#Range: 0.0 ~ 1.0
+	dragonHeartShardChance = 0.03
+
+[growth]
+	#A multiplier to change the growth rate from full sized adult to max size. The change in growth after the maximum adult size is measured in months and years.
+	#Range: 0.0 ~ 1000.0
+	maxGrowthModifier = 1.0
+	#A multiplier to change the growth rate from adult to a full sized adult. At 1.0 it takes about 3 days to become a dragon of maximum adult size.
+	#Range: 0.0 ~ 1000.0
+	adultGrowthModifier = 0.9
+	#A multiplier to change the growth rate from young to adult. At 1.0 it takes about 1 day to turn a young dragon into a adult dragon.
+	#Range: 0.0 ~ 1000.0
+	youngGrowthModifier = 0.5
+	#A multiplier to change the growth rate from newborn to young. At 1.0 it takes about 3 hours to turn a newborn dragon into a young dragon.
+	#Range: 0.0 ~ 1000.0
+	newbornGrowthModifier = 0.3
+	#Maximum health dragons can grow to.
+	#Range: 1 ~ 100
+	maxHealth = 40
+	#Dragon starting health. Minimum health dragons will start off with.
+	#Range: 1 ~ 100
+	minHealth = 14
+	#Should the growth stage of a dragon be saved even when you change. Does not affect the saving progress of magic (use saveAllAbilities). The author does not approve of weredragons, but if you insist...
+	saveGrowthStage = false
+	#The bonus that is given to dragons at ever 60 size. Human players have 1.0x reach and a size 60 dragon will have 1.5x distance with default value. Only applies to block mining.
+	#Range: 0.0 ~ 1000000.0
+	reachBonus = 0.5
+	#Defines the max size your dragon can grow to. Values that are too high can break your game. It is not advisable to set a number higher than 60.
+	#Range: 14.0 ~ 1000000.0
+	maxGrowthSize = 60.0
+	#Defines if dragon should grow without requirement of catalyst items. Your dragon will just grow over time.
+	alternateGrowing = true
+	#List of items to grow adult dragon. Format: item/modid:id
+	growAdult = ["dragonsurvival:elder_dragon_heart"]
+	#List of items to grow young dragon. Format: item/modid:id
+	growYoung = ["dragonsurvival:weak_dragon_heart", "dragonsurvival:elder_dragon_heart"]
+	#List of items to grow newborn dragon. Format: item/modid:id
+	growNewborn = ["dragonsurvival:heart_element", "dragonsurvival:weak_dragon_heart", "dragonsurvival:elder_dragon_heart"]
+	#Whether the dragon hitbox grows past a human hitbox.
+	largerDragonHitbox = true
+	#Whether the dragon size determines its hitbox size. The bigger the dragon, the bigger the hitbox. If false standard player's hitbox be used.
+	sizeChangesHitbox = true
+

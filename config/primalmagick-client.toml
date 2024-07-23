@@ -1,0 +1,7 @@
+
+#Misc settings
+[misc]
+	#Item affinities are hidden by default and pressing shift reveals them.
+	#Setting this to 'true' will reverse this behavior.
+	showAffinities = false
+

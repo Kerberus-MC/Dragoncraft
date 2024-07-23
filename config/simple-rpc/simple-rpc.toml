@@ -1,0 +1,262 @@
+[general]
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 1076450208965197924
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Starting the game"
+	#The second line of text under the app name
+	state = "Currently on the loading screen..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["loadingscreen"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A hot modpack with over %mods% different mods."
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Rule the skies and conquer dungeons, as a mighty dragon on your adventure."
+	#The buttons to display on Discord 
+
+	[[init.buttons]]
+		label = "Join the Discord!"
+		url = "https://kerberus.gg/discord"
+
+	[[init.buttons]]
+		label = "Download Now!"
+		url = "https://www.curseforge.com/minecraft/modpacks/dragoncraft"
+
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Pondering what to play"
+	#The second line of text under the app name
+	state = "Currently at the main menu..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["main_menu"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A hot modpack with over %mods% different mods."
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Rule the skies and conquer dungeons, as a mighty dragon on your adventure."
+	#The buttons to display on Discord 
+
+	[[main_menu.buttons]]
+		label = "Join the Discord!"
+		url = "https://kerberus.gg/discord"
+
+	[[main_menu.buttons]]
+		label = "Download Now!"
+		url = "https://www.curseforge.com/minecraft/modpacks/dragoncraft"
+
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Searching for a server"
+	#The second line of text under the app name
+	state = "Currently in the multiplayer menu..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["multiplayer_menu"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A hot modpack with over %mods% different mods."
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Rule the skies and conquer dungeons, as a mighty dragon on your adventure."
+	#The buttons to display on Discord 
+
+	[[server_list.buttons]]
+		label = "Join the Discord!"
+		url = "https://kerberus.gg/discord"
+
+	[[server_list.buttons]]
+		label = "Download Now!"
+		url = "https://www.curseforge.com/minecraft/modpacks/dragoncraft"
+
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = false
+	#The first line of text under the app name
+	description = "%player% is looking for a Realm"
+	#The second line of text under the app name
+	state = "Browsing Realms"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+	buttons = []
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Joining a server"
+	#The second line of text under the app name
+	state = "Currently connecting to a server..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["connecting"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A hot modpack with over %mods% different mods."
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Rule the skies and conquer dungeons, as a mighty dragon on your adventure."
+	#The buttons to display on Discord 
+
+	[[join_game.buttons]]
+		label = "Join the Discord!"
+		url = "https://kerberus.gg/discord"
+
+	[[join_game.buttons]]
+		label = "Download Now!"
+		url = "https://www.curseforge.com/minecraft/modpacks/dragoncraft"
+
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Playing in singleplayer mode"
+	#The second line of text under the app name
+	state = "Currently exploring %world%..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["%playerhead%"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A hot modpack with over %mods% different mods."
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Rule the skies and conquer dungeons, as a mighty dragon on your adventure."
+	#The buttons to display on Discord 
+
+	[[single_player.buttons]]
+		label = "Join the Discord!"
+		url = "https://kerberus.gg/discord"
+
+	[[single_player.buttons]]
+		label = "Download Now!"
+		url = "https://www.curseforge.com/minecraft/modpacks/dragoncraft"
+
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Engaging in multiplayer mode"
+	#The second line of text under the app name
+	state = "Currently exploring %servername%..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["%playerhead%"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "A hot modpack with over %mods% different mods."
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "Rule the skies and conquer dungeons, as a mighty dragon on your adventure."
+	#The buttons to display on Discord 
+
+	[[multi_player.buttons]]
+		label = "Join the Discord!"
+		url = "https://kerberus.gg/discord"
+
+	[[multi_player.buttons]]
+		label = "Download Now!"
+		url = "https://www.curseforge.com/minecraft/modpacks/dragoncraft"
+
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = false
+	#The first line of text under the app name
+	description = "Playing on %realmname%"
+	#The second line of text under the app name
+	state = "Playing on a Realm"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord 
+	buttons = []
+
+[generic]
+	#The first line of text under the app name
+	description = "Playing Minecraft"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["mclogonew"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "It's Minecraft %mcver%, but modded"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installed"
+	#The buttons to display on Discord 
+	buttons = []
+
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = false
+	#Your custom variables to add
+	variables = []
+
+[dimension_overrides]
+	enabled = false
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% is in The Overworld"
+		state = ""
+		largeImageKey = ["overworld"]
+		largeImageText = "In the Overworld"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% is in The Nether"
+		state = ""
+		largeImageKey = ["nether"]
+		largeImageText = "In the Nether"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% is in The End"
+		state = ""
+		largeImageKey = ["end"]
+		largeImageText = "In the End"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% mods installed"
+		buttons = []
+
+

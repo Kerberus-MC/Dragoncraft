@@ -1,0 +1,112 @@
+{
+	id: "24FE7BCAB5019FA0"
+	group: ""
+	order_index: 0
+	filename: "kerbys_corner"
+	title: "Kerby's Outlet"
+	icon: "forbidden_arcanus:arcane_crystal_dust"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Hopping Mob Cage"
+			icon: "cagedmobs:hoppingmobcage"
+			x: 0.0d
+			y: 0.0d
+			id: "2B3FEF639B0B42DC"
+			tasks: [
+				{
+					id: "0CD0DB8D31C432D5"
+					type: "item"
+					item: "cagedmobs:mobcage"
+					consume_items: true
+				}
+				{
+					id: "576A11021241F0E2"
+					type: "item"
+					item: "minecraft:hopper"
+					consume_items: true
+				}
+				{
+					id: "221B8EE7ED0D431D"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "6DBF3466A497A914"
+				type: "item"
+				item: "cagedmobs:hoppingmobcage"
+			}]
+		}
+		{
+			title: "Hopping Mob Cage"
+			icon: "cagedmobs:hoppingmobcage"
+			x: 1.5d
+			y: 0.0d
+			id: "00AC4F49EBC90F42"
+			tasks: [
+				{
+					id: "2B6C17FC3A0B6951"
+					type: "item"
+					item: "cagedmobs:mobcage"
+					consume_items: true
+				}
+				{
+					id: "6EBBB8D2FD230D47"
+					type: "item"
+					item: "minecraft:hopper"
+					consume_items: true
+				}
+				{
+					id: "3AB48D990B8F04E2"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "20D3496D6F7C089E"
+				type: "item"
+				item: "cagedmobs:hoppingmobcage"
+			}]
+		}
+		{
+			title: "Hopping Mob Cage"
+			icon: "cagedmobs:hoppingmobcage"
+			x: -1.5d
+			y: 0.0d
+			id: "0B78F0E7BDDE6DFE"
+			tasks: [
+				{
+					id: "440EBA98BA2822B3"
+					type: "item"
+					item: "cagedmobs:mobcage"
+					consume_items: true
+				}
+				{
+					id: "46964AF8865B3B40"
+					type: "item"
+					item: "minecraft:hopper"
+					consume_items: true
+				}
+				{
+					id: "269FB5D63FEA22F7"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "0867A69BA37AD1DD"
+				type: "item"
+				item: "cagedmobs:hoppingmobcage"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

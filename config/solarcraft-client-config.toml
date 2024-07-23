@@ -1,0 +1,5 @@
+
+["SolarCraft client config"]
+	#Enable/Disable shader effects. If your screen blackens when looking at pylons(and other things that use my custom effects) with shaders or optifine disable this.
+	shaders_enabled = true
+

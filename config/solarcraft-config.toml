@@ -1,0 +1,19 @@
+
+["SolarCraft config"]
+	#Treasure items for qualadium pickaxe
+	treasures = ["minecraft:diamond", "minecraft:coal", "minecraft:gold_nugget", "minecraft:iron_nugget"]
+	#Solar strike ability damage
+	solar_strike_damage = 300.0
+	#Chance to disarm an entity when having the disarm module on armor
+	chance = 10
+	#Base runic energy pylon energy generation
+	"per tick" = 0.5
+	#Runic energy regen increment per each inscripted stone
+	"per tick upgrade" = 0.05
+	#Blocks that can generate in islands/crystallized ore veins in radiant land dimension
+	blocks = ["minecraft:diamond_ore", "minecraft:iron_ore", "minecraft:gold_ore", "minecraft:lapis_ore"]
+	#How much runic energy will be given to runic energy charger when it consumes a rune.
+	runic_energy_per_rune = 7.5
+	#Runic energy pylon spawn chance. Works similar to datapacks
+	spawn_chance = 180
+

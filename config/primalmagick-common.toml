@@ -1,0 +1,23 @@
+
+#Worldgen settings
+[worldgen]
+	#Whether to generate quartz ore in the Overworld.
+	#Disabling this will slow players' ability to progress.
+	generateQuartz = true
+	#Whether to generate rock salt ore in the Overworld.
+	#WARNING: Disabling this will cripple players' ability to progress
+	#without another source of this mod's salt.
+	generateRockSalt = true
+	#Whether to generate raw marble in the Overworld.
+	#WARNING: Disabling this will cripple players' ability to progress
+	#without another source of this mod's marble.
+	generateMarble = true
+
+#Misc settings
+[misc]
+	#Progress rate modifier for Research Table theory yields
+	#Allowed Values: SLOW, NORMAL, FAST
+	theorycraftSpeed = "NORMAL"
+	#Show affinities of blocks and items even without scanning them
+	showUnscannedAffinities = false
+

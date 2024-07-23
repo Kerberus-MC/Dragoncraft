@@ -1,0 +1,473 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 19, 2023, 11:33:45 PM
+
+#byg:not_hurt_by_quartz_crystals
+- minecraft:ghast
+- minecraft:hoglin
+- minecraft:enderman
+
+#occultism:humans
+- #forge:villagers
+- minecraft:player
+
+#forge:horses
+- minecraft:horse
+
+#tconstruct:rare_mobs
+- minecraft:wither
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- minecraft:evoker
+- minecraft:player
+
+#carryon:stacking_blacklist
+
+#forge:pigs
+- minecraft:pig
+
+#forge:parrots
+- minecraft:parrot
+
+#tconstruct:melting/show_in_default
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:villager
+- minecraft:player
+
+#dragonsurvival:hunters_goal
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:vindicator
+- minecraft:stray
+- minecraft:skeleton
+- minecraft:spider
+- minecraft:cave_spider
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:husk
+- minecraft:zombified_piglin
+- minecraft:blaze
+- minecraft:drowned
+- minecraft:endermite
+- minecraft:evoker
+- minecraft:hoglin
+- minecraft:magma_cube
+- minecraft:ravager
+- minecraft:slime
+- minecraft:witch
+- minecraft:wither_skeleton
+- minecraft:wither
+- zombiemobs:zombie_dolphin
+- zombiemobs:zombie_cat
+- zombiemobs:zombie_wolf
+- zombiemobs:zombie_horsee
+- zombiemobs:zombie_mule
+- zombiemobs:zombie_donkey
+- zombiemobs:zombie_pig
+- zombiemobs:zombie_fox
+- zombiemobs:zombie_squid
+- zombiemobs:zombie_chicken
+- zombiemobs:zombie_ocelot
+- zombiemobs:zombie_goat
+- zombiemobs:zombie_panda
+- zombiemobs:zombie_mooshroom
+- zombiemobs:zombie_turtle
+- zombiemobs:zombie_sheep
+- zombiemobs:zombie_cow
+- zombiemobs:zombie_bear
+- zombiemobs:zombie_llama
+
+#forge:reflecting/preserve_owner
+- minecraft:fishing_bobber
+
+#youre_seeing_dungeons:dark_entities
+- youre_seeing_dungeons:eaged_creature
+- youre_seeing_dungeons:epitaph_creature
+- youre_seeing_dungeons:emanciated_creature
+- youre_seeing_dungeons:grief_creature
+- youre_seeing_dungeons:hatred_creature
+- youre_seeing_dungeons:morbid_creature
+- youre_seeing_dungeons:the_attractor
+- youre_seeing_dungeons:desastrous_creature
+- youre_seeing_dungeons:lying_creature
+
+#tconstruct:piggybackpack_blacklist
+
+#forge:small_armor
+- #forge:slimes
+
+#kobolds:enchanter
+- kobolds:kobold_enchanter
+
+#minecraft:powder_snow_walkable_mobs
+- minecraft:rabbit
+- minecraft:endermite
+- minecraft:silverfish
+- minecraft:fox
+
+#forge:llamas
+- minecraft:llama
+- minecraft:trader_llama
+
+#primalmagick:drops_relic_fragments_low
+- minecraft:creeper
+- minecraft:drowned
+- minecraft:enderman
+- minecraft:ghast
+- minecraft:guardian
+- minecraft:husk
+- minecraft:phantom
+- minecraft:piglin
+- minecraft:piglin_brute
+- minecraft:pillager
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:vindicator
+- minecraft:wither_skeleton
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:zombified_piglin
+- primalmagick:treefolk
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- cataclysm:void_shard
+- cataclysm:lava_bomb
+- cataclysm:ignis_abyss_fireball
+- cataclysm:ignis_fireball
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#forge:creepers
+- minecraft:creeper
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#primalmagick:drops_relic_fragments_high
+- minecraft:evoker
+- minecraft:illusioner
+- minecraft:witch
+- minecraft:elder_guardian
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#primalmagick:flying_creatures
+- #primalmagick:pixies
+- minecraft:bat
+- minecraft:bee
+- minecraft:blaze
+- minecraft:chicken
+- minecraft:ender_dragon
+- minecraft:ghast
+- minecraft:parrot
+- minecraft:phantom
+- minecraft:vex
+- minecraft:wither
+
+#forge:sheep
+- minecraft:sheep
+
+#tconstruct:bacon_producer
+- minecraft:pig
+- minecraft:piglin
+- minecraft:hoglin
+
+#forge:zombies
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:husk
+- minecraft:drowned
+
+#cataclysm:trap_block_not_detected
+- cataclysm:ender_golem
+- cataclysm:ender_guardian
+- minecraft:ender_dragon
+- minecraft:enderman
+- minecraft:endermite
+- cataclysm:endermaptera
+
+#ftbchunks:entity_interact_whitelist
+- corpse:corpse?
+
+#forge:kobolds
+- kobolds:kobold_captain
+- kobolds:kobold
+- kobolds:kobold_pirate
+- kobolds:kobold_warrior
+- kobolds:kobold_engineer
+- kobolds:kobold_enchanter
+
+#primalmagick:pixies
+- primalmagick:pixie_basic_earth
+- primalmagick:pixie_grand_earth
+- primalmagick:pixie_majestic_earth
+- primalmagick:pixie_basic_sea
+- primalmagick:pixie_grand_sea
+- primalmagick:pixie_majestic_sea
+- primalmagick:pixie_basic_sky
+- primalmagick:pixie_grand_sky
+- primalmagick:pixie_majestic_sky
+- primalmagick:pixie_basic_sun
+- primalmagick:pixie_grand_sun
+- primalmagick:pixie_majestic_sun
+- primalmagick:pixie_basic_moon
+- primalmagick:pixie_grand_moon
+- primalmagick:pixie_majestic_moon
+- primalmagick:pixie_basic_blood
+- primalmagick:pixie_grand_blood
+- primalmagick:pixie_majestic_blood
+- primalmagick:pixie_basic_infernal
+- primalmagick:pixie_grand_infernal
+- primalmagick:pixie_majestic_infernal
+- primalmagick:pixie_basic_void
+- primalmagick:pixie_grand_void
+- primalmagick:pixie_majestic_void
+- primalmagick:pixie_basic_hallowed
+- primalmagick:pixie_grand_hallowed
+- primalmagick:pixie_majestic_hallowed
+
+#minecraft:axolotl_always_hostiles
+- minecraft:drowned
+- minecraft:guardian
+- minecraft:elder_guardian
+
+#forge:squid
+- minecraft:squid
+
+#minecraft:freeze_immune_entity_types
+- minecraft:stray
+- minecraft:polar_bear
+- minecraft:snow_golem
+- minecraft:wither
+- cataclysm:ender_golem
+- cataclysm:ender_guardian
+- cataclysm:ignis
+- cataclysm:netherite_monstrosity
+- betteranimalsplus:feral_wolf
+- betteranimalsplus:walrus
+- betteranimalsplus:whale
+- betteranimalsplus:reindeer
+- betteranimalsplus:boar
+- betteranimalsplus:shark
+- betteranimalsplus:moose
+- betteranimalsplus:lammergeier
+
+#kobolds:trader
+- kobolds:kobold
+- kobolds:kobold_pirate
+
+#forge:spiders
+- minecraft:spider
+
+#forge:golems/snow
+- minecraft:snow_golem
+
+#carryon:stacking_whitelist
+
+#occultism:wild_hunt
+- occultism:wild_hunt_skeleton
+- occultism:wild_hunt_wither_skeleton
+
+#primalmagick:drops_bloody_flesh
+- minecraft:evoker
+- minecraft:illusioner
+- minecraft:pillager
+- minecraft:villager
+- minecraft:vindicator
+- minecraft:wandering_trader
+- minecraft:witch
+
+#numismaticoverhaul:the_bourgeoisie
+- minecraft:pillager
+
+#forge:cows
+- minecraft:cow
+
+#primalmagick:drops_blood_notes_high
+- minecraft:evoker
+
+#kobolds:captain
+- kobolds:kobold_captain
+
+#primalmagick:golems
+- #primalmagick:enchanted_golems
+- minecraft:iron_golem
+- minecraft:snow_golem
+
+#minecraft:dark_entities_2
+- youre_seeing_dungeons:eaged_creature
+- youre_seeing_dungeons:epitaph_creature
+- youre_seeing_dungeons:emanciated_creature
+- youre_seeing_dungeons:grief_creature
+- youre_seeing_dungeons:hatred_creature
+- youre_seeing_dungeons:morbid_creature
+- youre_seeing_dungeons:desastrous_creature
+- youre_seeing_dungeons:lying_creature
+- youre_seeing_dungeons:the_attractor
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+- cataclysm:nameless_sorcerer
+- youre_seeing_dungeons:desert_pillager_shadow
+- youre_seeing_dungeons:desert_pillager_slingshot
+- youre_seeing_dungeons:desert_pillager_tamer
+- youre_seeing_dungeons:desert_pillager
+
+#occultism:afrit_allies
+- minecraft:blaze
+
+#forge:villagers
+- minecraft:villager
+- minecraft:wandering_trader
+- minecraft:zombie_villager
+- minecraft:villager
+
+#tconstruct:melting/hide_in_default
+- minecraft:giant
+
+#minecraft:axolotl_hunt_targets
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:salmon
+- minecraft:cod
+- minecraft:squid
+- minecraft:glow_squid
+
+#forge:illagers
+- minecraft:evoker
+- minecraft:illusioner
+- minecraft:pillager
+- minecraft:vindicator
+- minecraft:witch
+
+#carryon:entity_whitelist
+
+#primalmagick:enchanted_golems
+- primalmagick:primalite_golem
+- primalmagick:hexium_golem
+- primalmagick:hallowsteel_golem
+
+#forge:slimes
+- minecraft:slime
+- tconstruct:earth_slime
+- tconstruct:sky_slime
+- tconstruct:ender_slime
+- tconstruct:terracube
+
+#tconstruct:killagers
+- #forge:villagers
+- #forge:illagers
+- minecraft:iron_golem
+- minecraft:ravager
+
+#primalmagick:drops_blood_notes_low
+- minecraft:illusioner
+- minecraft:witch
+
+#dragonsurvival:royal_departure_affected
+- dragonsurvival:princess
+- dragonsurvival:prince
+
+#forge:reflecting/blacklist
+
+#ftbquests:no_loot_crates
+
+#minecraft:freeze_hurts_extra_types
+- minecraft:strider
+- minecraft:blaze
+- minecraft:magma_cube
+
+#carryon:entity_blacklist
+
+#kobolds:engineer
+- kobolds:kobold_engineer
+
+#forge:chicken
+- minecraft:chicken
+
+#occultism:healed_by_demons_dream_fruit
+- occultism:foliot
+- occultism:djinni
+- occultism:afrit
+- occultism:afrit_wild
+- occultism:marid
+- occultism:possessed_endermite
+- occultism:possessed_enderman
+- occultism:possessed_ghast
+- occultism:wild_hunt_skeleton
+- occultism:wild_hunt_wither_skeleton
+- occultism:otherworld_bird
+- occultism:greedy_familiar
+- occultism:bat_familiar
+- minecraft:parrot
+- occultism:deer_familiar
+- occultism:cthulhu_familiar
+- occultism:devil_familiar
+- occultism:dragon_familiar
+- occultism:blacksmith_familiar
+- occultism:guardian_familiar
+- occultism:headless_familiar
+- occultism:chimera_familiar
+- occultism:goat_familiar
+- occultism:shub_niggurath_familiar
+- occultism:beholder_familiar
+- occultism:fairy_familiar
+- occultism:mummy_familiar
+- occultism:beaver_familiar
+- occultism:shub_niggurath_spawn
+
+#forge:bats
+- minecraft:bat
+
+#hexcasting:sticky_teleporters
+- create:contraption?
+- create:stationary_contraption?
+- create:gantry_contraption?
+- create:carriage_contraption?
+- minecraft:pig
+- minecraft:strider
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:mule
+- minecraft:donkey
+- minecraft:llama
+- minecraft:trader_llama
+
+#cataclysm:ignis_cant_poke
+- minecraft:slime
+- minecraft:magma_cube
+- minecraft:ender_dragon
+- minecraft:wither
+
+#hexcasting:cannot_teleport
+- create:stationary_contraption?
+- create:gantry_contraption?
+- create:carriage_contraption?
+- create:super_glue?
+- create:crafting_blueprint?
+- create:seat?
+- minecraft:wither
+- minecraft:end_crystal
+- minecraft:ender_dragon
+- minecraft:item_frame
+- minecraft:painting
+- minecraft:leash_knot
+- minecraft:marker

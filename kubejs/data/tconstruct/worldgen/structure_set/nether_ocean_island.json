@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "tconstruct:blood_island",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 65245622,
+    "spacing": 30,
+    "separation": 20,
+    "type": "minecraft:random_spread"
+  }
+}
