@@ -1,0 +1,44 @@
+{
+	id: "05AD99AA5D85DFEE"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:blaze_gate_large"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:enderman_gate_large"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:skeleton_gate_large"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:zombie_gate_large"
+				}
+			}
+		}
+	]
+	title: "Gate Large"
+}

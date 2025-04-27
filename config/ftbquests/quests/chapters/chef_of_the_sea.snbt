@@ -1,0 +1,334 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chef_of_the_sea"
+	group: "0BBC55A3ACE7AADE"
+	id: "05FB63CC071C1239"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "farmersdelight:diamond_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "25DF988E3F72950C"
+			rewards: [{
+				id: "7A768F6A84FB202E"
+				item: "minecraft:oak_chest_boat"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "farmersdelight:diamond_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "69BDC3BB398F133A"
+					optional_task: true
+					title: "Chef of Sea"
+					type: "custom"
+				}
+				{
+					id: "60BDFC0947D1B572"
+					type: "checkmark"
+				}
+			]
+			title: "Chef of The Sea"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "40ED1401C0F66772"
+			subtitle: "Cook a honey fried kelp"
+			tasks: [{
+				id: "769E2EA1D627B01F"
+				item: "oceansdelight:honey_fried_kelp"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "37F2C833F682FB11"
+			subtitle: "Cook a stuffed cod"
+			tasks: [{
+				id: "23D5757A47250BA4"
+				item: "oceansdelight:cooked_stuffed_cod"
+				type: "item"
+			}]
+			title: "Stuffed Cod"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "0A54FB054E8662C1"
+			subtitle: "Cook a brazed sea pickle"
+			tasks: [{
+				id: "45608F47173D1FC2"
+				item: "oceansdelight:braised_sea_pickle"
+				type: "item"
+			}]
+			title: "Cook a brazed sea pickle"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "1F6D8CB6E8B5E3A8"
+			subtitle: "Cook a Cabbage Wrapped Elder Guardian"
+			tasks: [{
+				id: "6385675A5E9B8CF7"
+				item: "oceansdelight:cabbage_wrapped_elder_guardian"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "72A4357D87522A7E"
+			subtitle: "Cook a Guardian Tail"
+			tasks: [{
+				id: "0A42709835B783B1"
+				item: "oceansdelight:cooked_guardian_tail"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "5E38D1D46D677D27"
+			subtitle: "Cook a guardian and make a bowl"
+			tasks: [{
+				id: "141F5B19739D64DF"
+				item: "oceansdelight:bowl_of_guardian_soup"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "372D26016363CD3A"
+			subtitle: "Bake a tentacle"
+			tasks: [{
+				id: "46080E4623D7C20A"
+				item: "oceansdelight:baked_tentacle_on_a_stick"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "769BB007ACE55748"
+			subtitle: "make a sea grass salad"
+			tasks: [{
+				id: "0C82EBB7841D2F3C"
+				item: "oceansdelight:seagrass_salad"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "483C6A496D3FF63A"
+			subtitle: "Cook some of that elder guardian slice"
+			tasks: [{
+				id: "469DEB741A81A986"
+				item: "oceansdelight:cooked_elder_guardian_slice"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "19B8FE7411F501E3"
+			subtitle: "Cook some squid rings"
+			tasks: [{
+				id: "4B211BB2D02772BB"
+				item: "oceansdelight:squid_rings"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "0E4BD98EBFCDFD97"
+			tasks: [{
+				id: "25E58FE544AF190A"
+				item: "tidesdelight:anglerfish_hotpot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "233F5345B76A806F"
+			tasks: [{
+				id: "57C0310BBDA77187"
+				item: "tidesdelight:fried_catfish"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "2CA64B0062053C6B"
+			tasks: [{
+				id: "7F5D8B886F3E1571"
+				item: "tidesdelight:caprese"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "7706484234142FAC"
+			tasks: [{
+				id: "1C0F242B8416AEA1"
+				item: "tidesdelight:tuna_steak"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "677A49A889216EBB"
+			tasks: [{
+				id: "39A590E041B74D89"
+				item: "tidesdelight:tuna_roll_slice"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "1096AAF2AC092712"
+			tasks: [{
+				id: "26EA4ABC92C98CEA"
+				item: "tidesdelight:grouper_caprese"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "685DB5058E8CE7CE"
+			tasks: [{
+				id: "1462C4BB14E5E8DF"
+				item: "tidesdelight:barracuda_burger"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			id: "0638594E08EDD74E"
+			tasks: [{
+				id: "3D367271EA695641"
+				item: "tidesdelight:barracuda_steak"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			id: "4B296A4C1CFA9D8B"
+			tasks: [{
+				id: "028841F38DCC95BD"
+				item: "tidesdelight:poke_bowl"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			id: "37DB947F1EDFE268"
+			tasks: [{
+				id: "13502CAE1C326B6F"
+				item: "farmersdelight:kelp_roll_slice"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "5A2494D2A0E3248A"
+			tasks: [{
+				id: "243D04E8019C678C"
+				item: "farmersdelight:fish_stew"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			id: "02342486CF1C4AF6"
+			tasks: [{
+				id: "472F592376937D67"
+				item: "farmersdelight:cod_roll"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			id: "63CE4D771D1CE764"
+			tasks: [{
+				id: "4FE5E434A63D5885"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			id: "1A977A48C1A61509"
+			tasks: [{
+				id: "007C627A40748738"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "62D19595BB361A00"
+			tasks: [{
+				id: "4124EA018A18805C"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			id: "46923D2EDE072BE2"
+			tasks: [{
+				id: "0B64C971049B9A39"
+				item: "undergarden:inky_stew"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			id: "3EB98185B4B65A15"
+			tasks: [{
+				id: "6A060C0060BCA99A"
+				item: "undergarden:cooked_gwibling"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+	]
+	title: "&6&l ♦ &r&fChef of the Sea"
+}

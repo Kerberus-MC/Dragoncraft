@@ -1,0 +1,14 @@
+{
+	id: "1E30CBDA410F9AB9"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ item: "truly_custom_horse_tack:increase_jump_potion" }
+		{ item: "truly_custom_horse_tack:decrease_jump_potion" }
+		{ item: "truly_custom_horse_tack:increase_speed_potion" }
+		{ item: "truly_custom_horse_tack:decrease_speed_potion" }
+		{ item: "horse_colors:fertility_potion" }
+		{ item: "horse_colors:infertility_potion" }
+	]
+	title: "Horse_potions"
+}

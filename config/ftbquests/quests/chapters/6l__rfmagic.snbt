@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6l__rfmagic"
+	group: "5BBB507BE497896B"
+	id: "54CE4F577D72106B"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "hexalia:verdant_grimoire"
+			id: "43469AE8C2D89007"
+			rewards: [{
+				id: "4AABEB80F5707E9E"
+				item: "hexalia:verdant_grimoire"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46BD8BC3B3961691"
+				title: "Hexalia"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			icon: "ars_nouveau:worn_notebook"
+			id: "1CC78ACE93A23601"
+			rewards: [{
+				id: "6F4486FEEA351652"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14BF4C184A8A6C98"
+				title: "Ars Nouveau"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+	]
+	title: "&6&l ♦ &r&fMagic"
+}

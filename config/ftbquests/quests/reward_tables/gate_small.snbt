@@ -1,0 +1,44 @@
+{
+	id: "0027B21D66EEF1BF"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:blaze_gate_small"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:skeleton_gate_small"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:zombie_gate_small"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:enderman_gate_small"
+				}
+			}
+		}
+	]
+	title: "Gate Small"
+}

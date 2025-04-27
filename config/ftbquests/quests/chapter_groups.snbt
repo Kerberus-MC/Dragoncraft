@@ -1,3 +1,11 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "6EF9EFCC7898812A", title: "&6&l ♦ &r&fGetting Started" }
+		{ id: "04F86F2A5789B85A", title: "&6&l ♦ &r&fDragon's Journey" }
+		{ id: "5BBB507BE497896B", title: "&6&l ♦ &r&fAdventures" }
+		{ id: "651CAF965FE837B4", title: "&6&l ♦ &r&fFight your Fate!" }
+		{ id: "0BBC55A3ACE7AADE", title: "&6&l ♦ &r&fMaster Chef" }
+		{ id: "5EC606153AA8CA77", title: "&6&l ♦ &r&fExtras" }
+		{ id: "7CA5814B6FE93060", title: "&6&l ♦ &r&fPercy's Store" }
+	]
 }

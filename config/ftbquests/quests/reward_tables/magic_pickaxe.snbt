@@ -1,0 +1,36 @@
+{
+	id: "60B0DD9E58A62FB5"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "gothic:old_mineshaft_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "kobolds:kobold_iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:golden_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Magic Pickaxe"
+}

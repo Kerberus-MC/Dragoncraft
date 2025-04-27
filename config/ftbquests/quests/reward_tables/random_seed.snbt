@@ -1,0 +1,25 @@
+{
+	id: "0F2935AC18B27B4F"
+	loot_size: 3
+	order_index: 4
+	rewards: [
+		{ item: "minecraft:wheat_seeds" }
+		{ item: "minecraft:pumpkin_seeds" }
+		{ item: "minecraft:melon_seeds" }
+		{ item: "farmersdelight:cabbage_seeds" }
+		{ item: "farmersdelight:tomato_seeds" }
+		{ item: "supplementaries:flax_seeds" }
+		{ item: "minecraft:chorus_flower", weight: 0.05f }
+		{ item: "hexerei:sage_seed" }
+		{ item: "supplementaries:flax_seeds" }
+		{ item: "vinery:jungle_grape_seeds_white" }
+		{ item: "vinery:jungle_grape_seeds_red" }
+		{ item: "vinery:taiga_grape_seeds_white" }
+		{ item: "vinery:savanna_grape_seeds_white" }
+		{ item: "vinery:red_grape_seeds" }
+		{ item: "vinery:white_grape_seeds" }
+		{ item: "vinery:savanna_grape_seeds_red" }
+		{ item: "vinery:cherry_sapling" }
+	]
+	title: "Random Herb"
+}

@@ -4,11 +4,11 @@
 partner_id = "3910"
 #The id of this modpack.
 #(This is BH internal pack id; Find the id here: https://www.bisecthosting.com/partners/console.php)
-pack_id = "18680"
+pack_id = "813605"
 #Set this to false to disable pack config screen and enable user configs instead.
 #This should always be done by the pack author once they are done with configuring the pack.
 #To re-enable Pack Edit Mode, please edit the config file.
-pack_edit_mode = false
+pack_edit_mode = true
 
 [modules]
 
@@ -18,9 +18,9 @@ pack_edit_mode = false
 		#Modpack Configs
 		[modules.server_creator_banner.pack]
 			#The title to display at the top of the entry.
-			title = "§6Need a Server? §dClick Here to Get Yours!"
+			title = "Need a server?"
 			#The description to display below the title.
-			description = "§7Exclusive: §a25% §7off with code '§curmom§7'!"
+			description = "Click me to get your own server!"
 			#Set this to true to use specific language translation keys.
 			#This requires a custom mod that adds resource files, such as OpenLoader.
 			#Use 'server_entry.title' key for the Title;
@@ -49,5 +49,5 @@ pack_edit_mode = false
 				width = 0
 				#Turn the Public Server List button into a vanilla styled one.
 				#Causes default vanilla graphics and might help with compatibility with other mods.
-				vanillaButton = true
+				vanillaButton = false
 

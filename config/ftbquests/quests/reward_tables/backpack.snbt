@@ -1,0 +1,7 @@
+{
+	id: "642D7EDF111BC043"
+	loot_size: 1
+	order_index: 10
+	rewards: [{ item: "sophisticatedbackpacks:backpack" }]
+	title: "Backpack"
+}

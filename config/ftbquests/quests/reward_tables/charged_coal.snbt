@@ -1,0 +1,7 @@
+{
+	id: "4DE55CC0638A0B32"
+	loot_size: 1
+	order_index: 14
+	rewards: [{ count: 12, item: "dragonsurvival:charged_coal" }]
+	title: "Charged Coal"
+}

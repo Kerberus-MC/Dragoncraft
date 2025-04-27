@@ -1,0 +1,18 @@
+{
+	id: "2949842EEC974A96"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ item: "minecraft:diamond", random_bonus: 2 }
+		{ count: 4, item: "minecraft:emerald", random_bonus: 8 }
+		{ item: "minecraft:budding_amethyst", weight: 0.2f }
+		{ count: 12, item: "minecraft:quartz", random_bonus: 30 }
+		{ count: 16, item: "minecraft:raw_iron", random_bonus: 4 }
+		{ count: 12, item: "minecraft:raw_copper", random_bonus: 6 }
+		{ count: 6, item: "minecraft:raw_gold", random_bonus: 6, weight: 4.0f }
+		{ count: 16, item: "create:raw_zinc", random_bonus: 16 }
+		{ count: 32, item: "galosphere:raw_silver", random_bonus: 32 }
+		{ count: 32, item: "minecraft:glowstone_dust", random_bonus: 32 }
+	]
+	title: "Treasure"
+}

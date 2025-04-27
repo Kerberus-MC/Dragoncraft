@@ -1,0 +1,396 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fight_the_cataclysm"
+	group: "651CAF965FE837B4"
+	icon: "cataclysm:abyssal_sacrifice"
+	id: "724FC93A50109AF6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "cataclysm:abyss_eye"
+			id: "2815CA3E228388A8"
+			rewards: [{
+				count: 3
+				id: "2C2F766761778F4A"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "229CF3B2DFD7980C"
+				type: "checkmark"
+			}]
+			title: "Cataclysm Killer"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "06591EC77286EFAA"
+			rewards: [
+				{
+					count: 3
+					id: "101AB9CFF65D526C"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "67098255058F3735"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				id: "63BC45AD67CA5229"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "4246C2338AD7D8E7"
+			rewards: [
+				{
+					count: 3
+					id: "48FDFF8C73D222D3"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "09B477079BAC4CFD"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "0B2F5649EC682300"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "638C09A9B057B838"
+			rewards: [
+				{
+					count: 3
+					id: "7E4BFAAAB9CAC3CC"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "15A5399162511326"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:koboleton"
+				id: "507E662E23511AD7"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "298E666D81E78D25"
+			rewards: [
+				{
+					count: 3
+					id: "59A0F615817E46D4"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "75F4AECD07DE4879"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "64EAC9D502B4A5D6"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "153C6E073EEDB7FF"
+			rewards: [
+				{
+					count: 3
+					id: "342618BA48ED6871"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2E6BD7C69B1503BC"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_prowler"
+				id: "093D4245EDB3AFE5"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "497F76D20B5DAAC6"
+			rewards: [
+				{
+					count: 3
+					id: "4C4EB1A7CE9E6A0D"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A60E38EAAF5EA74"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:the_watcher"
+				id: "7025FAED276E5862"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "50A1498ACB3B0E4A"
+			rewards: [
+				{
+					count: 3
+					id: "061E8EA82608066D"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "461D75D4763B2903"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:lionfish"
+				id: "29D24807AD0F3E27"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "28BA19226B879BE6"
+			rewards: [
+				{
+					count: 3
+					id: "6438F94503052636"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0B612C5A4D3D73B3"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:deepling"
+				id: "6B8011F6B92C30C1"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "598E79F20D3B8604"
+			rewards: [
+				{
+					count: 3
+					id: "09BFCDB7871DD24D"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7CB5E93B1E29D6EE"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:deepling_angler"
+				id: "1FCF890FC0F9AE2F"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "053E8A6F924C40C6"
+			rewards: [
+				{
+					count: 3
+					id: "7E8ACC7CB72E3DF4"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "75F368259CDF621A"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:deepling_brute"
+				id: "74F2EAFC1BA02A93"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "78B26A23FF8D33ED"
+			rewards: [
+				{
+					count: 3
+					id: "68943FE5B44948B2"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3E5676FF90052AB1"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:deepling_priest"
+				id: "42A5C4FD90EDB3AB"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "033CD8417F38BCCE"
+			rewards: [
+				{
+					count: 3
+					id: "5B232958C9E2D2BE"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2EDA88FBE3E50746"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:deepling_warlock"
+				id: "080B0B169A1C20FB"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "130F9ECBB688FBAE"
+			rewards: [
+				{
+					count: 3
+					id: "581818F24053A9B2"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "13A7FC43D8CD300B"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignited_berserker"
+				id: "673EE3E4F7CABC99"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			icon: "cataclysm:blazing_grips"
+			id: "06701869E85F85CC"
+			rewards: [
+				{
+					count: 3
+					id: "22D8371E9227E2F4"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3032C433A088E22A"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				id: "7EA949D9BD8B25F0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+	]
+	title: "&6&l ♦ &r&fFight the Cataclysm"
+}

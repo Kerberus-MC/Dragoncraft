@@ -1,0 +1,11 @@
+{
+	id: "43B5D62696354E49"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{ item: "gothic:book_extract_pelt" }
+		{ item: "gothic:book_extract_fat" }
+		{ item: "gothic:book_extract_mandibles" }
+	]
+	title: "20 lvl books"
+}

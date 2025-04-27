@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overworld"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:grass_block"
+	id: "1D4E5CDD59FFB7A0"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_completed"
+			id: "268A05DFD4D5427A"
+			rewards: [
+				{
+					count: 12
+					id: "14F327BA69B975BD"
+					item: "blue_skies:turquoise_stonebrick"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2D05266B3F98B211"
+					item: "blue_skies:lunar_stonebrick"
+					type: "item"
+				}
+			]
+			subtitle: "Gatekeeper Houses can be found in most biomes"
+			tasks: [{
+				id: "08CA723FD16E3030"
+				item: "blue_skies:blue_journal"
+				title: "Obtain a Blue Journal from the Gatekeeper"
+				type: "item"
+			}]
+			title: "Obtain a &9Blue Journal &rfrom a Gatekeeper"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "26EA75D177BC496B"
+			rewards: [{
+				id: "6DA1A2B30558A913"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "7362BF4629FAD929"
+				title: "Defend a Village"
+				type: "advancement"
+			}]
+			title: "Defend a Village from a &4Raid"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "3EA4CB4D9C90B767"
+			rewards: [{
+				count: 4
+				id: "473BA90754445AF5"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Found in &eIllusioner Towers&r"
+			tasks: [{
+				entity: "minecraft:illusioner"
+				icon: "illagerinvasion:illusionary_dust"
+				id: "39A27C60C2775BD5"
+				title: "Defeat the &cIllusioner"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "1A878EB6FEC31A26"
+			rewards: [{
+				count: 3
+				id: "4794A29BDF3A8992"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &bOceanographer"
+			tasks: [{
+				id: "76FC0860F717FB35"
+				item: "villagersplus:oceanographer_table"
+				type: "item"
+			}]
+			title: "Craft an &bAquarium"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "6280E25813EA2805"
+			rewards: [{
+				count: 3
+				id: "020B040C4D079A06"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into an &dOccultist"
+			tasks: [{
+				id: "3594A94ECDBC14FB"
+				item: "villagersplus:occultist_table"
+				type: "item"
+			}]
+			title: "Craft an &dEnchanted Basin"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "32C4134E67E71063"
+			rewards: [{
+				count: 3
+				id: "7DD343C14E49B4ED"
+				item: "minecraft:emerald"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "Used to turn a villager into a &5Alchemist"
+			tasks: [{
+				id: "72527896BB77CECD"
+				item: "villagersplus:alchemist_table"
+				type: "item"
+			}]
+			title: "Craft an &5Alchemist Table"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2574E7CF699D5B45"
+			rewards: [{
+				count: 2
+				id: "0B64280DCDE3B078"
+				item: "minecraft:oak_log"
+				random_bonus: 2
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				icon: "minecraft:grass_block"
+				id: "0470194500CBE26C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Obtain a &2Wooden Log"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "4720EE722094D044"
+			rewards: [{
+				count: 4
+				id: "0AAA97C307CAAC68"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			subtitle: "Found in Ocean Monuments"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				icon: "minecraft:prismarine_shard"
+				id: "029D4DF6169982CF"
+				title: "Kill the Elder Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &eElder Guardian"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "7C0DE43902DCC075"
+			rewards: [{
+				id: "75279DF9AB2C1EC3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "1B2C38A10FED5A75"
+				title: "Defeat the &3Night Lich"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "7E9F9476FE3DAF9A"
+			rewards: [{
+				id: "7F7C7BE31DE0483F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_thorn"
+				id: "363EFAACDE5906D9"
+				title: "Defeat the &dVoid Blossom"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "496618D936785BA9"
+			rewards: [{
+				id: "63CF97C6322773DB"
+				item: "tide:fishing_journal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "799C324EF0942A8F"
+				item: {
+					Count: 1
+					id: "tide:stone_fishing_rod"
+					tag: {
+						Damage: 0
+						bait-contents: {
+							size: 0
+						}
+						modifier: {
+							bobber: { }
+							hook: { }
+							line: { }
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: "&6&l ♦ &r&fOverworld"
+}

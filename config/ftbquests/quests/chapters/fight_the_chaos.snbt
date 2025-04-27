@@ -1,0 +1,1010 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fight_the_chaos"
+	group: "651CAF965FE837B4"
+	id: "23E3C05CAC34C335"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "born_in_chaos_v1:ethereal_spirit"
+			id: "503190AED860C3C3"
+			tasks: [{
+				id: "7CF7DAA27BB1AE97"
+				title: "Start your Journey"
+				type: "checkmark"
+			}]
+			title: "&2 Fight the Chaos"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "62301E44DB6CFA26"
+			rewards: [{
+				count: 3
+				id: "61736B688BEA351B"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_demoman"
+				id: "4D5F75888EEB9DEE"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "3C729D527033B0FD"
+			rewards: [{
+				count: 3
+				id: "7636C22D3F44371E"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:baby_skeleton_minion"
+				icon: "born_in_chaos_v1:baby_skeleton_spawn_egg"
+				id: "6B89F02D9FDAD1F9"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "66D5E15DB4C68B31"
+			rewards: [{
+				count: 3
+				id: "513CFA0012BD1D82"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:baby_skeleton_minion"
+				icon: "born_in_chaos_v1:baby_skeleton_spawn_egg"
+				id: "6AEB8259D939DA98"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "61B7ABA559AFFA1A"
+			rewards: [{
+				count: 3
+				id: "5446C5DFB9B90E1A"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:decaying_zombie"
+				id: "20F82348FA6276AA"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "1AB6D4AC5E83D74A"
+			rewards: [{
+				count: 3
+				id: "358B492A2AC29C1C"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:bone_imp"
+				id: "1032F1B52CCC8B09"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "56895AC537002DC2"
+			rewards: [{
+				count: 3
+				id: "0822F7D21FA34CA6"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:barrel_zombie"
+				id: "3800897322FEB051"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "6B8160493A547333"
+			rewards: [{
+				count: 3
+				id: "1F217A121C0AD254"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:door_knight"
+				id: "30FE3F10879FBCB0"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "138866DBBC0B558E"
+			rewards: [{
+				count: 3
+				id: "0D5D0046241995C6"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_fisherman"
+				id: "2368D317207E75CD"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "774B686CA45D653B"
+			rewards: [{
+				count: 3
+				id: "2D1732F914B7A559"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_lumberjack"
+				id: "7BECE70771B6E2C4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "5D7B4A0BCF8D6C00"
+			rewards: [{
+				count: 3
+				id: "205747F7CEB9F16A"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:swarmer"
+				id: "44B6BD8432FBE524"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "6F76AAEE87632022"
+			rewards: [{
+				count: 3
+				id: "741EA0A5D4663EA0"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_clown"
+				id: "0A3D05EF1CDAEC76"
+				type: "kill"
+				value: 100L
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "019E11E83D26E1DB"
+			rewards: [{
+				count: 3
+				id: "65982D0D3C674E57"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:skeleton_thrasher"
+				id: "17D202228D33C931"
+				type: "kill"
+				value: 100L
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "15B9C7D437F39581"
+			rewards: [{
+				count: 3
+				id: "30CA5E36946E6C9A"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:spirit_guide"
+				id: "0D86BA6AE89DC663"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "084DE44CF0F5B828"
+			rewards: [{
+				count: 3
+				id: "18127351F93EA5DD"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:phantom_creeper"
+				id: "7909C514CBCB1188"
+				type: "kill"
+				value: 10L
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "35E2DA50D58B4385"
+			rewards: [{
+				count: 3
+				id: "25DA4BC50CCBE859"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:pumpkin_spirit"
+				id: "6A2D4CC32F0D9F0A"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "1628184485975FBA"
+			rewards: [{
+				count: 3
+				id: "0B8F4F247BBCC975"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:seared_spirit"
+				id: "755BDC3C68E1C919"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "2CF7AB0020D328FF"
+			rewards: [{
+				count: 3
+				id: "0D443B7E47683869"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:dark_vortex"
+				id: "40C11FA6F9CE6105"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "7972B2C445DE5F83"
+			rewards: [{
+				count: 3
+				id: "2A2A55E1FB43F598"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:scarlet_persecutor"
+				id: "3D6667DF487E433C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "387E72B71979F970"
+			rewards: [{
+				count: 3
+				id: "05780F34DF664B68"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:lifestealer"
+				id: "027B23AB1FD70012"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "708A104BF08A687D"
+			rewards: [{
+				count: 3
+				id: "422DD0014E8895D2"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:supreme_bonescaller"
+				id: "34DAF47D8CB27E10"
+				type: "kill"
+				value: 10L
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "5C180B3B9ECE3F51"
+			rewards: [{
+				count: 3
+				id: "6D5D9C6E8803A66A"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:bonescaller"
+				id: "09EE1797E9AEF1D0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "4E561C99255EC4F9"
+			rewards: [{
+				count: 3
+				id: "0A149FA5BC7600C8"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:decrepit_skeleton"
+				id: "3D62752A75A48E4B"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "55C854CC5BD69995"
+			rewards: [{
+				count: 3
+				id: "4C4FEB7F1CE6878C"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:siamese_skeletons"
+				id: "6BD9008CC8A59878"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "617BBB4B3106DB20"
+			rewards: [{
+				count: 3
+				id: "32C5DAD40D75D8E7"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_bruiser"
+				id: "024FBBD3B4E3BEFA"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "4DC9EE66095AA36A"
+			rewards: [{
+				count: 3
+				id: "6102259C6DC63A8E"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:restless_spirit"
+				id: "6545A4E429705CDE"
+				type: "kill"
+				value: 10L
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "2385DD64B55955FE"
+			rewards: [{
+				count: 3
+				id: "5B20D128C7C83B91"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:sir_pumpkinhead"
+				id: "5FFECC52278A71A9"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "66D09F97A8883A77"
+			rewards: [{
+				count: 3
+				id: "32E0CA2E0BFF3584"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:mr_pumpkin"
+				id: "0A6A7129E8283159"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "38B1F08B8D174CD7"
+			rewards: [{
+				count: 3
+				id: "2CBAFFEA195F1049"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				id: "560448964A4D0D76"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "6FB14521075FCA6F"
+			rewards: [{
+				count: 3
+				id: "3571C7367B15939C"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				id: "3B3044381244A57D"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "3C643E3B5133CD95"
+			rewards: [{
+				count: 3
+				id: "6C01060DBF95D010"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:corpse_fish"
+				id: "3889375971B06B0D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "60CF7841E98377E7"
+			rewards: [{
+				count: 3
+				id: "2EF80358DD7612B1"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:glutton_fish"
+				id: "546E04F230657B60"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "4ABF5255ECE3E61B"
+			rewards: [{
+				count: 3
+				id: "31762598B4CAA2BA"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:dread_hound"
+				id: "5C5FA9439E6A7242"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "49D0A4C09EE62D63"
+			rewards: [{
+				count: 3
+				id: "2FED6B21B26AEE01"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				id: "4DDD923B5FDF11DB"
+				type: "kill"
+				value: 10L
+			}]
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "572560006271EC9E"
+			rewards: [{
+				count: 3
+				id: "1B88FAD04AAD9EA5"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:thornshell_crab"
+				id: "39947123325948A9"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "7915E316556AA382"
+			rewards: [{
+				count: 3
+				id: "17AB92347C073367"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:maggot"
+				id: "3A1DDE0894DA3332"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "353164738AD668B8"
+			rewards: [{
+				count: 3
+				id: "5949A55681EED526"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:corpse_fly"
+				id: "3DCB5C530A26CCE9"
+				type: "kill"
+				value: 100L
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "4CFF8D4ED61AA225"
+			rewards: [{
+				count: 3
+				id: "7513D34F62F72F56"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:mother_spider"
+				id: "4475224F5818C24D"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "653671F7CA3F3296"
+			rewards: [{
+				count: 3
+				id: "7364C6C2550C3A03"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:bloody_gadfly"
+				id: "1B2C908161FA0693"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "0D514864B7421BCF"
+			rewards: [{
+				count: 3
+				id: "5D8FFA97624C7C8A"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:baby_spider"
+				id: "5CE4C02903E672BA"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "144B6F208FE9F269"
+			rewards: [{
+				count: 3
+				id: "2F8D8DF7B9C70BA9"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:firelight"
+				id: "75F2CAD7E2C1B637"
+				type: "kill"
+				value: 10L
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity/decorated_pot/skull_pottery_pattern.png"
+				}
+			}
+			id: "17D5E95239B3A12F"
+			rewards: [{
+				count: 3
+				id: "3685E53BC6FAB5CB"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "born_in_chaos_v1:diamond_termite"
+				id: "66A5FB446483B3DD"
+				type: "kill"
+				value: 10L
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+	]
+	title: "&6&l ♦ &r&fFight the Chaos"
+}

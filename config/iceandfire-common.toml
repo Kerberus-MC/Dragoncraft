@@ -1,29 +1,15 @@
 
 [Generation]
 
-	[Generation.Ores]
-		#Whether to generate copper ore or not
-		"Generate Copper Ore" = false
-		#Whether to generate silver ore or not
-		"Generate Silver Ore" = false
-		#Whether to generate sapphire ore or not
-		"Generate Sapphire Ore" = true
-		#Whether to generate amethyst ore or not
-		"Generate Amethyst Ore" = true
-
 	[Generation.Dragon]
 		#Whether to generate dragon skeletons or not
 		"Generate Dragon Skeletons" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Generate Dragon Skeleton Chance" = 300
-		#Whether to generate dragon caves or not
-		"Generate Dragon Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Generate Dragon Cave Chance" = 180
-		#Whether to generate dragon roosts or not
-		"Generate Dragon Roosts" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Generate Dragon Roost Chance" = 360
@@ -48,30 +34,22 @@
 		"Glacier Spawn Weight" = 4
 		#True if mausoleums are allowed to generate
 		"Generate Mausoleums" = true
-		#One out of this number chance per chunk to generate a mausoleum.
-		#Range: 1 ~ 10000
-		"Mausoleum Gen Chance" = 1800
 		#Whether to generate graveyards or not
 		"Generate Graveyards" = true
-		#Graveyard rarity.
-		#Range: 2 ~ 10000
-		"Graveyard Chance" = 46
+		#True if gorgon temples are allowed to spawn
+		"Generate Gorgon Temple" = false
 
 [Dragons]
 
 	[Dragons.Griefing]
-		#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
+		#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default. This value is also affected by minecrafts mob griefing rule.
 		#Range: 0 ~ 2
 		"Dragon Griefing" = 0
 		#True if tamed dragons can follow the griefing rules.
-		"Tamed Dragon Griefing" = false
+		"Tamed Dragon Griefing" = true
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
 		#Range: 0.0 ~ 1.0
 		"Dragon Block Breaking Drop Chance" = 0.10000000149011612
-		#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese" 
-		blacklistedBreakBlocks = ["minecraft:chest", "gravestone:gravestone"]
-		#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
-		noDropBreakBlocks = []
 
 	[Dragons.Attributes]
 		#How long it takes(in ticks) for a dragon egg to hatch
@@ -107,10 +85,12 @@
 	[Dragons.Behaviour]
 		#How high dragons can fly, in Y height.
 		#Range: > 100
-		"Max Dragon Flight Height" = 320
+		"Max Dragon Flight Height" = 256
 		#How far away dragons will detect gold blocks being destroyed or chests being opened
 		#Range: 0 ~ 10000
 		"Dragon Gold Search Length" = 30
+		#Whether the bite attack from a dragon heals them or not.
+		"Dragon Bite Heal" = true
 		#True if dragons can despawn. Note that if this is false there may be SERIOUS lag issues.
 		"Dragons Despawn" = true
 		#True if tamed dragons go to sleep at night.
@@ -147,8 +127,6 @@
 [Mobs]
 
 	[Mobs.Pixies]
-		#True if pixie villages are allowed to spawn
-		"Spawn Pixies" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Pixies Chance" = 60
@@ -159,13 +137,9 @@
 		"Pixies Steal Items" = true
 
 	[Mobs.Cyclops]
-		#True if cyclops caves are allowed to spawn
-		"Spawn Cyclopes Caves" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Cyclops Cave Chance" = 100
-		#True if wandering cyclopes are allowed to spawn
-		"Spawn Wandering Cyclopes" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Wandering Cyclops Chance" = 100
@@ -188,8 +162,6 @@
 		#Maximum siren health
 		#Range: 1.0 ~ 10000.0
 		"Siren Max Health" = 50.0
-		#True if siren islands are allowed to spawn
-		"Spawn Sirens" = true
 		#True to make the screen pink when sirens attract players
 		"Use Siren Shader" = true
 		#1 out of this number chance per chunk for generation
@@ -212,16 +184,11 @@
 		#Default deathworm attack strength, this is scaled to the worm's particular size
 		#Range: 1.0 ~ 10000.0
 		"Death Worm Base Attack Strength" = 3.0
-		#True if deathworms are allowed to spawn
-		"Spawn Death Worms" = true
 		#True if wild deathworms are allowed to target and attack monsters
 		"Death Worms Target Monsters" = true
 		#Deathworm spawn weight. Higher = lower chance to spawn
 		#Range: 1 ~ 10000
 		"Death Worm Spawn Weight" = 30
-		#A double check to see if the game can spawn death worms. Higher number = lower chance to spawn.
-		#Range: 0 ~ 10000
-		"Death Worm Spawn Check Chance" = 3
 
 	[Mobs.Cockatrice]
 		#Maximum cockatrice health
@@ -237,9 +204,6 @@
 		#Cockatrice spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
 		"Cockatrice Spawn Weight" = 4
-		#A double check to see if the game can spawn cockatrices. Higher number = lower chance to spawn.
-		#Range: 0 ~ 10000
-		"Cockatrice Spawn Check Chance" = 0
 
 	[Mobs.Stymphalians]
 		#How many blocks away can stymphalian birds spot potential prey. Note that increasing this could cause lag.
@@ -257,8 +221,6 @@
 		#How high stymphalian birds can fly, in Y height.
 		#Range: > 10
 		"Max Stymphalian Bird Flight Height" = 80
-		#True if stymphalian birds are allowed to spawn
-		"Spawn Stymphalian Birds" = true
 		#True if stymphalian birds can drop items registered in the ore dictionary to ingotCopper, ingotBronze, nuggetCopper, nuggetBronze.
 		"Stymphalian Birds drop ore dict items" = true
 		#True if stymphalian birds are allowed to target and attack animals
@@ -275,9 +237,6 @@
 		#Troll spawn weight. Lower = lower chance to spawn
 		#Range: 1 ~ 10000
 		"Troll Spawn Weight" = 40
-		#A double check to see if the game can spawn trolls. Higher number = lower chance to spawn.
-		#Range: 0 ~ 10000
-		"Troll Spawn Check Chance" = 2
 		#Maximum troll health
 		#Range: 1.0 ~ 10000.0
 		"Troll Max Health" = 50.0
@@ -286,8 +245,6 @@
 		"Troll Attack Strength" = 10.0
 
 	[Mobs.Myrmex]
-		#True if myrmex colonies are allowed to spawn
-		"Spawn Myrmex" = true
 		#How many ticks it takes for a Myrmex Queen to produce an egg.
 		#Range: 1 ~ 10000
 		"Myrmex Gestation Length" = 2500
@@ -332,8 +289,6 @@
 		"Amphithere Attack Strength" = 7.0
 
 	[Mobs.SeaSerpents]
-		#True if sea serpents are allowed to spawn
-		"Spawn Sea Serpents" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Sea Serpent Chance" = 250
@@ -347,8 +302,6 @@
 		"Sea Serpent Base Attack Strength" = 4.0
 
 	[Mobs.Hippocampus]
-		#True if hippocampi are allowed to spawn
-		"Spawn Hippocampus" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
 		"Spawn Hippocampus Chance" = 40
@@ -367,11 +320,6 @@
 		"Hippogryph Flight Speed Modifier" = 1.0
 
 	[Mobs.Gorgons]
-		#True if gorgon temples are allowed to spawn
-		"Spawn Gorgons" = true
-		#1 out of this number chance per chunk for generation
-		#Range: 1 ~ 10000
-		"Spawn Gorgon Chance" = 75
 		#Maximum gorgon health
 		#Range: 1.0 ~ 10000.0
 		"Gorgon Max Health" = 100.0
@@ -388,8 +336,6 @@
 		#Maximum hydra health
 		#Range: 1.0 ~ 10000.0
 		"Hydra Max Health" = 250.0
-		#True if hydra caves are allowed to generate
-		"Generate Hydra Caves" = true
 		#One out of this number chance per chunk to generate a hydra cave.
 		#Range: 1 ~ 10000
 		"Hydra Caves Gen Chance" = 60
@@ -414,6 +360,9 @@
 	#Default armor value of dragonsteel chestplate.
 	#Range: > 7
 	"Dragonsteel Base Armor" = 12
+	#Default armor toughness value of dragonsteel.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	"Dragonsteel Base Armor Toughness" = 6.0
 	#Default durability value of dragonsteel tools.
 	#Range: > 1
 	"Dragonsteel Base Durability" = 8000

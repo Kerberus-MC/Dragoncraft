@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chef_of_the_end"
+	group: "0BBC55A3ACE7AADE"
+	id: "6D892DFE485205AC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "farmersdelight:netherite_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C8CD9E03AAE63F8"
+			rewards: [{
+				count: 16
+				id: "6C7A13898C6CF180"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "farmersdelight:netherite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "21125E9CF5DEE90A"
+					optional_task: true
+					title: "Chef of The End"
+					type: "custom"
+				}
+				{
+					id: "5B42D9FE28043625"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "5A8AD6051A1FCD17"
+			subtitle: "Bake a Chorus Pie"
+			tasks: [{
+				id: "4F577CAC73B47D6E"
+				item: "endersdelight:chorus_pie"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "2E965157B6707039"
+			subtitle: "Cook a Chorus Stew"
+			tasks: [{
+				id: "76152EDEB77C6420"
+				item: "endersdelight:chorus_stew_wood"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "413FDD3830502F65"
+			subtitle: "Cook a Crispy Skewer"
+			tasks: [{
+				id: "6D27C0F82F2534E7"
+				item: "endersdelight:crispy_skewer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "0E8C3722D56E80DA"
+			subtitle: "Make a Crawling Sandwich"
+			tasks: [{
+				id: "537C7D362B2E1013"
+				item: "endersdelight:crawling_sandwich"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			id: "301F6293F5183C9B"
+			subtitle: "Make a Twisted Ceral"
+			tasks: [{
+				id: "519F28E7E2C3D2B6"
+				item: "endersdelight:twisted_cereal_wood"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "26CE48CA6CD88164"
+			subtitle: "Make an Endermite Stew"
+			tasks: [{
+				id: "4F0043F530FB33C4"
+				item: "endersdelight:endermite_stew_wood"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "612B13C2524BD4EC"
+			subtitle: "Make a Bowl of Stuffed Shulker"
+			tasks: [{
+				id: "3EBEA60A92B9DA54"
+				item: "endersdelight:stuffed_shulker_bowl"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "00F78B6241B45B02"
+			subtitle: "Cook some Peral Pasta"
+			tasks: [{
+				id: "4688BC4B149627D7"
+				item: "endersdelight:pearl_pasta_wood"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "5CC862E98949D29B"
+			subtitle: "Make a Strange Eclair"
+			tasks: [{
+				id: "770475B3D10FEA16"
+				item: "endersdelight:strange_eclair"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "7E77A05F73B5E0F5"
+			subtitle: "Bake an Uncanny Cookie"
+			tasks: [{
+				id: "72020A5017B0B0ED"
+				item: "endersdelight:uncanny_cookies"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "675FB35992B254D2"
+			subtitle: "Cook a Shulker Filet"
+			tasks: [{
+				id: "04AB76DFD9ADBC37"
+				item: "endersdelight:shulker_filet"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+	]
+	title: "&6&l ♦ &r&fChef of the End"
+}

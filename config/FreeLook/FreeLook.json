@@ -1,0 +1,14 @@
+{
+  "clampView": {
+    "value": true,
+    "comment": "Clamp your head rotation to your shoulders. As you would expect in real life."
+  },
+  "interpolate": {
+    "value": true,
+    "comment": "Smooth the camera returning to original direction. Instead of snapping back instantly."
+  },
+  "interpolateSpeed": {
+    "value": 0.2,
+    "comment": "The time in seconds to move your view back to the original position."
+  }
+}

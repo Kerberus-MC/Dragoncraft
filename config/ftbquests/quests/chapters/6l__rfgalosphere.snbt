@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6l__rfgalosphere"
+	group: "5BBB507BE497896B"
+	id: "3D2F89B37F0056D4"
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4E12E52DAF69459F"
+			tasks: [{
+				id: "7D400B92E1CE6E91"
+				item: "galosphere:combustion_table"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "5A4DC4FEDD949A41"
+			tasks: [{
+				id: "32246F74266F9734"
+				item: "galosphere:monstrometer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "108BB4E830D56CA5"
+			tasks: [{
+				id: "281D243ABBAEC41F"
+				item: "galosphere:lumiere_shard"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "4D6672DB93436200"
+			tasks: [{
+				id: "50EB91B915D17F6C"
+				item: "galosphere:pink_salt_shard"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "65D5680E7AD13D17"
+			tasks: [{
+				id: "22B283A95D232C19"
+				item: "galosphere:allurite_shard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "78094F7855E2F3C6"
+			tasks: [{
+				id: "1D59B0614DDCAAAB"
+				item: "galosphere:raw_silver"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "32BA82C2680A4564"
+			tasks: [
+				{
+					id: "6FD28350C296B5B9"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7893CB012BE8E080"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C846880EDADADFF"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26F8CFB0353AD05D"
+					item: {
+						Count: 1
+						id: "galosphere:sterling_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "3E02ECF5F66F890E"
+			tasks: [{
+				id: "0A78E3396A36A08B"
+				item: {
+					Count: 1
+					id: "galosphere:silver_bomb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "2CE3F3ABA3CE4C48"
+			tasks: [{
+				biome: "galosphere:crystal_canyons"
+				id: "5B4B4C30A2723A15"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "1D4B1960600F3E63"
+			tasks: [{
+				biome: "galosphere:lichen_caves"
+				id: "3FDC926CB447A5B3"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "2554E13BCD9AAAC3"
+			tasks: [{
+				biome: "galosphere:pink_salt_caves"
+				id: "106FF3943E8393B4"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "2E92218A0F26160F"
+			tasks: [{
+				entity: "galosphere:berserker"
+				id: "0273FD000847208E"
+				type: "kill"
+				value: 10L
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "17785ACDB645B94D"
+			tasks: [{
+				entity: "galosphere:preserved"
+				id: "27135CAF525CD13E"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "574DCCE1163A1BC1"
+			tasks: [{
+				id: "396ECA9008E764A6"
+				observe_type: 5
+				timer: 0L
+				to_observe: "galosphere:sparkle"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "019792D6123346D3"
+			tasks: [{
+				id: "2CDD15CC45F814D3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "galosphere:spectre"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "068458194B928A24"
+			tasks: [{
+				id: "44D834BB98F03180"
+				observe_type: 5
+				timer: 0L
+				to_observe: "galosphere:specterpillar"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "&6&l ♦ &r&fGalosphere"
+}

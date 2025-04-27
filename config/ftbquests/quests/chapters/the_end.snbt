@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:end_portal_frame"
+	id: "50EEC609E833AB5F"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4D36AAFE17F5CD9C"
+			rewards: [{
+				count: 16
+				id: "7491719E48083A9B"
+				item: "minecraft:spectral_arrow"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: "minecraft:end_portal_frame"
+				id: "444AC080F3243355"
+				title: "Enter The End Dimension"
+				type: "dimension"
+			}]
+			title: "Enter &8The End"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependency_requirement: "one_started"
+			icon: "minecraft:dragon_head"
+			id: "2A51F2BA00FCA9DF"
+			rewards: [
+				{
+					id: "0ABB1C1C15CCDB3A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2E929B88022814C1"
+					item: "voidtotem:totem_of_void_undying"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "412B85684482E982"
+				title: "Kill The Ender Dragon"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &8&lEnder Dragon"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "66E7CB465F845A15"
+			rewards: [
+				{
+					id: "52F190738B4D81C2"
+					item: "cataclysm:music_disc_ender_guardian"
+					type: "item"
+				}
+				{
+					id: "23A3E1D1613B5D74"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				icon: "cataclysm:void_core"
+				id: "60D9ED81B17CAE0F"
+				title: "Kill a Ender Golem"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &6Ender Golem"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "355ABBA15B609961"
+			rewards: [{
+				id: "130722604E3DE9A7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: "cataclysm:gauntlet_of_guard"
+				id: "2A41742198B4693C"
+				title: "Kill the Ender Guardian"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &3Ender Guardian"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "36B77024E67E279C"
+			rewards: [{
+				count: 4
+				id: "70660E5FD9E9EA61"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B37F3A22D97E75F"
+				item: "stalwart_dungeons:void_crystal"
+				type: "item"
+			}]
+			title: "Defeat &3The Shelterer &rand obtain a Void Crystal"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			id: "5687FF08E77F55B4"
+			rewards: [{
+				id: "57D381A40F59E570"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "63F5C3AC39EBD174"
+				title: "Defeat the &5Obsidilith"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "10B61E3B65B5CF42"
+			tasks: [{
+				id: "7486F37B6BDB4970"
+				item: "endermanoverhaul:corrupted_pearl"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "6019A3F2B49FEBC9"
+			tasks: [{
+				id: "13DD8829393B4D33"
+				item: {
+					Count: 1
+					id: "endermanoverhaul:soul_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "11A49F9AB01AFEBE"
+			tasks: [{
+				id: "2386457F4A952B02"
+				item: {
+					Count: 1
+					id: "endermanoverhaul:ancient_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "02B3C80128BBB161"
+			tasks: [{
+				id: "126429AEAC5CC413"
+				item: "endermanoverhaul:bubble_pearl"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			id: "43A6C11F584D809E"
+			tasks: [{
+				id: "5F90CD7A7817B60D"
+				item: "endermanoverhaul:summoner_pearl"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "73A6CBAB36A5DDAF"
+			tasks: [{
+				id: "32215DDE09513360"
+				item: "endermanoverhaul:icy_pearl"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "7D7A78AF0BD98B1D"
+			tasks: [{
+				id: "700B5A891F200F9E"
+				item: "endermanoverhaul:icy_pearl"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "75DD7DC5D9908784"
+			tasks: [{
+				id: "6C39246116D07E54"
+				item: "endermanoverhaul:crimson_pearl"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "54EA729649E11AF5"
+			tasks: [{
+				id: "55F70104827F06DD"
+				item: "endermanoverhaul:warped_pearl"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+	]
+	title: "&6&l ♦ &r&fThe End"
+}

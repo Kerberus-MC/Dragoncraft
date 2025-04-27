@@ -1,0 +1,334 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "all_dragon"
+	group: "04F86F2A5789B85A"
+	icon: "dragonsurvival:empty_dragon_beacon"
+	id: "4358C2C859853117"
+	images: [{
+		height: 1.0d
+		image: "dragonsurvival:item/elder_dragon_bone"
+		rotation: 0.0d
+		width: 1.0d
+		x: 2.5d
+		y: -2.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Elder Dragon parts can be found in any ore that gives experience, chests, trades, and strong monsters."]
+			icon: "dragonsurvival:elder_dragon_dust"
+			id: "70E77698A7EF3F23"
+			rewards: [{
+				id: "48ABF0B49AAF8F4F"
+				item: "dragonsurvival:elder_dragon_bone"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Elder Dragon parts"
+			tasks: [{
+				consume_items: true
+				count: 9L
+				id: "7E21E82E3E75D478"
+				item: "dragonsurvival:elder_dragon_dust"
+				type: "item"
+			}]
+			title: "{Elder Dragon}"
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon: "dragonsurvival:wing_grant"
+			id: "32B657DDEC65965B"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "58D836FAE130F8BC"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "Talk to the ender dragon to unlock"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "7227D2453FB5C0EB"
+				item: "minecraft:feather"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Wings"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon: "dragonsurvival:spin_grant"
+			id: "34904282BE05F44D"
+			rewards: [{
+				id: "3DA088EAD7FFC462"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "rsquare"
+			subtitle: "Speeding up in flight, water and lava. Talk to the ender dragon to unlock"
+			tasks: [{
+				icon: "minecraft:dragon_head"
+				id: "572A70BF85FAA4DD"
+				observe_type: 5
+				timer: 5L
+				to_observe: "minecraft:ender_dragon"
+				type: "observation"
+			}]
+			title: "Spin Attack"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: [
+				""
+				""
+			]
+			icon: "dragonsurvival:dragon_memory_block"
+			id: "72B9A94D8B29C84C"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "7A282D974DCC5E85"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "77545E30F8D9DA95"
+				item: "dragonsurvival:dragon_memory_block"
+				only_from_crafting: true
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: [""]
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon: "dragonsurvival:elder_dragon_heart"
+			id: "655BC753FA5FE91B"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "171D3AB0D38A734F"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			subtitle: "Grow using Dragon Heart Shards, Weak and Elder Dragon Hearts. Speed it up with Heart Elements."
+			tasks: [
+				{
+					consume_items: true
+					id: "2BFF9BD7DFA0C815"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "54C486FC9201754F"
+					item: "dragonsurvival:weak_dragon_heart"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "17AAAB0A445A511C"
+					item: "dragonsurvival:elder_dragon_heart"
+					type: "item"
+				}
+			]
+			title: "Growth"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon: "dragonsurvival:star_bone"
+			id: "5052FA4A18F31466"
+			rewards: [
+				{
+					auto: "disabled"
+					count: 40
+					id: "656AFBBA33CBF7D6"
+					item: "dragonsurvival:star_bone"
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "4ADE232E2A0E71BB"
+					item: "dragonsurvival:star_heart"
+					type: "item"
+				}
+				{
+					icon: "minecraft:experience_bottle"
+					id: "6DDAAA391E324AB0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Star Bones and Star Heart can be used to stop growth."
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "104E72912E787FF8"
+					item: "dragonsurvival:heart_element"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "404627CF6C41427A"
+					item: "dragonsurvival:weak_dragon_heart"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "52B7EA37DFB5AAB5"
+					item: "dragonsurvival:elder_dragon_heart"
+					type: "item"
+				}
+			]
+			title: " Stopping the growth "
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			description: [""]
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon: "supplementaries:gold_trapdoor"
+			id: "0E9FE1D2D99CE232"
+			rewards: [{
+				count: 10
+				id: "4A2CF79B01A18E8C"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Piles of treasure recovers health when you rest on them."
+			tasks: [
+				{
+					disable_toast: true
+					id: "255E9B4CDACCEAEC"
+					item: "dragonsurvival:treasure_copper"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "0E15AF0985989EB9"
+					item: "dragonsurvival:treasure_gold"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					consume_items: false
+					disable_toast: true
+					id: "2597A6024AB12A77"
+					item: "dragonsurvival:treasure_iron"
+					only_from_crafting: false
+					type: "item"
+				}
+			]
+			title: "Treasure"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			description: [""]
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon: "dragonsurvival:dragon_beacon_peace"
+			id: "57197D4C2857ECDA"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "791EE59CCA13D47B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "40E49FD2A539EBA2"
+				item: "dragonsurvival:dragon_beacon_peace"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Craft a Sea Beacon"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon: "dragonsurvival:dragon_beacon_magic"
+			id: "0283889A27484BF2"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "10646846BA5197CC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			subtitle: "Magic Predators"
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "326880416375DE95"
+				item: "dragonsurvival:dragon_beacon_magic"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Craft a Forest Beacon"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: [""]
+			hide_text_until_complete: false
+			hide_until_deps_visible: false
+			icon: "dragonsurvival:dragon_beacon_fire"
+			id: "4715FA66216039D5"
+			rewards: [{
+				icon: "minecraft:experience_bottle"
+				id: "7584D34A6B169DD5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			tasks: [{
+				consume_items: false
+				disable_toast: true
+				id: "54BB03628FECDFAB"
+				item: "dragonsurvival:dragon_beacon_fire"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Craft a Cave Beacon"
+			x: 4.0d
+			y: -0.5d
+		}
+	]
+	title: "&6&l ♦ &r&fDragon Basics"
+}

@@ -1,0 +1,28 @@
+
+["Attributes Scale Settings"]
+	#Configures attribute scaling with mob levels: [attribute] defines the stat, [value] is per-level increment, [max] is the cap, [mob] (optional) targets specific mobs or all
+	attributes_list = ["[attribute]minecraft:generic.max_health[attributeEnd][value]4[valueEnd][max]800[maxEnd]", "[attribute]minecraft:generic.movement_speed[attributeEnd][value]0.0025[valueEnd][max]0.33[maxEnd]", "[attribute]minecraft:generic.armor[attributeEnd][value]0.2[valueEnd][max]30[maxEnd]", "[attribute]minecraft:generic.attack_damage[attributeEnd][value]1[valueEnd][max]400[maxEnd]"]
+	#extra xp per level
+	xp_modfier = 5.0
+
+["Distance Scale Settings"]
+	#Recommended over 25 000
+	scale_distance = 55000.0
+	#The scale type can be 'vertical' , 'horizontal' , 'both', 'random' or 'MOTP'
+	scale_type = "both"
+	day_factor = 1.0
+
+["Mobs Levels Settings"]
+	base_level = 0.0
+	scale_factor = 0.5
+	#Mods after a cartain level get random buffs 
+	random_effects = true
+	#[1-200]
+	ascendant_effects_min_level = 25.0
+	#[1-100]
+	ascendant_effects_chance = 0.5
+	ascendant_loot_table = "minecraft:chests/end_city_treasure"
+
+["Ingame Overlay Settings"]
+	display_lvl_name = true
+

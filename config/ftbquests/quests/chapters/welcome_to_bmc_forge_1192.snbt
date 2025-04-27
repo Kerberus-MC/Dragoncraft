@@ -1,0 +1,362 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_bmc_forge_1192"
+	group: "6EF9EFCC7898812A"
+	icon: "minecraft:book"
+	id: "3E34934F09B08365"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
+				""
+				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+				""
+				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:book"
+				tag: {
+					Enchantments: [{
+						id: "aqua_affinity"
+						lvl: 1
+					}]
+				}
+			}
+			id: "6A52090D6BC064D7"
+			rewards: [{
+				count: 6
+				id: "26B707F49F695DEA"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "To start the tutorial, click on this quest and read the description."
+			tasks: [{
+				id: "1B0800437C68C43A"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&eWelcome to Dragoncraft!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				""
+				"The &a/party and /guild &rallows you to make your own party and guild and even invite friends!"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "2958CA7FA6FD3E4F"
+			invisible_until_tasks: 1
+			rewards: [
+				{
+					id: "2A143B9ED3103FE6"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					command: "/give @p written_book{pages:['[\"\",{\"text\":\"Step 1:\",\"bold\":true,\"color\":\"light_purple\"},{\"text\":\" Have Friends\\\\n\",\"color\":\"reset\"},{\"text\":\"Step 2: \",\"bold\":true,\"color\":\"light_purple\"},{\"text\":\"Make a Party or a Guild....\\\\n\",\"color\":\"reset\"},{\"text\":\"Step 4:\",\"bold\":true,\"color\":\"light_purple\"},{\"text\":\" Borrow Money\\\\n\",\"color\":\"reset\"},{\"text\":\"Step 4:\",\"bold\":true,\"color\":\"light_purple\"},{\"text\":\" Leave the country\\\\n\",\"color\":\"reset\"},{\"text\":\"Step 3:\",\"bold\":true,\"color\":\"light_purple\"},{\"text\":\" Profit.\\\\n\\\\nUse \",\"color\":\"reset\"},{\"text\":\"/party and /guild\",\"color\":\"blue\"},{\"text\":\" to manage your team and guild. :D\\\\n\\\\n \",\"color\":\"reset\"}]'],title:\"Book of Frendship\",author:Friend}"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					id: "7D52F14360BAE095"
+					title: "Book of Frendship"
+					type: "command"
+				}
+			]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "0DD3C1416FC34FA1"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&2Friendship"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: [
+				"&9Tasks &rare things that need to be done to complete a quest. If a task is an item, clicking on it will show its recipe."
+				""
+				"&6Rewards &rare what you get after completing all &9Tasks&r. Click to claim."
+				""
+				"The pin icon at the top right will pin a quest to your screen."
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
+				}
+			}
+			id: "175099CF5696829E"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "6FC6144D431D38CC"
+				item: {
+					Count: 1
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [
+				{
+					id: "21428FE253D34D4E"
+					title: "Quests"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "08EDA62F0B406C49"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "&6Quests"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A52090D6BC064D7"]
+			description: [
+				"&6[Origins]&r"
+				"Press &bO &rto View Origin"
+				"Press &bX &rto Origins [Primary]"
+				"Press &bC &rto Origins [Secondary]"
+				""
+				""
+				"&4[Dragon Only]&r "
+				"Press &bC &rto Activate Ability"
+				"Press &bLeft Alt &rto Look at yourself"
+				"Press &bR &rto Next Skill"
+				"Press &bG &rto Toggle Wings"
+				""
+				""
+				"&6[Cataclysm] &r"
+				"Press &bB &rto Use Ability"
+				""
+				"&d[Ars Nouveau]&r "
+				"Press &bP &rto Open Book"
+				"Press &b] &rto Spell book [Next]"
+				"Press &b[ &rto Spell book [Previous]"
+				""
+				"&9[Misc]&r"
+				"Press &bV &rto Open Voice Chat Menu"
+				"Press &bZ &rto Zoom"
+				"Press &b` &rto Open Claims Menu"
+				"Press &bM &rto open the World Map"
+				"Press &bN &rto Set New Waypoint"
+				"Press &bMouse Button 5 &rto Ping Location"
+				""
+				"&1[Recipe]&r"
+				"Press &bLeft Mouse &rto Open Recipe"
+				"Press &bLeft Shift &rto Show Details"
+				"Press &bShift G &rto Open Guild Chat"
+				"Press &bShift P &rto Open Party Chat"
+				"{@pagebreak}"
+			]
+			hide_until_deps_visible: true
+			icon: "numismatic-overhaul:gold_coin"
+			id: "2165E80C52C79992"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "51B0A356F9FE087C"
+				item: "biomesoplenty:rainbow_birch_sapling"
+				type: "item"
+			}]
+			subtitle: "Read my description! Make sure to scroll down."
+			tasks: [
+				{
+					id: "6A64112F92690241"
+					title: "Click me!"
+					type: "checkmark"
+				}
+				{
+					disable_toast: true
+					id: "2B23CADA52D45FA0"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			title: "&5Check your Keybinds!"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2958CA7FA6FD3E4F"]
+			description: [
+				"At the bottom of the inventory, you may have noticed a search bar."
+				""
+				"This is the &dExpanded Menu Interface&r, or &dEMI&r, search bar. "
+				""
+				"If you type \"Wood\", for example, the &dEMI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				""
+				"Adding a @ at the start of the search query will show the items from a specific mod, for example @Adorn"
+				""
+				"To favorite an item, press &bA &rwhile hovering over it in the &dEMI &ritem list."
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:paper"
+			id: "139DAA6E8CF4267A"
+			rewards: [{
+				id: "1AE5746200C26691"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "74C85348A8B837EB"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&bExpanded Menu Interface (EMI)"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["585CE69584C6AC40"]
+			description: [
+				"The tutorial is now &acompleted&r! "
+				""
+				"To view the rest of the quests, move your cursor to the left of the screen and expand the &6Quest Groups&r. "
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/check.png"
+				}
+			}
+			id: "6A4CB4700F0082C6"
+			rewards: [{
+				id: "0F185AD22D56B089"
+				item: "packedup:basicbackpack"
+				type: "item"
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "3B2CC7DEE30E3AB8"
+				title: "&aTutorial Complete!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2958CA7FA6FD3E4F"]
+			description: [
+				"&a/openpac ...&r - player config commands"
+				"&a/openpac-claims ... &r- everything claim-related"
+				""
+				"&a'&r - open the Claims UI"
+				""
+				"Or"
+				""
+				"You can open the Map and click/drag click to select a area to claim. "
+			]
+			id: "18CC9118BB715B86"
+			rewards: [{
+				id: "7D8A7710101A604C"
+				item: "numismatic-overhaul:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecells:ramparts_torch"
+				id: "1CA9A6B340D2F92D"
+				title: "Claiming"
+				type: "custom"
+			}]
+			title: "&3Claiming"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2958CA7FA6FD3E4F"]
+			description: [
+				"You can earn &6money&r via different methods, &6quests&r are probably the fastest way to do so!"
+				""
+				"You can use the &6purse&r in your inventory to store money and spend it within the Store Chapter in the Quest book when you get stuck in-game!"
+			]
+			id: "585CE69584C6AC40"
+			rewards: [{
+				id: "479D74AE441B9B54"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "numismatic-overhaul:silver_coin"
+				id: "4D76D3DC878DCE5E"
+				title: "Money"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "3770B27E600DCB64"
+			rewards: [{
+				id: "05A34B67471139E5"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "veinmining:vein_mining"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Use the correct tool, stand and mine away! Needs enchantment."
+			tasks: [{
+				id: "5F974B6112740C1F"
+				title: "Veinmining"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "304F9703E6464F5B"
+			subtitle: "Hold Control with an axe to cut down a whole tree!"
+			tasks: [{
+				id: "0871EA557D98FC84"
+				title: "Falling Tree"
+				type: "checkmark"
+			}]
+			title: "Tree Falling"
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	title: "&6&l ♦ &r&fTutorial"
+}

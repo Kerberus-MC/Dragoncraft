@@ -1,0 +1,7 @@
+{
+	id: "4801E382FE068C89"
+	loot_size: 1
+	order_index: 15
+	rewards: [{ count: 5, item: "dragonsurvival:elder_dragon_dust", random_bonus: 12 }]
+	title: "Dust"
+}

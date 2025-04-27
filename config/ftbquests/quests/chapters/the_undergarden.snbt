@@ -1,0 +1,142 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_undergarden"
+	group: "5BBB507BE497896B"
+	icon: "minecraft:deepslate_bricks"
+	id: "78B868F36949ABE7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5EFBD3DCAAB8BED8"
+			rewards: [{
+				id: "17B4DBFE3DE3CE12"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.0d
+			subtitle: "To enter the Undergarden, build a portal out of &8Deepslate Bricks&r or &7Stone Bricks&r, then light it using the &eCatalyst&r."
+			tasks: [{
+				dimension: "undergarden:undergarden"
+				icon: "minecraft:deepslate_bricks"
+				id: "3EE0688848199258"
+				title: "Enter The Undergarden"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "046D9E18FCFE3828"
+			rewards: [
+				{
+					id: "13A9ABD093E06BD3"
+					item: {
+						Count: 1
+						id: "undergarden:slingshot"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "42D03798255E15BE"
+					item: "undergarden:depthrock_pebble"
+					type: "item"
+				}
+			]
+			subtitle: "Find the &2Stoneborn&r in Dense Forests, Forgotten Fields, Smogstem Forests, and Wigglewood Forests."
+			tasks: [{
+				icon: "undergarden:chiseled_depthrock_bricks"
+				id: "518ADF6299500818"
+				observe_type: 0
+				timer: 0L
+				title: "Encounter a &2Stoneborn&r"
+				to_observe: "undergarden:stoneborn"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "50088BFCD01AD816"
+			rewards: [{
+				id: "17C1FB988F56ECC8"
+				item: "undergarden:gloomgourd_pie"
+				type: "item"
+			}]
+			subtitle: "&4Rotspawn&r are invaders to the Undergarden. They can be found in &8dark areas&r, and spawn most often in the Barren Abyss"
+			tasks: [{
+				entity: "undergarden:rotbeast"
+				icon: "undergarden:utherium_crystal"
+				id: "6DC45BF38A6BCD1B"
+				title: "Kill a &cRotbeast&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "170B025FC6B4B5FD"
+			rewards: [{
+				id: "53FED9D3F89C2889"
+				item: {
+					Count: 1
+					id: "undergarden:utherium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Another type of &4Rotspawn&r, with a vaguely humanoid shape. They can be found in &8dark places&r"
+			tasks: [{
+				entity: "undergarden:rotwalker"
+				icon: "undergarden:utheric_shard"
+				id: "5D3A7640AF86C149"
+				title: "Kill a &4Rotwalker&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "6B1969F5F4B8D738"
+			rewards: [
+				{
+					id: "40BD22CEB3796230"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "567D3D0DABF85813"
+					item: {
+						Count: 1
+						id: "undergarden:forgotten_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "The &3Forgotten Guardian&r can only be found naturally in the &3catacombs&r, in Frostfields and Forgotten Fields."
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				icon: "undergarden:forgotten_nugget"
+				id: "19B32F8D2D3E2E0F"
+				title: "Fight a &3Forgotten Guardian&r"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+	]
+	title: "&6&l ♦ &r&fThe Undergarden"
+}

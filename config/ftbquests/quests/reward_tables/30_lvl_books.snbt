@@ -1,0 +1,11 @@
+{
+	id: "5E6A4C7C022C03AD"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ item: "gothic:book_extract_claws" }
+		{ item: "gothic:book_extract_stinger" }
+		{ item: "gothic:book_extract_skin" }
+	]
+	title: "30 lvl books"
+}

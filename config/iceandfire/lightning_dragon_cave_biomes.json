@@ -1,11 +1,10 @@
 {
-  "citadel_format": 0,
   "biomes": [
     [
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_overworld"
+        "value": "minecraft:is_overworld"
       },
       {
         "type": "BIOME_TAG",
@@ -17,7 +16,7 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_overworld"
+        "value": "minecraft:is_overworld"
       },
       {
         "type": "BIOME_TAG",
@@ -29,12 +28,12 @@
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_overworld"
+        "value": "minecraft:is_overworld"
       },
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_savanna"
+        "value": "minecraft:is_savanna"
       }
     ],
     [

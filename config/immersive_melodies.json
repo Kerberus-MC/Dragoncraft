@@ -1,0 +1,25 @@
+{
+  "README": "https://github.com/Luke100000/ImmersiveMelodies/wiki/Config",
+  "getBufferDelay": 75,
+  "maxAudibleDistance": 48,
+  "instrumentVolumeFactor": 1.0,
+  "mobInstrumentFactors": {
+    "minecraft:zombie": 0.01,
+    "minecraft:piglin_brute": 0.01,
+    "minecraft:pillager": 0.01,
+    "minecraft:skeleton": 0.01,
+    "minecraft:wither_skeleton": 0.01,
+    "minecraft:zombified_piglin": 0.01,
+    "minecraft:piglin": 0.01,
+    "minecraft:husk": 0.01
+  },
+  "mobInstrumentDropFactor": 0.085,
+  "showOtherPlayersMelodies": true,
+  "forceMobsToPickUp": true,
+  "clickedHelp": false,
+  "loadInbuiltMidis": true,
+  "stopGameMusicForPlayers": true,
+  "stopGameMusicForMobs": false,
+  "uploadPermissionLevel": 0,
+  "version": 1
+}

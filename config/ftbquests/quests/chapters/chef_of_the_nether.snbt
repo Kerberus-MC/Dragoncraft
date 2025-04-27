@@ -1,0 +1,175 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chef_of_the_nether"
+	group: "0BBC55A3ACE7AADE"
+	id: "667D519499FF4D8A"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "farmersdelight:golden_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61937914B4179DE5"
+			rewards: [{
+				count: 16
+				id: "41ACDCD92468B2AC"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "farmersdelight:golden_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "601502A461361C50"
+					optional_task: true
+					title: "Chef of The Nether"
+					type: "custom"
+				}
+				{
+					id: "638F43107E350579"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "5CDC3D6EA686B53C"
+			subtitle: "Cook a stuffed Strider"
+			tasks: [{
+				id: "66B4A9E30E8D140F"
+				item: "nethersdelight:strider_moss_stew"
+				type: "item"
+			}]
+			title: "Stuffed Strider"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "51F7A84663DBE5A8"
+			subtitle: "Make a Grilled Strider"
+			tasks: [{
+				id: "143505B59EE5DA64"
+				item: "nethersdelight:grilled_strider"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "088FC76FFE672A7D"
+			subtitle: "Get a Magma Gelatin"
+			tasks: [{
+				id: "15E9BE665485D39A"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "1679C3003840D77F"
+			subtitle: "Make a plate of Stuffed Hoglin Snout"
+			tasks: [{
+				id: "63BC1F4A9A1F2FCE"
+				item: "nethersdelight:plate_of_stuffed_hoglin_snout"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			id: "7839B0882D9E030A"
+			subtitle: "Make a plate of Stuffed Hoglin Ham"
+			tasks: [{
+				id: "5525CAF8ED056C8A"
+				item: "nethersdelight:plate_of_stuffed_hoglin_ham"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "2DC5875F26D7B518"
+			subtitle: "Make a plate of Stuffed Hoglin Roast"
+			tasks: [{
+				id: "29C65A1D9E7FCA7B"
+				item: "nethersdelight:plate_of_stuffed_hoglin_roast"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "78C5B1E4FE5F18FF"
+			subtitle: "Cook a Hoglin Sirloin"
+			tasks: [{
+				id: "31DB9CCB5A4E425F"
+				item: "nethersdelight:hoglin_sirloin"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["61937914B4179DE5"]
+			id: "131A096CFD396223"
+			subtitle: "Grill a Nether Skewer"
+			tasks: [{
+				id: "2E26398C45726D5A"
+				item: "nethersdelight:nether_skewer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "5A83F1064FFCA856"
+			subtitle: "Cook a Warped Moldy Meat"
+			tasks: [{
+				id: "4BC8CC041F93EA25"
+				item: "nethersdelight:warped_moldy_meat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "71770D68EBD20149"
+			subtitle: "Get a Warped Fungus Colony"
+			tasks: [{
+				id: "6C52041499425A6D"
+				item: "nethersdelight:warped_fungus_colony"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			id: "50600634E446D1C1"
+			subtitle: "Get a Crimson Fungus Colony"
+			tasks: [{
+				id: "5A4272A143046B0C"
+				item: "nethersdelight:crimson_fungus_colony"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+	title: "&6&l ♦ &r&fChef of the Nether"
+}

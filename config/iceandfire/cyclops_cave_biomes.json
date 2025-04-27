@@ -1,28 +1,20 @@
 {
-  "citadel_format": 0,
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
+        "type": "BIOME_TAG",
         "negate": false,
-        "value": "overworld"
+        "value": "minecraft:is_overworld"
       },
       {
-        "type": "BIOME_DICT",
+        "type": "BIOME_TAG",
         "negate": false,
-        "value": "beach"
-      }
-    ],
-    [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
+        "value": "minecraft:is_beach"
       },
       {
-        "type": "BIOME_CATEGORY",
-        "negate": false,
-        "value": "beach"
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "minecraft:is_ocean"
       }
     ],
     [

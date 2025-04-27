@@ -1,0 +1,11 @@
+{
+	id: "2D3776A4F8860D3E"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{ item: "gothic:book_extract_plates" }
+		{ item: "gothic:book_extract_horns" }
+		{ item: "gothic:book_extract_hearts" }
+	]
+	title: "40 lvl books"
+}

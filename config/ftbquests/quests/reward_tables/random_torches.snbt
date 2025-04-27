@@ -1,0 +1,11 @@
+{
+	id: "2701DAEC6689ABFC"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 32, item: "realistictorches:lit_torch", weight: 15.0f }
+		{ count: 12, item: "minecraft:torch", weight: 0.8f }
+		{ count: 6, item: "minecraft:lantern", weight: 0.1f }
+	]
+	title: "Random Torches"
+}

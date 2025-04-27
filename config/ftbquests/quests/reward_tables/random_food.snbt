@@ -1,0 +1,12 @@
+{
+	id: "4C263ECEC13E91CD"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "dragonsurvival:hot_dragon_rod" }
+		{ item: "dragonsurvival:meat_wild_berries" }
+		{ item: "dragonsurvival:seasoned_fish" }
+		{ item: "gothic:ham" }
+	]
+	title: "Random Food"
+}

@@ -1,0 +1,208 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage"
+	group: "5EC606153AA8CA77"
+	icon: "minecraft:chest"
+	id: "3FE28860BDC737EE"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2DEE501B7A7C16B8"
+			tasks: [{
+				id: "1AAAB667E7950A73"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2DEE501B7A7C16B8"]
+			id: "5DECBB828C2F927D"
+			tasks: [{
+				id: "1F6DFA8729E7BBB8"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DECBB828C2F927D"]
+			id: "321E849E24F760CA"
+			tasks: [{
+				id: "4100961EDC71D4CC"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["321E849E24F760CA"]
+			id: "3856DC3A9BEF00CA"
+			tasks: [{
+				id: "293C3E812DB9BD28"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3856DC3A9BEF00CA"]
+			id: "6A30B5936A465671"
+			tasks: [{
+				id: "2AFFDA364485CDEE"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2DEE501B7A7C16B8"]
+			id: "484566858306F702"
+			tasks: [{
+				id: "29385C33D009953B"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["484566858306F702"]
+			id: "09DF22650606FAB2"
+			tasks: [{
+				id: "1CC12D61124B4C77"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			id: "642EA06DA1A7E792"
+			tasks: [{
+				id: "4404D95F54902723"
+				item: "packedup:basicbackpack"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "4078898D6E534F79"
+			tasks: [{
+				id: "2AF18FBB95EBFCAA"
+				item: "packedup:ironbackpack"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			id: "10982E3BFD60DBAD"
+			tasks: [{
+				id: "79AB1C7985831C4B"
+				item: "packedup:copperbackpack"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "677315A0654C38E1"
+			tasks: [{
+				id: "35F822987C4DD726"
+				item: "packedup:goldbackpack"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "24536C8A74E4A5A5"
+			tasks: [{
+				id: "352E50F47BC9569E"
+				item: "packedup:silverbackpack"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependency_requirement: "one_completed"
+			id: "481905102F3A0A7E"
+			tasks: [{
+				id: "208CFD3673D56156"
+				item: "packedup:diamondbackpack"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "0D4938E8671F0CD5"
+			tasks: [{
+				id: "470C78F6A7D75278"
+				item: "packedup:obsidianbackpack"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "47A5825090908D31"
+			tasks: [{
+				id: "761088D63A6CA647"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "19A0247D0E7AEDEB"
+			tasks: [{
+				id: "10DF2AD2B5EDC8A9"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "720162CCD0B19CDA"
+			tasks: [{
+				id: "18F9B670715DA292"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "6EF76B3194FFE529"
+			rewards: [{
+				id: "4342DA902A95B0D8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5B7947EA81719E2D"
+				item: "echochest:echo_chest"
+				type: "item"
+			}]
+			title: "Craft &athe Echo Chest"
+			x: 4.0d
+			y: 0.5d
+		}
+	]
+	title: "&6&l ♦ &r&fStorage"
+}

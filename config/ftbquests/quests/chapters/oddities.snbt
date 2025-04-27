@@ -1,0 +1,574 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "oddities"
+	group: "5EC606153AA8CA77"
+	icon: "minecraft:nether_star"
+	id: "537C6DB0026E6B7D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4EE395F19A7AC6FF"
+			rewards: [{
+				count: 16
+				id: "505552935A899AC5"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Used to automatically &eTrade&r with nearby &6Piglins.&r Holds &6Gold ingots&r and output barter items."
+			tasks: [{
+				id: "2D4C1E2F839FD674"
+				item: "barteringstation:bartering_station"
+				type: "item"
+			}]
+			title: "Craft a &4Bartering Station"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "4989913FFC0D56C1"
+			rewards: [{
+				count: 16
+				id: "6947757EA23254ED"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Allows you to see &eTrades&r with nearby &2Villagers&r."
+			tasks: [{
+				id: "482F110C2981A7F7"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			title: "Craft a &3Trading Post"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "0BE7832F8D2EC88E"
+			rewards: [
+				{
+					count: 8
+					id: "24C6DF04A20A80BC"
+					item: "biomesoplenty:redwood_log"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "606156F93CD3C353"
+					item: "biomesoplenty:mahogany_log"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1EC2280FB9F97090"
+					item: "biomesoplenty:jacaranda_log"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "722C0121C1BD73E9"
+					item: "biomesoplenty:willow_log"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5E4550B6CCED4CE9"
+					item: "biomesoplenty:magic_log"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "64FA9E0429BACB0F"
+					item: "biomesoplenty:hellbark_log"
+					type: "item"
+				}
+			]
+			subtitle: "Same utility as a &eStone Cutter&r, but for wood."
+			tasks: [{
+				id: "162B135995907EED"
+				item: "sawmill:sawmill"
+				type: "item"
+			}]
+			title: "Craft a&1 Sawmill"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "7CFF3B559D789D6E"
+			rewards: [{
+				id: "31FAB88D47D626D7"
+				item: "minecraft:armor_stand"
+				type: "item"
+			}]
+			subtitle: "Used to rotate blocks by right clicking. Shift right click to rotate direction. Left and Shift Left click to rotate entities like &earmorstands&r and &eitem frames&r."
+			tasks: [{
+				id: "364054A106006ED9"
+				item: {
+					Count: 1
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &6Wrench"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "370C7BBFD6825460"
+			rewards: [{
+				id: "7B4E54D2553A666B"
+				item: "minecraft:dead_brain_coral_block"
+				type: "item"
+			}]
+			subtitle: "Can be used to capture small &eanimals&r and &emobs&r."
+			tasks: [{
+				id: "61506B03AD1D6FA4"
+				item: "supplementaries:cage"
+				type: "item"
+			}]
+			title: "Craft a &5Cage"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "42D099430EBFAFFC"
+			rewards: [{
+				id: "2BDC18655CAC222C"
+				item: "supplementaries:key"
+				type: "item"
+			}]
+			subtitle: "Acts as a sort of upgraded &eshulker box&r that is &efire resistant&r. &eSafes&r can be locked with a key."
+			tasks: [{
+				id: "46FA4477B1E5F268"
+				item: "supplementaries:safe"
+				type: "item"
+			}]
+			title: "Craft a &7Safe"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "06F27C7F86FBC564"
+			rewards: [{
+				count: 8
+				id: "2BF5D9DDAEC1B924"
+				item: "minecraft:torch"
+				random_bonus: 8
+				type: "item"
+			}]
+			tasks: [{
+				id: "05F6918C3F644817"
+				item: "animal_feeding_trough:feeding_trough"
+				type: "item"
+			}]
+			title: "Craft &bthe Feeding Trough"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "2FDD6172E8C2140A"
+			rewards: [{
+				id: "46BE46BF6E752A9F"
+				item: "minecraft:pufferfish_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E39BAF004C90F8D"
+				item: "tide:bait"
+				type: "item"
+			}]
+			title: "Craft &3the Bait"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "70A591213EFAF475"
+			rewards: [{
+				id: "1F2E3290BEB3C661"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "50CD4CC8E9071DC9"
+				item: "barteringstation:bartering_station"
+				type: "item"
+			}]
+			title: "Craft&5 the Bartering Station"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "5061F2F7FB54F3D0"
+			rewards: [{
+				id: "532FC1535ECE9114"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:swiftness"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "This compass allows you to search for any &2Biome&r."
+			tasks: [{
+				id: "1AB4700BD15535AC"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Craft a &aNature's Compass"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "009EC4156DE356FD"
+			rewards: [{
+				count: 2
+				id: "5E44F12141E26139"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "Used for easy teleportation between dimensions and far distances."
+			tasks: [{
+				id: "40816443016DB10C"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			title: "Obtain a &6Waystone"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			id: "193A875DE11EA2DB"
+			rewards: [{
+				count: 2
+				id: "2544DA0D58CE9CE2"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			subtitle: "A portable way to teleport to &6Waystones&r."
+			tasks: [{
+				id: "70BE8AC2A6715F6E"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a &5Warp Stone"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "0B5C916B8FC41D61"
+			rewards: [{
+				count: 8
+				id: "270E4A33B797A789"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			subtitle: "Very useful in sticky situations."
+			tasks: [{
+				id: "0327AB0218C7CE25"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			title: "Obtain an &eEnchanted Golden Apple"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "1DD736AF4D76B955"
+			rewards: [{
+				id: "678FD2CF82021D0C"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "Cheats death."
+			tasks: [{
+				id: "52D008683B6B0270"
+				item: "minecraft:totem_of_undying"
+				type: "item"
+			}]
+			title: "Obtain a &eTotem Of Undying"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "43DDA528BFC5E6F7"
+			rewards: [{
+				id: "7F0A7F95F0FD0C43"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:loyalty"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Throw it!"
+			tasks: [{
+				id: "099B9AD9A2F0FE3C"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a &3Trident"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			description: [""]
+			id: "2E0248493F2579F4"
+			rewards: [{
+				count: 32
+				id: "3E10481B1F7A6946"
+				item: {
+					Count: 1
+					id: "minecraft:firework_rocket"
+					tag: {
+						Fireworks: {
+							Flight: 1b
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Found in Shipwercks near &5End Cities&r."
+			tasks: [{
+				id: "47543FE4E0C003E2"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain an &5Elytra"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "67CABAF3BE7C3E15"
+			rewards: [
+				{
+					count: 15
+					id: "41774884CBEF792B"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "5D3F137C2A923437"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Used to enchant your items."
+			tasks: [{
+				id: "2E3D21A4682C008E"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Craft an &cEnchanting Table"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "5BB4EB8825910891"
+			rewards: [{
+				count: 4
+				id: "5FA5B53CE96CBB59"
+				item: "minecraft:nautilus_shell"
+				type: "item"
+			}]
+			subtitle: "Found in &eBuried Treasure&r."
+			tasks: [{
+				id: "471F5FCE40027242"
+				item: "minecraft:heart_of_the_sea"
+				type: "item"
+			}]
+			title: "Obtain a &9Heart Of The Sea"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "43CC8F556DC77B1B"
+			rewards: [{
+				count: 2
+				id: "3FC523A8359769FD"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			subtitle: "Used to respawn the &5Ender Dragon&r."
+			tasks: [{
+				id: "287E298EA775F10C"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "Craft an &5End Crystal"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "6C57825D525EB45D"
+			rewards: [{
+				count: 9
+				id: "7C5675A6B395FDF7"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			subtitle: "Drops from &8The Wither&r."
+			tasks: [{
+				id: "58C1E182FB2058B5"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "Obtain a &dNether Star"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6415FF7F125EE7C6"
+			rewards: [{
+				id: "5A3E9F83E2C3CBC7"
+				item: "deeperdarker:reinforced_echo_shard"
+				type: "item"
+			}]
+			subtitle: "Used to locate your items after death."
+			tasks: [{
+				id: "0D7EAD9CAB68C3F1"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
+			title: "Craft a &bRecovery Compass"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "6BDA0B65BB1C7351"
+			rewards: [{
+				id: "35EFED584E7524E4"
+				item: "biomesoplenty:waterlily"
+				type: "item"
+			}]
+			subtitle: "Brushed from suspicious gravel in &bwarm oceans&r."
+			tasks: [{
+				id: "17DB73C017C4ADB8"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			title: "Obtain a &2Sniffer Egg"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "59BF613B68EAFBF4"
+			rewards: [{
+				id: "724008B273DA4229"
+				item: "minecraft:tropical_fish_bucket"
+				type: "item"
+			}]
+			subtitle: "Spawns in flooded caves."
+			tasks: [{
+				id: "38C6303D2626BA31"
+				item: "minecraft:axolotl_bucket"
+				type: "item"
+			}]
+			title: "Catch an &dAxolotl"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			icon: "villagersplus:birch_horticulturist_table"
+			id: "61EEBA576BA2BEF0"
+			rewards: [{
+				id: "3E5C07A84C6638F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "642C74B31D2798A5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "villagersplus:oak_horticulturist_table"
+							}
+							{
+								Count: 1b
+								id: "villagersplus:bamboo_horticulturist_table"
+							}
+							{
+								Count: 1b
+								id: "villagersplus:cherry_horticulturist_table"
+							}
+							{
+								Count: 1b
+								id: "villagersplus:acacia_horticulturist_table"
+							}
+							{
+								Count: 1b
+								id: "villagersplus:mangrove_horticulturist_table"
+							}
+							{
+								Count: 1b
+								id: "villagersplus:crimson_horticulturist_table"
+							}
+							{
+								Count: 1b
+								id: "villagersplus:warped_horticulturist_table"
+							}
+							{
+								Count: 1b
+								id: "villagersplus:dark_oak_horticulturist_table"
+							}
+							{
+								Count: 1b
+								id: "villagersplus:birch_horticulturist_table"
+							}
+							{
+								Count: 1b
+								id: "villagersplus:jungle_horticulturist_table"
+							}
+							{
+								Count: 1b
+								id: "villagersplus:spruce_horticulturist_table"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft &aANY flower tub"
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	title: "&6&l ♦ &r&fCuriosities&f"
+}

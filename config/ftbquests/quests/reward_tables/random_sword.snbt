@@ -1,0 +1,63 @@
+{
+	id: "5E3E8CB3B0FF54A7"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "kobolds:kobold_iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "magistuarmory:iron_shortsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "magistuarmory:iron_bastardsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "magistuarmory:iron_flamebladedsword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "magistuarmory:noble_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Random Sword"
+}

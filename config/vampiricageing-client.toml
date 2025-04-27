@@ -1,0 +1,7 @@
+#X-Offset of the age indicator from the center in pixels
+#Range: 0 ~ 100
+levelOffsetX = 50
+#Y-Offset of the age indicator from the bottom in pixels
+#Range: 0 ~ 270
+levelOffsetY = 45
+

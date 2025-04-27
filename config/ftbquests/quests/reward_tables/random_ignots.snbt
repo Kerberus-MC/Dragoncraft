@@ -1,0 +1,18 @@
+{
+	id: "78280843BD1F7D47"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 6, item: "minecraft:iron_ingot", weight: 15.0f }
+		{ count: 6, item: "minecraft:copper_ingot", weight: 2.0f }
+		{ count: 3, item: "minecraft:gold_ingot", weight: 3.0f }
+		{ count: 6, item: "galosphere:silver_ingot", weight: 2.0f }
+		{ count: 3, item: "magistuarmory:steel_ingot", weight: 6.0f }
+		{ count: 6, item: "create:zinc_ingot", weight: 2.0f }
+		{ item: "phantasm:stellium_ingot" }
+		{ count: 6, item: "create:brass_ingot", weight: 2.0f }
+		{ item: "aquaculture:neptunium_ingot" }
+		{ count: 6, item: "abyssal_decor:seabrass_ingot" }
+	]
+	title: "Random Ingots"
+}

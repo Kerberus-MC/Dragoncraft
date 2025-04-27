@@ -1,0 +1,23 @@
+{
+	id: "4B15CAFDDDE57632"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "villagersellanimals:crate_piglet", weight: 6.0f }
+		{ item: "villagersellanimals:crate_calf", weight: 6.0f }
+		{ item: "villagersellanimals:crate_chick", weight: 6.0f }
+		{ item: "villagersellanimals:crate_lamb", weight: 6.0f }
+		{ item: "villagersellanimals:crate_wolf_pup" }
+		{ item: "villagersellanimals:crate_fox_pup" }
+		{ item: "villagersellanimals:crate_foal" }
+		{ item: "villagersellanimals:crate_kitten" }
+		{ item: "villagersellanimals:crate_goatlet" }
+		{ item: "villagersellanimals:crate_rabbit_cub", weight: 4.0f }
+		{ item: "villagersellanimals:crate_red_mooshroom", weight: 0.1f }
+		{ item: "villagersellanimals:crate_brown_mooshroom", weight: 0.1f }
+		{ item: "villagersellanimals:crate_hoglet" }
+		{ item: "villagersellanimals:crate_llama_baby" }
+		{ item: "villagersellanimals:crate_parrot_baby" }
+	]
+	title: "Random Pet"
+}

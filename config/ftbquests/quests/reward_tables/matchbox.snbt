@@ -1,0 +1,15 @@
+{
+	id: "0A37C1EBA18BFD74"
+	loot_size: 1
+	order_index: 11
+	rewards: [{
+		item: {
+			Count: 1b
+			id: "realistictorches:matchbox"
+			tag: {
+				Damage: 0
+			}
+		}
+	}]
+	title: "Matchbox"
+}

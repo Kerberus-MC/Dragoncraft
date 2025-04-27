@@ -1,0 +1,344 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chef_of_the_sky"
+	group: "0BBC55A3ACE7AADE"
+	id: "49A135A7CCF6DFB6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				Count: 1
+				id: "aetherdelight:gravitite_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0780256E63B000A5"
+			rewards: [{
+				count: 16
+				id: "178A96FA497B4039"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					icon: {
+						Count: 1
+						id: "aetherdelight:gravitite_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0C6DD8C871B572E2"
+					optional_task: true
+					title: "Chef of The Aether"
+					type: "custom"
+				}
+				{
+					id: "7631873FA3CF34FC"
+					type: "checkmark"
+				}
+			]
+			title: "Chef of The Sky"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "498232202B9F9719"
+			tasks: [{
+				id: "4F759C15CAE2ADF8"
+				item: {
+					Count: 1
+					id: "aetherdelight:holystone_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "4A4B6B710852B819"
+			tasks: [{
+				id: "5BC56177DDC73B8B"
+				item: {
+					Count: 1
+					id: "aetherdelight:zanite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "4AAB74FCE416CD49"
+			tasks: [{
+				id: "0063E3BD51B56E95"
+				item: {
+					Count: 1
+					id: "aetherdelight:gravitite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "753FC832549755FC"
+			tasks: [{
+				id: "75592D7737F60843"
+				item: {
+					Count: 1
+					id: "aetherdelight:skyjade_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "57515E3D9D16BB76"
+			tasks: [{
+				id: "0F2E7045497C3FF3"
+				item: {
+					Count: 1
+					id: "aetherdelight:stratus_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "73437F4A227495F8"
+			tasks: [{
+				id: "2D8E06811A4004C4"
+				item: {
+					Count: 1
+					id: "aetherdelight:veridium_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			description: [""]
+			id: "04BA2787D71701A4"
+			subtitle: "Bowl of Blue Berries - gives Regeneration. Recipe: Blue Berries, Bowl."
+			tasks: [{
+				id: "090387C349433CF7"
+				item: "aetherdelight:bowl_of_blue_berries"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "79B220E2FE29217E"
+			subtitle: "Bowl of Enchanted Berries - gives Glowing and Regeneration. Created by enchanting Bowl of Blue Berries at Altar or via crafting."
+			tasks: [{
+				id: "62F3FF56CEB1D2CE"
+				item: "aetherdelight:bowl_of_enchanted_berries"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "6347B0B3EC0F19A1"
+			subtitle: "Festive Sweets - gives Speed. Recipe: Candy Cane, Honey Cookie, Sweet Berry Cookie, Sugar, Bowl."
+			tasks: [{
+				id: "543761EFC8DA3F7B"
+				item: "aetherdelight:festive_sweets"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "57FF0B86463405A7"
+			subtitle: "Bowl of Ginger Cookies - gives Comfort. Recipe: Gingerbread Men, Bowl."
+			tasks: [{
+				id: "1D6498FDE0602114"
+				item: "aetherdelight:bowl_of_ginger_cookies"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "748B0D9B2C8D7BE5"
+			subtitle: "Sweet and Sour Soup - gives short time Poison and long Speed II. Cooking recipe: Aechor Petal, Spider Eye, Any Chicken. Served on Bowl."
+			tasks: [{
+				id: "4B7474987E841798"
+				item: "aetherdelight:sweet_and_sour_soup"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			id: "441D5073A63BFC0C"
+			subtitle: "Swet Pudding - gives Nourishment and Jump Boost. Cooking recipe: Swet Ball, Any Berries, Any Milk, Wheat. Served on Bowl."
+			tasks: [{
+				id: "642E567A00244AEB"
+				item: "aetherdelight:swet_pudding"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			id: "7C640A3DBD6114E0"
+			subtitle: "Ambrosia Dew - restores 2 hp upon consumption. Has 7% chance to be dropped by a any mob (except bats) slain with Holystone Knife. Can be crafted into Ambrosium Shard."
+			tasks: [{
+				id: "7A2AEA3E22ADD41D"
+				item: "aetherdelight:ambrosia_dew"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "4C0556EB10D55B38"
+			subtitle: "Ambrosia Glazed Apple - restores 3 hp and removes all potion effects. Recipe: White Apple, Ambrosia Dew, Stick."
+			tasks: [{
+				id: "331703C39570277D"
+				item: "aetherdelight:ambrosia_glazed_apple"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "232CB76BC78217ED"
+			subtitle: "Aetherflower Tea - gives several exp orbs and stops burning. Gives more exp if extinguishes a burning player. Cooking Recipe: Purple Flower, White Flower, Any Berries."
+			tasks: [{
+				id: "1B466A2FD6044927"
+				item: "aetherdelight:aetherflower_tea"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "0816509A625E91EB"
+			subtitle: "Swet Syrup - gives Jump Boost and Slow Falling. Cooking Recipe: Swet Ball, Blueberry, Ambrosia Dew."
+			tasks: [{
+				id: "6D36E129616B0971"
+				item: "aetherdelight:swet_syrup"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			id: "74A55B55959F41D7"
+			subtitle: "Aerfillet - acts as a replacement for Salmon Slice in the Aether. Produced by cutting an aerglow fish. Can be cooked / smelted / smoked."
+			tasks: [
+				{
+					id: "55A3B9A0FD7C3FED"
+					item: "aetherdelight:raw_aerfillet"
+					type: "item"
+				}
+				{
+					id: "3E4D2960D0A6EAE3"
+					item: "aetherdelight:cooked_aerfillet"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "4FA72D97A23965B7"
+			subtitle: "Goldenleaf Salad - gives Regeneration. Recipe: Goldenleaf Berries, Golden Grass Seeds, Golden Swet Ball (can accept item with the same name from Aether Redux)."
+			tasks: [{
+				id: "199AF47587ADA2D3"
+				item: "aetherdelight:goldenleaf_salad"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			id: "0C52E3405DC6EE52"
+			subtitle: "Quail Stew - gives Comfort. Cooking recipe: Raw Quail, Blue Berry, White Flower, Skyroot Sapling."
+			tasks: [{
+				id: "08810248797D8123"
+				item: "aetherdelight:quail_stew"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "146C70E613CA1DA8"
+			subtitle: "Blueberry Pie Slice - produced by cutting Blueberry Pie with a knife."
+			tasks: [{
+				id: "77EE78490F87B4FF"
+				item: "aetherdelight:blueberry_pie_slice"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			id: "5DA10896C82E3E82"
+			subtitle: "Enchanted Pie Slice - produced by cutting Enchanted Pie with a knife or by enchanting a Blueberry Pie Slice."
+			tasks: [{
+				id: "693B5EC1A8546229"
+				item: "aetherdelight:enchanted_pie_slice"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "60AA1C6AAC7E0BD1"
+			subtitle: "Oat Cookie - the most saturating of all cookies. Recipe: Oats, Chromaberry"
+			tasks: [{
+				id: "4D3BEC2B93F6773F"
+				item: "aetherdelight:oat_cookie"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			id: "413E175C2733F3D1"
+			subtitle: "Strange Root Salad - gives Night Vision and Resistance. Recipe: Quickroot, Lightroot, Bowl"
+			tasks: [{
+				id: "671A255103D4D0CF"
+				item: "aetherdelight:strange_root_salad"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+	]
+	title: "&6&l ♦ &r&fChef of the Sky"
+}

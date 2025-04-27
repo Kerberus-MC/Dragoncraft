@@ -1,7 +1,29 @@
 
+[animation]
+	#The minimum animation speed allowed for dragons.
+	#Range: 0.05 ~ 1.0
+	minAnimationSpeed = 0.2
+	#The maximum animation speed allowed for dragons.
+	#Range: 1.0 ~ 5.0
+	maxAnimationSpeed = 1.5
+	#The amount by which the movement animation speed factor is multiplied. 1.0 represents the animation speed accurately reflecting the speed of your movement.
+	#Range: 0.0 ~ 1.0
+	movementAnimationSpeedFactor = 1.0
+	#The factor by which the reduced additional animation speed from being bigger is multiplied. 1.0 represents the speed accurately reflecting the size of the dragon.
+	#Range: 0.0 ~ 1.0
+	largeSizeAnimationSpeedFactor = 1.0
+	#The factor by which the additional animation speed from being smaller is multiplied. 1.0 represents the speed accurately reflecting the size of the dragon.
+	#Range: 0.0 ~ 1.0
+	smallSizeAnimationSpeedFactor = 0.3
+
 [misc]
+	#How long the system will wait before trying to fetch skins online after a failed attempt
+	#Range: > 0
+	skinTimeoutInSeconds = 100
 	#When enabled it stops the blinking effect of night vision when low duration, disable if it causes rendering issues with other mods.
 	stableNightVision = true
+	#Whether the range of the breath should be rendered (while hitboxes are shown)
+	renderBreathRange = true
 	#Enable client-side debug messages
 	clientDebugMessages = false
 	#Should the cast mode where you click the keybind to cast be used?
@@ -12,9 +34,11 @@
 
 [rendering]
 	#Enable movement based physics on the tail, this is still a work in progress and can be buggy.
-	enableTailPhysics = true
+	enableTailPhysics = false
 	#Should items be rendered in third person for dragon players?
 	renderHeldItem = true
+	#Should the player rotate their view when the dragon they are riding rotates their body?
+	rotateCameraWithDragon = true
 	#Should the body rotate with the camera when turning around.
 	rotateBodyWithCamera = true
 	#Should the armor be rendered as a layer on the dragon? Some shaders requires this to be off. Can cause some weird effects with armor when turned off.
@@ -31,6 +55,8 @@
 	renderDragonClaws = true
 	#Should items be rendered near the mouth of dragons rather then hovering by their side?
 	renderItemsInMouth = false
+	#Particles (from the dragon type effects) will be rendered on dragons if this is enabled
+	particles_on_dragons = false
 
 [nametag]
 	#Show name tags for dragons.
@@ -73,16 +99,6 @@
 	renderFirstPersonFlight = false
 	#Render dragon model in first person. If your own tail scares you, write false
 	renderFirstPerson = true
-
-[tooltips]
-	#Always show the help tooltip border
-	alwaysShowHelpTooltip = false
-	#Should the effect of the help tooltips be enabled?
-	helpTooltips = true
-	#Should dragon foods have their tooltip color changed to show which type of dragon can consume it?
-	dragonFoodTooltips = true
-	#Should the mod be allowed ot change the color and appearance of tooltips?
-	tooltipChanges = true
 
 [ui]
 
@@ -129,4 +145,24 @@
 		#Offset the x position of the emote button in relation to its normal position
 		#Range: -1000 ~ 1000
 		emoteXOffset = 0
+
+	[ui.hud]
+		#Re-enable the vanilla hud for the experience bar
+		vanillaExperienceBar = false
+		#Re-enable the vanilla hud for the food level
+		vanillaFoodLevel = false
+
+[tooltips]
+	#Hide the AppleSkin tooltip if you're a dragon. The tooltip will only show correct food values for humans.
+	hideAppleskinTooltip = true
+	#Always show the help tooltip border
+	alwaysShowHelpTooltip = false
+	#Should the effect of the help tooltips be enabled?
+	helpTooltips = true
+	#Should dragon foods have their tooltip color changed to show which type of dragon can consume it?
+	dragonFoodTooltips = true
+	#Should the tooltip be hidden for unsafe (negative effects) food?
+	hideUnsafeFood = true
+	#Should the mod be allowed ot change the color and appearance of tooltips?
+	tooltipChanges = true
 

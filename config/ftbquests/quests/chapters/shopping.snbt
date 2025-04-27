@@ -1,0 +1,264 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shopping"
+	group: "7CA5814B6FE93060"
+	id: "2BC853BD03664CDB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "origins:orb_of_origin"
+			id: "5E027BF990C01931"
+			rewards: [{
+				id: "56CBD3EAF1BF3453"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "373CE6EC1C994F2B"
+				item: { Count: 8, id: "numismatic-overhaul:gold_coin" }
+				type: "item"
+			}]
+			title: "Buy a &6Orb of Origin"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			icon: "numismatic-overhaul:shop"
+			id: "00EB497DC2C86F47"
+			rewards: [{
+				id: "766F6D5C2F3BD02F"
+				item: "numismatic-overhaul:shop"
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "4479D62EDC931979"
+				item: { Count: 6, id: "numismatic-overhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_red"
+			id: "6F071C12BABC5F58"
+			rewards: [{
+				id: "13F181F69B9EFE7C"
+				item: "iceandfire:dragonscales_red"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "7AB28D5979522C5D"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_green"
+			id: "78118A8EB44DE7AB"
+			rewards: [{
+				id: "667380BF373148C2"
+				item: "iceandfire:dragonscales_green"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "2BC805CEE35B3DB3"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_gray"
+			id: "77652D3F03ED4127"
+			rewards: [{
+				id: "1E416AA8B3EE0A4C"
+				item: "iceandfire:dragonscales_gray"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "6C95F367E322236E"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_blue"
+			id: "2D4E2359D913E7FE"
+			rewards: [{
+				id: "5CCE6808F5B2BC33"
+				item: "iceandfire:dragonscales_blue"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "2CB448E9B467322C"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_sapphire"
+			id: "2DAD7FB58D362F03"
+			rewards: [{
+				id: "073E15B361F23402"
+				item: "iceandfire:dragonscales_sapphire"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "30A88FE10D4B2878"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_silver"
+			id: "6AA2A0FC871FA935"
+			rewards: [{
+				id: "66578ED3146CC0D8"
+				item: "iceandfire:dragonscales_silver"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "275B384C601AFD63"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_bronze"
+			id: "165F1F16118C5208"
+			rewards: [{
+				id: "2CE7395F25727A1E"
+				item: "iceandfire:sea_serpent_scales_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "3EDC82F0CAE8C562"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_white"
+			id: "70C21384BBAFD99D"
+			rewards: [{
+				id: "5A0F690DB097C09D"
+				item: "iceandfire:dragonscales_white"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "7CF4AB4C4FA37FDA"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_electric"
+			id: "4C4713ADC9541098"
+			rewards: [{
+				id: "06A6FD4EB1545894"
+				item: "iceandfire:dragonscales_electric"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "133743BECCFF9E34"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_amythest"
+			id: "1225F81A0AE4B7BC"
+			rewards: [{
+				id: "72AA8AB1A9E05F71"
+				item: "iceandfire:dragonscales_amythest"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "706DAAA090AC0DA2"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_copper"
+			id: "385286F2A5F1FF25"
+			rewards: [{
+				id: "5552265B704FD45D"
+				item: "iceandfire:dragonscales_copper"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "18776C013BBC73F4"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			icon: "iceandfire:dragonscales_black"
+			id: "6EC61FFE44B85D02"
+			rewards: [{
+				id: "64BA2832B296FE9D"
+				item: "iceandfire:dragonscales_black"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "0E8EF5E84F69A701"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+	]
+	title: "&6&l ♦ &r&fWIP"
+}

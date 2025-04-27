@@ -1,0 +1,283 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fight_the_raids"
+	group: "651CAF965FE837B4"
+	icon: {
+		Count: 1
+		id: "minecraft:white_banner"
+		tag: {
+			BlockEntityTag: {
+				Patterns: [
+					{
+						Color: 9
+						Pattern: "mr"
+					}
+					{
+						Color: 8
+						Pattern: "bs"
+					}
+					{
+						Color: 7
+						Pattern: "cs"
+					}
+					{
+						Color: 8
+						Pattern: "bo"
+					}
+					{
+						Color: 15
+						Pattern: "ms"
+					}
+					{
+						Color: 8
+						Pattern: "hh"
+					}
+					{
+						Color: 8
+						Pattern: "mc"
+					}
+					{
+						Color: 15
+						Pattern: "bo"
+					}
+				]
+				id: "minecraft:banner"
+			}
+			display: {
+				Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+			}
+		}
+	}
+	id: "0989090D73B86044"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4BE5470CEB471352"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:pillager"
+				icon: {
+					Count: 1
+					id: "minecraft:white_banner"
+					tag: {
+						BlockEntityTag: {
+							Patterns: [
+								{
+									Color: 9
+									Pattern: "mr"
+								}
+								{
+									Color: 8
+									Pattern: "bs"
+								}
+								{
+									Color: 7
+									Pattern: "cs"
+								}
+								{
+									Color: 8
+									Pattern: "bo"
+								}
+								{
+									Color: 15
+									Pattern: "ms"
+								}
+								{
+									Color: 8
+									Pattern: "hh"
+								}
+								{
+									Color: 8
+									Pattern: "mc"
+								}
+								{
+									Color: 15
+									Pattern: "bo"
+								}
+							]
+							id: "minecraft:banner"
+						}
+						display: {
+							Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+						}
+					}
+				}
+				id: "59A35C6E2D3B2ADD"
+				type: "kill"
+				value: 25L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "78EE64C6011CD6E1"
+			tasks: [{
+				entity: "illagerinvasion:provoker"
+				id: "707440FB84E1F598"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "0D3FD3E14AAB5DED"
+			tasks: [{
+				entity: "illagerinvasion:basher"
+				id: "5FD7A242123C3FFA"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "264BCF9750B044F8"
+			tasks: [{
+				entity: "illagerinvasion:sorcerer"
+				id: "73A2A13AB70AEFFF"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "707AEBCBCD13C952"
+			tasks: [{
+				entity: "illagerinvasion:archivist"
+				id: "0F5D75B693D462AF"
+				type: "kill"
+				value: 5L
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "787EF9090FC92BC9"
+			tasks: [{
+				entity: "illagerinvasion:inquisitor"
+				id: "7F64ACFCE1E99B3D"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			id: "382B17BCACC288D9"
+			tasks: [{
+				entity: "illagerinvasion:marauder"
+				id: "65E4565BD209FF57"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "70CA4F686B87B199"
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				id: "78589D8677C5F669"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "20D26AABEC3793D6"
+			tasks: [{
+				entity: "blue_skies:alchemist"
+				id: "29A5DEB03351FD1A"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "0E3548C239751DE2"
+			tasks: [{
+				entity: "illagerinvasion:firecaller"
+				id: "2AD96C106C045187"
+				type: "kill"
+				value: 5L
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "7309C84DA8E4596E"
+			tasks: [{
+				entity: "illagerinvasion:necromancer"
+				id: "6B7CBBBAB1A4CEE1"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			id: "0B9B985FC081CEA0"
+			tasks: [{
+				entity: "illagerinvasion:surrendered"
+				id: "4DFA03D42553966E"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "5D7C46D9AE2020BE"
+			tasks: [{
+				entity: "minecraft:illusioner"
+				icon: "minecraft:spawner"
+				id: "18F8BBE3A696F2CA"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "46D578222DF61803"
+			tasks: [{
+				entity: "takesapillage:skirmisher"
+				id: "60100FF2815E6051"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "673C97FD0A991EA9"
+			tasks: [{
+				entity: "takesapillage:legioner"
+				id: "3D928541808C2546"
+				type: "kill"
+				value: 5L
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "4604EE6C805F7C1C"
+			tasks: [{
+				entity: "takesapillage:archer"
+				id: "2D30D41141382A60"
+				type: "kill"
+				value: 5L
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+	]
+	title: "&6&l ♦ &r&fFight the Raids"
+}

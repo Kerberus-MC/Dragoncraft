@@ -1,0 +1,358 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6l__rfaquamirae"
+	group: "5BBB507BE497896B"
+	icon: "aquamirae:rune_of_the_storm"
+	id: "15BDA6D88E7010FA"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6FF85FCFB479D8DA"
+			tasks: [
+				{
+					id: "17B2B322349A7D3F"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57B4E4B9E3413F87"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A97FB7101B8435B"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F1ED8E0A1B98CF7"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33233BACF127A6C1"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "2E4A93046D66487D"
+			tasks: [
+				{
+					id: "41998F28D815CE99"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_tiara"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FBAC13E62CA1F19"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "056852C492044EDE"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "223CC3903DE04BA8"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6ABEBF1CBE64E986"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7041D10F325B00FF"
+					item: {
+						Count: 1
+						id: "aquamirae:whisper_of_the_abyss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			id: "495C0AECB0C1B445"
+			tasks: [{
+				id: "32D99F73269776C6"
+				item: {
+					Count: 1
+					id: "aquamirae:divider"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "194391943E54E34E"
+			tasks: [{
+				id: "4C5A076DFC4F11A6"
+				item: {
+					Count: 1
+					id: "aquamirae:coral_lance"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 4s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "0E4B6549686EF4E9"
+			tasks: [{
+				id: "76672CD370553ACB"
+				item: {
+					Count: 1
+					id: "aquamirae:fin_cutter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "24D7B6E0D8877647"
+			tasks: [{
+				id: "08BB291EA732327D"
+				item: {
+					Count: 1
+					id: "aquamirae:dagger_of_greed"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "324DCEBA1665F5CB"
+			tasks: [
+				{
+					id: "11AF995F3EBB46D9"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "002913CF3A47565E"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "580D3971F36D7F6C"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AA85B5D4E00B874"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "637206C8CC58C150"
+			tasks: [{
+				id: "6A9681532C1D63E3"
+				item: {
+					Count: 1
+					id: "aquamirae:remnants_saber"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "0DB8903F0BB15EA7"
+			tasks: [{
+				id: "540CF209BE93E07E"
+				item: {
+					Count: 1
+					id: "aquamirae:poisoned_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			id: "0E272985D5545413"
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "1221C9BB423DCDFE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			id: "4A4E83BBAD89FD80"
+			tasks: [{
+				id: "15B40698E1474946"
+				item: "aquamirae:oxygen_tank"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			icon: "aquamirae:rune_of_the_storm"
+			id: "50D89A7535100021"
+			tasks: [{
+				entity: "aquamirae:anglerfish"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "7DB18E745D10C765"
+				type: "kill"
+				value: 10L
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			id: "00A8BCA7E4F2FBEE"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "24A045AAD5F9E93F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			id: "238FF7562B29B0BB"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: "aquamirae:rune_of_the_storm"
+				id: "147DB4A32C5FCA88"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+	]
+	title: "&6&l ♦ &r&fAquamirae"
+}

@@ -1,0 +1,733 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bweapons_and_tools"
+	group: "5EC606153AA8CA77"
+	icon: {
+		Count: 1
+		id: "minecells:blood_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3A9897B817138959"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5E125E1082DF1239"
+			rewards: [{
+				count: 4
+				id: "607A5278F313E612"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "5824399EE9DE42B5"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			id: "7613DA785EB400AD"
+			rewards: [{
+				count: 2
+				id: "0F1994A7A5CEB7BB"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35312E2C1EC3444F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "aether:leather_gloves"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:iron_gloves"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:golden_gloves"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:diamond_gloves"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "aether:netherite_gloves"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Craft a pair of Gloves"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "7764858E1D2F0F73"
+			rewards: [{
+				count: 7
+				id: "110F4CB7B1856846"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38BD2FD32EA9393A"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				title: "Netherite Upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "1DA41BBC4CBC0F04"
+			rewards: [{
+				count: 7
+				id: "754CA8A76816AB83"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B5752CD2338500F"
+				item: "deeperdarker:warden_upgrade_smithing_template"
+				title: "Warden Upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "220A9A39E584256C"
+			rewards: [{
+				count: 7
+				id: "5687B539586E6979"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7347DE46FB9C3473"
+				item: "eldritch_end:etyr_upgrade_pattern"
+				title: "Etyr Upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "30A3B75A5F939B78"
+			rewards: [{
+				count: 7
+				id: "01FA893DA3FB5A36"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7194673ED2DFB068"
+				item: "cataclysm:ignitium_upgrade_smithing_template"
+				title: "Ignitium Upgrade"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "691A04EEAA34AF5E"
+			rewards: [{
+				count: 16
+				id: "1DACC4D1C1369EB2"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4461398265F7A2FA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "revampedwolf:leather_wolf_armor"
+							}
+							{
+								Count: 1b
+								id: "revampedwolf:iron_wolf_armor"
+							}
+							{
+								Count: 1b
+								id: "revampedwolf:golden_wolf_armor"
+							}
+							{
+								Count: 1b
+								id: "revampedwolf:diamond_wolf_armor"
+							}
+							{
+								Count: 1b
+								id: "revampedwolf:netherite_wolf_armor"
+							}
+						]
+					}
+				}
+				title: "Craft a Wolf Armor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "3A02AF1D35AAD621"
+			tasks: [{
+				id: "704367D73D24690A"
+				item: {
+					Count: 1
+					id: "minecells:bow_and_endless_quiver"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "5D72919EC3F56D3B"
+			tasks: [{
+				id: "285B890C50A37DEC"
+				item: {
+					Count: 1
+					id: "minecells:electric_whip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "3A4E490B001B2935"
+			tasks: [{
+				id: "2575746C63F175B7"
+				item: {
+					Count: 1
+					id: "cataclysm:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "70F8E1C70EDBE720"
+			tasks: [{
+				id: "020D4D0FECC237BA"
+				item: {
+					Count: 1
+					id: "cataclysm:khopesh"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "2805D291EA78910B"
+			tasks: [{
+				id: "2840DEB2346C310A"
+				item: {
+					Count: 1
+					id: "cataclysm:black_steel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "426588BB25AEACB2"
+			tasks: [{
+				id: "205F8EBB35B6AEDF"
+				item: "cataclysm:bulwark_of_the_flame"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "2B69F89AD7B490C3"
+			tasks: [{
+				id: "44E9323218F9A628"
+				item: "cataclysm:gauntlet_of_bulwark"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "7A643EC5355A40B3"
+			tasks: [{
+				id: "7D8E0DDC03866A03"
+				item: "cataclysm:soul_render"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "02F25A914FA7197F"
+			tasks: [{
+				id: "23FCF21A53075B43"
+				item: "cataclysm:wither_assault_shoulder_weapon"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "2D25BB6A309D3F0D"
+			tasks: [{
+				id: "15656FE1CD155388"
+				item: {
+					Count: 1
+					id: "cataclysm:void_forge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			id: "5F219BAE54FB100A"
+			tasks: [{
+				id: "5D5F76F0EA0EB695"
+				item: {
+					Count: 1
+					id: "minecells:broadsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "5F479A5356763191"
+			tasks: [{
+				id: "5B732CDD09086D79"
+				item: {
+					Count: 1
+					id: "minecells:assassins_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "67A4AB7CED2FE2BB"
+			tasks: [{
+				id: "0FE001E263D2B494"
+				item: {
+					Count: 1
+					id: "minecells:flint"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "0F744F77FA42A7D7"
+			tasks: [{
+				id: "40EA40F2B7DFB8AC"
+				item: {
+					Count: 1
+					id: "minecells:infantry_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "4DF4449329E453D7"
+			tasks: [{
+				id: "47B5F2758FD1BD33"
+				item: {
+					Count: 1
+					id: "minecells:ice_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			id: "695EB81AE1B6B1F3"
+			tasks: [{
+				id: "045ABA3509F7E916"
+				item: {
+					Count: 1
+					id: "minecells:rampart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			id: "1C5E3153A032F8A5"
+			tasks: [{
+				id: "4A15FC731FA741C9"
+				item: {
+					Count: 1
+					id: "minecells:assault_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "2C62DAD45575D168"
+			tasks: [{
+				id: "49F4AE756B1C26F9"
+				item: {
+					Count: 1
+					id: "cataclysm:coral_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "39CD9F77E31FE121"
+			tasks: [{
+				id: "780945BE25A2AD64"
+				item: {
+					Count: 1
+					id: "cataclysm:coral_bardiche"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			id: "3A29408711B88D73"
+			tasks: [{
+				id: "0A38B01E6754A41B"
+				item: "cataclysm:gauntlet_of_maelstrom"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			id: "4F5C2A1879E74351"
+			tasks: [{
+				id: "42C08871757519D5"
+				item: {
+					Count: 1
+					id: "cataclysm:cursed_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "7307564ED01DED2C"
+			tasks: [{
+				id: "7EA855D1606E5EAF"
+				item: {
+					Count: 1
+					id: "minecells:blood_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			id: "77076B308609B44E"
+			tasks: [{
+				id: "50336C6EFFF3EC1D"
+				item: {
+					Count: 1
+					id: "minecells:nutcracker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			id: "05025FEF0A984A9E"
+			tasks: [{
+				id: "7084E0A260977359"
+				item: "minecells:firebrands"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.0d
+		}
+		{
+			id: "66747421ACC976C5"
+			tasks: [{
+				id: "5D9E7B6EFA8A5800"
+				item: {
+					Count: 1
+					id: "minecells:ice_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			id: "50BF9A18150EB5FD"
+			tasks: [
+				{
+					id: "04A8F1D942FDF9A8"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6120ABB0F58E6A36"
+					item: {
+						Count: 1
+						id: "cataclysm:bone_reptile_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "258E2AA5AFF04A45"
+			tasks: [
+				{
+					id: "23EEA898C3EF5F55"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B4D47F2B6E41C23"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "413286F7F1A2E873"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "659E07538A19FBE1"
+					item: {
+						Count: 1
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			id: "07B6EDD434EA100F"
+			tasks: [
+				{
+					id: "7CAE45868584CC8A"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "090B270A77A483E2"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D0B1D2A244EDD95"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E4FDFD3FF93F07A"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 2.5d
+		}
+		{
+			id: "40A43708EE71E000"
+			tasks: [{
+				id: "486E5FD576022A2E"
+				item: {
+					Count: 1
+					id: "cataclysm:monstrous_helm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			id: "678C7A25EDC4C293"
+			tasks: [{
+				id: "509846DAB00A71C5"
+				item: {
+					Count: 1
+					id: "cataclysm:bloom_stone_pauldrons"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+	]
+	title: "&6&l ♦ &r&fWeapons and Tools"
+}

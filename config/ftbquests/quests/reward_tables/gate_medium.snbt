@@ -1,0 +1,44 @@
+{
+	id: "06C3BD91AADE3CDE"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:blaze_gate"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:enderman_gate"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:skeleton_gate"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:zombie_gate"
+				}
+			}
+		}
+	]
+	title: "Gate Medium"
+}

@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "everbright"
+	group: "5BBB507BE497896B"
+	icon: "blue_skies:turquoise_stonebrick"
+	id: "548F6C8C65E929D9"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [""]
+			id: "27CD46C8E6EC2E3B"
+			rewards: [{
+				id: "5FE21EAAD0130B18"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Portal blocks can be found in the Gatekeeper's Home."
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				icon: "blue_skies:turquoise_stonebrick"
+				id: "34BEAE9F7B3C7641"
+				title: "Enter Everbright"
+				type: "dimension"
+			}]
+			title: "Enter the &9Everbright"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37B01786D1F519C6"]
+			description: [""]
+			id: "084BFF7D3DD9BB24"
+			rewards: [
+				{
+					id: "49D4292EB66AD8EE"
+					item: {
+						Count: 1
+						id: "blue_skies:summoning_tome"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "390C520929991C07"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Use the Keys to Teleport to the &5Summoner's Dungeon&r. Found at the top of the &5Blinding Dungeon."
+			tasks: [{
+				entity: "blue_skies:summoner"
+				icon: "blue_skies:bright_blinding_keystone"
+				id: "0A272A4C6A0D1869"
+				title: "Kill The Summoner"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &5Summoner"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["207769EC3251F70E"]
+			description: [""]
+			id: "17EE59DC9B0C44B7"
+			rewards: [{
+				id: "65263F95C8C47B56"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Use the Keys to open the Gate to the &cStarlit Crusher&r. Found at the top of the &aNature's Dungeon"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: {
+					Count: 1
+					id: "blue_skies:starlit_crusher_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "bronze"
+						}
+					}
+				}
+				id: "78C390F75DC274B9"
+				title: "Kill The Starlit Crusher"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Defeat the &cStarlit Crusher"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["27CD46C8E6EC2E3B"]
+			icon: "blue_skies:blinding_key"
+			id: "37B01786D1F519C6"
+			rewards: [{
+				id: "34A7933B004D13DC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Hidden the &5Blinding Dungeon"
+			tasks: [{
+				count: 4L
+				id: "7A42676AA2769350"
+				item: "blue_skies:blinding_key"
+				type: "item"
+			}]
+			title: "Collect 4 &2Dungeon Keys"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["084BFF7D3DD9BB24"]
+			id: "207769EC3251F70E"
+			rewards: [{
+				id: "489FB4872DF884C0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found Hidden in the &2Nature's Dungeon."
+			tasks: [{
+				count: 4L
+				id: "7FB4F19B7B7F9932"
+				item: "blue_skies:nature_key"
+				type: "item"
+			}]
+			title: "Collect 4 &aDungeon Keys"
+			x: 2.5d
+			y: 0.5d
+		}
+	]
+	title: "&6&l ♦ &r&fEverbright"
+}

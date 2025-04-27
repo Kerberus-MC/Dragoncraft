@@ -1,0 +1,132 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "5BBB507BE497896B"
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "43F9E85332B37439"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:sculk_sensor"
+			id: "731C3214BB61FDAE"
+			rewards: [{
+				id: "1A22694A70BE865A"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "Found underground in the &aOverworld&r."
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "37E411F497C9CD71"
+				title: "Kill a Warden"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &3Warden"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			id: "44937B2D2EB38094"
+			rewards: [{
+				id: "2EF0FAB1AE9BC43E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "42CA7AAF304767E7"
+				item: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &9Warden Helmet"
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			id: "704CCA2CEAB23B4D"
+			rewards: [{
+				id: "1860E3DCA6E8E6FB"
+				item: "deeperdarker:ancient_vase"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "minecraft:reinforced_deepslate"
+				id: "474D2D76F2256297"
+				title: "Enter The Otherside"
+				type: "dimension"
+			}]
+			title: "Enter The &8&lOtherside"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "6E7D3242496F4501"
+			rewards: [{
+				id: "1910360C472DE886"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: "deeperdarker:soul_dust"
+				id: "5B9501581479A2EC"
+				title: "Kill a Shattered"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &3Shattered"
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			id: "192EE909C57F390A"
+			rewards: [{
+				id: "77B0B7D61481A552"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:soul_crystal"
+				id: "1D807C8DC05EF208"
+				title: "Kill a Stalker"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &3Stalker"
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			id: "3CBDB45D65737212"
+			rewards: [{
+				id: "2FE936F92AA38681"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: "deeperdarker:sculk_bone"
+				id: "3D7BD985875AFF57"
+				title: "Kill a Shriek Worm"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &7Shriek Worm"
+			x: 10.0d
+			y: 5.5d
+		}
+	]
+	title: "&6&l ♦ &r&fThe Otherside"
+}

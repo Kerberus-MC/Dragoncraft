@@ -1,0 +1,19 @@
+{
+	id: "122C303DDD7F0882"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "dragonsurvival:textures/armor/empty_armor.png"
+				}
+			}
+			weight: 7.0f
+		}
+		{ item: "dragonsurvival:elder_dragon_bone" }
+	]
+	title: "Bone Chance"
+}

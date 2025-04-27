@@ -1,0 +1,11 @@
+
+["Activate or Disable"]
+	#Enable Better Combat compatibility
+	bettercombat = true
+	#Enable Jade compatibility
+	enable_jade = true
+	#Enable WTHIT compatibility
+	wthit = true
+	#Enable Cold Sweat compatibility (render changes)
+	cold_sweat = true
+

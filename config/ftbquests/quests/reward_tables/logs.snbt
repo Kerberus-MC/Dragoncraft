@@ -1,0 +1,7 @@
+{
+	id: "5570C9944E0DF2E8"
+	loot_size: 1
+	order_index: 13
+	rewards: [{ count: 32, item: "minecraft:oak_log" }]
+	title: "Logs"
+}

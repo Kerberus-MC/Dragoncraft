@@ -1,16 +1,10 @@
 {
-  "citadel_format": 0,
   "biomes": [
     [
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_overworld"
-      },
-      {
-        "type": "BIOME_TAG",
-        "negate": false,
-        "value": "forge:is_hot"
+        "value": "forge:is_hot/overworld"
       },
       {
         "type": "BIOME_TAG",
@@ -25,14 +19,14 @@
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_savanna"
+        "value": "minecraft:is_savanna"
       }
     ],
     [
       {
         "type": "BIOME_TAG",
         "negate": false,
-        "value": "forge:is_overworld"
+        "value": "minecraft:is_overworld"
       },
       {
         "type": "BIOME_TAG",
@@ -42,12 +36,12 @@
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_wet"
+        "value": "forge:is_wet/overworld"
       },
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_cold"
+        "value": "forge:is_cold/overworld"
       },
       {
         "type": "BIOME_TAG",
@@ -62,26 +56,12 @@
       {
         "type": "BIOME_TAG",
         "negate": true,
-        "value": "forge:is_savanna"
+        "value": "minecraft:is_savanna"
       },
       {
         "type": "BIOME_TAG",
         "negate": true,
         "value": "minecraft:is_forest"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "terralith:volcanic_crater"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "terralith:volcanic_peaks"
       }
     ],
     [
@@ -124,13 +104,6 @@
         "type": "REGISTRY_NAME",
         "negate": false,
         "value": "byg:lush_stacks"
-      }
-    ],
-    [
-      {
-        "type": "REGISTRY_NAME",
-        "negate": false,
-        "value": "terralith:cave/thermal_caves"
       }
     ]
   ]

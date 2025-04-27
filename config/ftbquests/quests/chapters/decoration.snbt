@@ -1,0 +1,1170 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "decoration"
+	group: "5EC606153AA8CA77"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "another_furniture:item/furniture_hammer"
+		}
+	}
+	id: "4A6944EF3E0DB874"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "another_furniture:oak_drawer"
+			id: "76968FA917BBA6E0"
+			rewards: [{
+				id: "7946FF8572D283A5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "49D1A6062EEF6F0D"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:drawers"
+					}
+				}
+				title: "Any #handcrafted:drawers"
+				type: "item"
+			}]
+			title: "Craft a &dDrawer"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "13B914EA3AE61CFA"
+			rewards: [{
+				id: "1E3B777119262428"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "handcrafted:oak_shelf"
+				id: "675D7F042E9B0A84"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:shelves"
+					}
+				}
+				title: "Any #handcrafted:shelves"
+				type: "item"
+			}]
+			title: "Craft any &dShelf"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			icon: "handcrafted:oak_desk"
+			id: "2802A4603874C24B"
+			rewards: [{
+				id: "2F8A653EF9FCCD8D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "50E3B3E85E9137E5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:desks"
+					}
+				}
+				title: "Any #handcrafted:desks"
+				type: "item"
+			}]
+			title: "Craft any &dDesk"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			id: "77BC75BC0328D7A5"
+			rewards: [{
+				id: "6DC5C7C7CE6B7A80"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "handcrafted:oak_nightstand"
+				id: "201DD07D39474176"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:nightstands"
+					}
+				}
+				title: "Any #handcrafted:nightstands"
+				type: "item"
+			}]
+			title: "Craft any &dNightstand"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			disable_toast: true
+			icon: "handcrafted:oak_counter"
+			id: "57F291A269AA620E"
+			rewards: [{
+				id: "48A9522F753389E6"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "handcrafted:oak_counter"
+				id: "5261259E75937F0B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:counters"
+					}
+				}
+				title: "Any #handcrafted:counters"
+				type: "item"
+			}]
+			title: "Craft a &dCounter"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "01D0C8DB2646FFC9"
+			rewards: [{
+				id: "0222EAEEC6069C70"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "handcrafted:oak_cupboard"
+				id: "30BB758D22EF6D2C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:cupboards"
+					}
+				}
+				title: "Any #handcrafted:cupboards"
+				type: "item"
+			}]
+			title: "Craft a &dCupboard"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "0172BB881A7259C8"
+			rewards: [{
+				id: "724C875326CA9B86"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "another_furniture:oak_bench"
+				id: "438CC4ACF9CF6211"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:wooden_benches"
+					}
+				}
+				title: "Any #handcrafted:wooden_benches"
+				type: "item"
+			}]
+			title: "Craft any &dWooden Bench"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "534A26E3F639437B"
+			rewards: [{
+				id: "52883F2EC060A10D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "another_furniture:oak_chair"
+				id: "017E8C046DE719A2"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:chairs"
+					}
+				}
+				title: "Any #handcrafted:chairs"
+				type: "item"
+			}]
+			title: "Craft any &dChair"
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "30F40E4353F528FB"
+			rewards: [{
+				id: "013F647C56A44677"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "handcrafted:oak_fancy_bed"
+				id: "1E01A7977AF558D5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:fancy_beds"
+					}
+				}
+				title: "Any #handcrafted:fancy_beds"
+				type: "item"
+			}]
+			title: "Craft any &dFancy Bed"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			icon: "handcrafted:oak_couch"
+			id: "7F00DE181AA0C9C0"
+			rewards: [{
+				id: "3DFBD28B1BB16B22"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "handcrafted:oak_couch"
+				id: "1166EA9804E2BE65"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:couches"
+					}
+				}
+				title: "Any #handcrafted:couches"
+				type: "item"
+			}]
+			title: "Craft any &dCouch"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			icon: "another_furniture:oak_table"
+			id: "36171301E4641F91"
+			rewards: [{
+				id: "31E9C7505579AE8F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "0D0CBEB2CF829F84"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:tables"
+					}
+				}
+				title: "Any #handcrafted:tables"
+				type: "item"
+			}]
+			title: "Craft a &dTable"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			id: "5835B89CD2B85989"
+			rewards: [{
+				id: "21BC4F5AB27A3D50"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "handcrafted:oak_side_table"
+				id: "792F6F6675CECA54"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:side_tables"
+					}
+				}
+				title: "Any #handcrafted:side_tables"
+				type: "item"
+			}]
+			title: "Craft a &dSide Table"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			id: "1F32B8BACB87DDF9"
+			rewards: [{
+				id: "7E7ABC7917B1A38C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				icon: "chipped:carpenters_table"
+				id: "5A5508005E805EE9"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "chipped:botanist_workbench"
+							}
+							{
+								Count: 1b
+								id: "chipped:glassblower"
+							}
+							{
+								Count: 1b
+								id: "chipped:carpenters_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:loom_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:mason_table"
+							}
+							{
+								Count: 1b
+								id: "chipped:alchemy_bench"
+							}
+							{
+								Count: 1b
+								id: "chipped:tinkering_table"
+							}
+						]
+					}
+				}
+				title: "Chipped Tables"
+				type: "item"
+			}]
+			title: "Craft any &dChipped Table"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "4D049552AA664C7E"
+			tasks: [{
+				icon: "another_furniture:white_tall_stool"
+				id: "0CA6BAEBB4084830"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "another_furniture:orange_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:white_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:purple_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:pink_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:gray_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:light_gray_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:black_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:lime_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:yellow_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:light_blue_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:magenta_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:green_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:brown_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:blue_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:cyan_tall_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:red_tall_stool"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft any &dTall Stool"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "1145E273B37C364C"
+			tasks: [{
+				icon: "another_furniture:oak_shelf"
+				id: "5BB162B09F730B13"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "another_furniture:acacia_shelf"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:dark_oak_shelf"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:warped_shelf"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:birch_shelf"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:crimson_shelf"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:cherry_shelf"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:oak_shelf"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:jungle_shelf"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:spruce_shelf"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:bamboo_shelf"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:mangrove_shelf"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft any &dShelf"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			icon: "another_furniture:white_lamp"
+			id: "5CD74C76933FB639"
+			tasks: [{
+				icon: "another_furniture:white_lamp"
+				id: "30572BCA86A55B89"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "another_furniture:brown_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:purple_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:cyan_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:blue_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:gray_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:light_gray_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:yellow_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:pink_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:lime_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:magenta_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:black_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:red_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:green_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:orange_lamp"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:white_lamp"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft any &dLamp"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			icon: "another_furniture:white_stool"
+			id: "2152FBEE26D81C78"
+			rewards: [{
+				id: "7D11E35F40D9F9F5"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				icon: "another_furniture:white_stool"
+				id: "3C97702585F247A1"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "another_furniture:cyan_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:pink_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:lime_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:white_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:light_gray_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:green_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:brown_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:gray_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:orange_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:light_blue_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:black_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:magenta_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:blue_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:purple_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:red_stool"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:yellow_stool"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft any &dStool"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "08F3D1B4DC412E19"
+			tasks: [{
+				icon: "another_furniture:oak_shutter"
+				id: "6D559AC71F27D545"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "another_furniture:birch_shutter"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:jungle_shutter"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:acacia_shutter"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:dark_oak_shutter"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:cherry_shutter"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:bamboo_shutter"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:warped_shutter"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:crimson_shutter"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:spruce_shutter"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:mangrove_shutter"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft any &dShutter"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "181E2DCEA6C6A96A"
+			tasks: [{
+				icon: "another_furniture:oak_flower_box"
+				id: "25C1A39D41EDC742"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "another_furniture:crimson_flower_box"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:bamboo_flower_box"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:cherry_flower_box"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:mangrove_flower_box"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:dark_oak_flower_box"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:acacia_flower_box"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:birch_flower_box"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:jungle_flower_box"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:warped_flower_box"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:spruce_flower_box"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft any &dFlower Box"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "4A5CA5AD9387D1AF"
+			tasks: [{
+				icon: "another_furniture:white_curtain"
+				id: "3C635269BEDA7B6E"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "another_furniture:magenta_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:orange_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:lime_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:yellow_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:light_blue_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:cyan_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:purple_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:white_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:pink_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:gray_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:light_gray_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:black_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:red_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:green_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:brown_curtain"
+							}
+							{
+								Count: 1b
+								id: "another_furniture:blue_curtain"
+							}
+						]
+					}
+				}
+				title: "Craft a &dCurtain"
+				type: "item"
+			}]
+			title: "Craft any &dCurtain"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "58F8D8C8C65A27FE"
+			tasks: [{
+				icon: "hearth_and_home:brick_chimney"
+				id: "3C80A9D05B0DF1F4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hearth_and_home:mud_brick_chimney"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:brick_chimney"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:deepslate_brick_chimney"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:mossy_stone_brick_chimney"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:polished_blackstone_brick_chimney"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:cobblestone_brick_chimney"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:end_stone_brick_chimney"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:red_nether_brick_chimney"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:nether_brick_chimney"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:stone_brick_chimney"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft any &dBrick Chimney"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "1923421271CE4965"
+			tasks: [{
+				icon: "hearth_and_home:white_paper_lantern"
+				id: "7BF54F11F4CA5EA4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hearth_and_home:blue_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:green_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:pink_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:gray_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:light_gray_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:cyan_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:red_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:yellow_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:lime_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:orange_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:purple_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:black_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:brown_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:light_blue_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:magenta_paper_lantern"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:white_paper_lantern"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft any &dPaper Lantern"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			id: "0E62A77A767AABB0"
+			tasks: [{
+				icon: "decorative_blocks:lattice"
+				id: "234A489DBADA35A5"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hearth_and_home:cherry_lattice"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:warped_lattice"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:bamboo_lattice"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:birch_lattice"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:mangrove_lattice"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:crimson_lattice"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:spruce_lattice"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:acacia_lattice"
+							}
+							{
+								Count: 1b
+								id: "decorative_blocks:lattice"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:jungle_lattice"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:oak_lattice"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft any &dLattice"
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			id: "7837182D18B81FB5"
+			tasks: [{
+				icon: "hearth_and_home:barred_glass_pane"
+				id: "6C3435082DD13F81"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hearth_and_home:black_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:red_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:lime_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:yellow_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:green_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:brown_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:light_blue_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:magenta_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:blue_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:purple_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:orange_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:pink_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:gray_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:light_gray_stained_barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:barred_glass_pane"
+							}
+							{
+								Count: 1b
+								id: "hearth_and_home:white_stained_barred_glass_pane"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft any &dBarred Glass"
+			x: 9.0d
+			y: 7.5d
+		}
+	]
+	title: "&6&l ♦ &r&fDecoration"
+}

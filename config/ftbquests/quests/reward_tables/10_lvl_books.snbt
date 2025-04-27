@@ -1,0 +1,11 @@
+{
+	id: "50CD814CC771C1DE"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ item: "gothic:book_extract_feathers" }
+		{ item: "gothic:book_extract_fangs" }
+		{ item: "gothic:book_extract_wings" }
+	]
+	title: "10 lvl books"
+}
