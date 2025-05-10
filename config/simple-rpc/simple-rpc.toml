@@ -23,7 +23,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["keyart"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Join Dragoncraft | discord.gg/dragoncraft"
+	largeImageText = "Join our Discord | discord.gg/draconia"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -43,7 +43,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["keyart"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Join Dragoncraft | discord.gg/dragoncraft"
+	largeImageText = "Join Draconia | discord.gg/draconia"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -63,7 +63,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["keyart"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Join Dragoncraft | discord.gg/dragoncraft"
+	largeImageText = "Join Draconia | discord.gg/draconia"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -83,7 +83,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["keyart"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Join Dragoncraft | discord.gg/dragoncraft"
+	largeImageText = "Join Draconia | discord.gg/draconia"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -101,7 +101,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["keyart"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Join Dragoncraft | discord.gg/dragoncraft"
+	largeImageText = "Join Draconia | discord.gg/draconia"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -119,7 +119,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = []
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Join Dragoncraft | discord.gg/dragoncraft"
+	largeImageText = "Join Draconia | discord.gg/draconia"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -137,7 +137,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["keyart"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Join Dragoncraft | discord.gg/dragoncraft"
+	largeImageText = "Join Draconia | discord.gg/draconia"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -155,7 +155,7 @@
 	#The Asset ID/URL of the image to display as the large image
 	largeImageKey = ["keyart"]
 	#The text that gets displayed when the large image is hovered
-	largeImageText = "Join Dragoncraft | discord.gg/dragoncraft"
+	largeImageText = "Join Draconia | discord.gg/draconia"
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
@@ -175,7 +175,7 @@
 	#The Asset ID/URL of the image to display as the small image
 	smallImageKey = ["mclogo"]
 	#The text that gets displayed when the small image is hovered
-	smallImageText = "Join Dragoncraft | discord.gg/dragoncraft"
+	smallImageText = "Join Draconia | discord.gg/draconia"
 
 	[[generic.buttons]]
 		label = "Discord"
