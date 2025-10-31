@@ -1,32 +1,70 @@
 name: Bug Report
-description: Create a bug report
-title: "[Bug Report]: "
-assignees:
-  - TheButterbrotMan
-labels: ["Bug"]
+description: Report a bug or issue
+title: "[BUG]: "
+labels: ["🐛 | Bug"]
 body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this bug report!
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Please confirm the following before proceeding
+      options:
+        - label: I am using the latest version of the modpack
+          required: true
+        - label: I have tried to reproduce this bug in a clean installation
+          required: true
+        - label: I have checked that this bug hasn't been reported before
+          required: true
+    validations:
+      required: true
   - type: textarea
-    id: what_happened
+    id: bug-description
     attributes:
-      label: What Happened?
-      description: Please provide a detailed description of the issue you encountered.
-      placeholder: "The form does not display the required validation error message when submitting it without entering any data."
+      label: Describe the Bug
+      description: A clear and concise description of what the bug is and what actually happens.
+      placeholder: When crafting a diamond pickaxe, the game crashes.
     validations:
       required: true
-
-  - type: input
-    id: version
-    attributes:
-      label: Version
-      description: Which version are you currently using?
-      placeholder: "1.0.0"
-    validations:
-      required: true
-  
   - type: textarea
-    id: latest_log
+    id: reproduction-steps
     attributes:
-      label: Latest Log
-      description: "Please paste the latest log below, formatted as code."
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Open crafting table
+        2. Place 3 diamonds above, 2 sticks below in center.
+        3. Attempt to craft the pickaxe
+        4. Game crashes
     validations:
       required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: A clear and concise description of what you expected to happen.
+      placeholder: The diamond pickaxe should be crafted successfully and appear in the result slot of the crafting table.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      placeholder: |
+        [17:35:05] [Client thread/ERROR]: Couldn't register recipe
+        net.minecraft.item.crafting.IRecipe$IllegalRecipeException: Invalid recipe shape
+            at net.minecraft.item.crafting.ShapedRecipe.shrink(ShapedRecipe.java:134)
+        [17:35:05] [Client thread/ERROR]: Caught exception during mod loading
+        java.lang.RuntimeException: Invalid recipe encountered
+      render: shell
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here, including screenshots if applicable.
+      placeholder: This issue started after updating from version 1.2.3 to 1.2.4.
+    validations:
+      required: false
