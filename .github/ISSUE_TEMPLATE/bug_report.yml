@@ -1,0 +1,32 @@
+name: Bug Report
+description: Create a bug report
+title: "[Bug Report]: "
+assignees:
+  - TheButterbrotMan
+labels: ["Bug"]
+body:
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What Happened?
+      description: Please provide a detailed description of the issue you encountered.
+      placeholder: "The form does not display the required validation error message when submitting it without entering any data."
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Which version are you currently using?
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: latest_log
+    attributes:
+      label: Latest Log
+      description: "Please paste the latest log below, formatted as code."
+    validations:
+      required: true

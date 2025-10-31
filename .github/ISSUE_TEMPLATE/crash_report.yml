@@ -1,0 +1,38 @@
+name: Crash Report
+description: Create a crash report
+title: "[Crash Report]: "
+assignees:
+  - TheButterbrotMan
+labels: ["Crash"]
+body:
+  - type: textarea
+    id: what_happened
+    attributes:
+      label: What Happened?
+      description: Please provide a detailed description of the issue you encountered.
+      placeholder: "When attempting to submit the form, the application crashes consistently, displaying a 'Fatal Error' message. This occurs regardless of the entered data or any specific actions taken prior to clicking the 'Submit' button."
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Which version are you currently using?
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: latest_log
+    attributes:
+      label: Latest Log
+      description: "Please paste the latest log below, formatted as code."
+    validations:
+      required: true
+      
+  - type: textarea
+    id: crash_log
+    attributes:
+      label: Crash Log
+      description: "If available, please paste the crash log below, formatted as code."
