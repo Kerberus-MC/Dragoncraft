@@ -1,11 +1,8 @@
 # Dragoncraft Modpack
-
-A Minecraft modpack focused on [brief description of your modpack theme].
-
 ## 📦 Downloads
 
-- **Client Pack**: Download from [Releases](https://github.com/Kerberus-MC/Dragoncraft/releases) for single-player
-- **Server Pack**: Download from [Releases](https://github.com/Kerberus-MC/Dragoncraft/releases) for multiplayer servers
+- **Client Pack**: Download from [Releases](https://github.com/Kerberus-MC/Dragoncraft/releases)
+- **Server Pack**: Download from [Releases](https://github.com/Kerberus-MC/Dragoncraft/releases)
 
 ## 🐛 Issue Tracking
 
