@@ -1,0 +1,15 @@
+#.
+#Here you can set a fixed value for any enchantment transfer from item to book. Default is 1000 which disables the fixed value.
+# Default: 1000
+# Range: > -2147483648
+"Fixed Experience Cost" = 1000
+#.
+#Should the anvil give you back the item you disenchanted? Change this value to 0 to block the original item from being returned. Default is 1.
+# Default: 1
+# Range: > -2147483648
+"Should Return" = 1
+#.
+#Here you can set a factor to multiply any enchantment transfer XP cost by. This will be overwritten if a fixed value other than 1000 is defined. Default is 1.0.
+# Default: 1.0
+# Range: 0.0 ~ 1000.0
+"Experience Cost Factor" = 1.0

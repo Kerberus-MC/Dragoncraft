@@ -1,0 +1,19 @@
+{
+	id: "73F0C308BC208270"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ id: "62307FF20E9F0E36", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:spectral_hammer", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "1E0D9D1A3D49BE7D", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:summon_horse", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "58590A92AF5F5FBC", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:summon_vex", index: 0, level: 2, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "0DF64A9F80FC322C", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:arrow_volley", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "3EE957AC23C51970", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:chain_creeper", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "2C7BCE03FB4750E7", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:fang_strike", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "1896B13009492E56", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:fang_ward", index: 0, level: 6, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "768E0D4C3D9DDF0B", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:firecracker", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "5735BFF526C76302", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:gust", index: 0, level: 6, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "7259EF1D68CB8B3A", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:invisibility", index: 0, level: 2, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "0409F4DA147D2775", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:lob_creeper", index: 0, level: 6, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "57C93D6E14E9DF51", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:shield", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+	]
+}

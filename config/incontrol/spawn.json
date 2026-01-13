@@ -1,0 +1,180 @@
+[
+  {
+    "result": "deny",
+    "mod": "minecraft",
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+    "mincount": 
+    {
+      "amount": 22,
+      "hostile": true,
+      "perplayer": true,
+      "mod": "minecraft"
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:bat",
+    "mincount": 
+    { 
+      "amount": 1, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:salmon",
+    "mincount": 
+    { 
+      "amount": 4, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:cod",
+    "mincount": 
+    { 
+      "amount": 4, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:tropical_fish",
+    "mincount": 
+    { 
+      "amount": 4, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:squid",
+    "mincount": 
+    { 
+      "amount": 3, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:glow_squid",
+    "mincount": 
+    { 
+      "amount": 3, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:ocelot",
+    "mincount": 
+    { 
+      "amount": 3, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "minecraft",
+    "hostile": false,
+    "dimension": "minecraft:overworld",
+    "mincount": 
+    {
+      "amount": 16,
+      "hostile": false,
+      "perplayer": true,
+      "mod": "minecraft"
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:enderman",
+    "dimension": "minecraft:the_end",
+    "mincount": 
+    { 
+      "amount": 16, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:endermite",
+    "dimension": "minecraft:the_end",
+    "mincount": 
+    { 
+      "amount": 3, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "irons_spellbooks:necromancer",
+    "mincount": 
+    { 
+      "amount": 3, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "enderscape",
+    "mincount": 
+    { 
+      "amount": 6, 
+      "perplayer": true, 
+      "mod": "enderscape" 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "variantsandventures",
+    "mincount": 
+    { 
+      "amount": 6, 
+      "perplayer": true, 
+      "mod": "variantsandventures" 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "kobolds",
+    "mincount": 
+    { 
+      "amount": 6, 
+      "perplayer": true, 
+      "mod": "kobolds" 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "cataclysm",
+    "mincount": 
+    { 
+      "amount": 6, 
+      "perplayer": true, 
+      "mod": "cataclysm" 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "netherdepthsupgrade",
+    "mincount": 
+    { 
+      "amount": 6, 
+      "perplayer": true, 
+      "mod": "netherdepthsupgrade" 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "ribbits",
+    "mincount": 
+    { 
+      "amount": 4, 
+      "perplayer": true, 
+      "mod": "ribbits" 
+    }
+  }
+]

@@ -1,0 +1,77 @@
+{
+	id: "6A95E64F8230AB5B"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			id: "3B2C645E54F766B6"
+			type: "xp"
+			xp: 100
+		}
+		{
+			id: "44DD1DE196D4F3CF"
+			type: "xp"
+			xp: 125
+		}
+		{
+			id: "517390C1EDD72AD9"
+			type: "xp"
+			xp: 150
+		}
+		{
+			id: "10A7FF1A648A26C7"
+			type: "xp"
+			xp: 175
+		}
+		{
+			id: "48F982C935169304"
+			type: "xp"
+			xp: 200
+		}
+		{
+			id: "326B1858CCEB57A8"
+			type: "xp"
+			xp: 225
+		}
+		{
+			id: "15A61A198FE2B07E"
+			type: "xp"
+			xp: 250
+		}
+		{
+			id: "5273713855EF240B"
+			type: "xp"
+			xp: 275
+		}
+		{
+			id: "3E427C35F8A234D7"
+			type: "xp"
+			xp: 300
+		}
+		{
+			id: "02D0126DE647553B"
+			type: "xp"
+			xp: 2
+		}
+		{
+			id: "38EAD1FFDFF718E7"
+			type: "xp"
+			xp: 4
+		}
+		{
+			id: "27A221E8AE0D61FE"
+			type: "xp"
+			xp: 6
+		}
+		{
+			id: "7267C17E28D0B83D"
+			type: "xp"
+			xp: 8
+		}
+		{
+			id: "2CAEF73BE878357D"
+			type: "xp"
+			xp: 10
+		}
+	]
+}

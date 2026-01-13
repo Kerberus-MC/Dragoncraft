@@ -1,0 +1,16 @@
+{
+	id: "70C6308CED18BAEA"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ id: "0584E6AA1DE8045A", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "02C3DB1F3DA599BF", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:dragon_breath", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "0781DDBB467B0D6A", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:magic_arrow", index: 0, level: 4, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "3CDD694AF30A7722", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:magic_missile", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "198D39960C7A8089", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:starfall", index: 0, level: 6, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "2E62571E6A732487", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:teleport", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "1CFC1C74F9672734", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:summon_ender_chest", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "1B141BE9CC0AB578", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:echoing_strikes", index: 0, level: 2, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "32527BF4830C5EEB", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:summon_swords", index: 0, level: 2, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+	]
+}

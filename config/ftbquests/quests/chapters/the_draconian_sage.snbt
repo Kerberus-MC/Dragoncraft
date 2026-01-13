@@ -1,0 +1,3365 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_draconian_sage"
+	group: "5110117D1985F86D"
+	icon: {
+		components: {
+			"ftbquests:icon": "dragonsurvival:textures/gui/ds_logo.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "3CCD597FF88266DC"
+	images: [
+		{
+			height: 1.5d
+			image: "ftblibrary:textures/faces/minecraft/ender_dragon.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.0d
+			y: 18.0d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:item/end_crystal"
+			order: 1
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.5d
+			y: 18.0d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:item/end_crystal"
+			order: 1
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: 16.5d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:item/end_crystal"
+			order: 1
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: 19.5d
+		}
+		{
+			height: 0.75d
+			image: "minecraft:item/end_crystal"
+			order: 1
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: 18.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 16.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.5d
+			y: 18.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.5d
+			y: 18.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 16.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.0d
+			y: 19.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.0d
+			y: 19.5d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 20.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.0d
+			y: 17.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.0d
+			y: 18.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.0d
+			y: 19.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:textures/entity/end_portal.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.0d
+			y: 17.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 18.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 17.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 19.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.5d
+			y: 17.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 18.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/end_stone"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 18.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.5d
+			y: 11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.5d
+			y: 11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			height: 2.5d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 2.5d
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/netherrack"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/blackstone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/chiseled_polished_blackstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/chiseled_polished_blackstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_blackstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_blackstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_blackstone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_blackstone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/soul_campfire_fire"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/void_lantern_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 19.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_obsidian_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 19.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/purpur_tile_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 18.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/purpur_tile_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 18.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/purpur_tile_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 17.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/purpur_tile_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 17.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/polished_end_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/polished_end_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/void_stone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/end_stone_teleport_trap_bricks_off"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/end_stone_teleport_trap_bricks_off"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 18.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_obsidian_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 19.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			height: 0.6d
+			image: "minecraft:block/end_portal_frame_top"
+			rotation: 0.0d
+			width: 0.6d
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: 0.5d
+			y: 15.0d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			height: 0.4d
+			image: "minecraft:item/ender_eye"
+			order: 1
+			rotation: 0.0d
+			width: 0.4d
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 25.0d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 25.0d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 26.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 27.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_deepslate"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 25.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 27.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/ochre_froglight_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 24.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/ochre_froglight_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 24.0d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 26.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/redstone_lamp_on"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/redstone_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 24.0d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/polished_sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 33.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/chiseled_sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 35.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/chiseled_sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 35.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/polished_sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 33.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/polished_sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 33.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/bone_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 36.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/bone_block_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 36.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/red_sandstone_top"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 34.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/sandstone_top"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 36.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/sandstone_top"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 35.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -5.0d
+			y: 34.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/sandstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 34.5d
+		}
+		{
+			color: 5592575
+			height: 1.15d
+			image: "minecraft:block/water_still"
+			order: 1
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 36.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_stone_brick_pillar"
+			rotation: 90.0d
+			width: 1.15d
+			x: -1.0d
+			y: 36.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 35.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 35.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_stone_brick_pillar"
+			rotation: 90.0d
+			width: 1.15d
+			x: 1.0d
+			y: 36.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/smooth_stone"
+			rotation: 90.0d
+			width: 1.15d
+			x: 0.0d
+			y: 35.5d
+		}
+		{
+			color: 5592575
+			height: 1.15d
+			image: "minecraft:block/water_still"
+			order: 1
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 36.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 34.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 34.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/obsidian"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 36.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 34.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/chiseled_stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 33.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/chiseled_stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 33.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_andesite"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 33.5d
+		}
+		{
+			color: 5592575
+			height: 1.15d
+			image: "minecraft:block/water_still"
+			order: 1
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 36.5d
+		}
+		{
+			height: 3.5d
+			image: "cataclysm:textures/particle/desert_glyph_8.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: -4.0d
+			y: 33.0d
+		}
+		{
+			height: 3.5d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/abyss_black_hole_idle1.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: 33.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/sea_lantern"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 33.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/polished_azure_seastone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 33.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/polished_azure_seastone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 33.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_azure_seastone_pillar_mid"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 34.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_azure_seastone_pillar_mid"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 34.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_azure_seastone_pillar_mid"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 35.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_azure_seastone_pillar_mid"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 35.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_azure_seastone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 36.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_azure_seastone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 5.0d
+			y: 36.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/azure_seastone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 36.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/azure_seastone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 34.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/azure_seastone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 35.5d
+		}
+		{
+			height: 4.0d
+			image: "cataclysm:textures/particle/lightning_explosion_2.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 4.0d
+			y: 33.0d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 42.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_tiles"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 44.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_tiles"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 44.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 43.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/stone_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 43.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 45.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/frosted_stone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 45.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/black_steel_block"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 45.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 42.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/chiseled_stone_brick_pillar_top"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 42.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_andesite"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 43.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/andesite"
+			rotation: 0.0d
+			width: 1.15d
+			x: -3.0d
+			y: 44.5d
+		}
+		{
+			height: 1.5d
+			image: "cataclysm:textures/particle/phantom_wing_flame_0.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.5d
+			y: 42.0d
+		}
+		{
+			height: 5.0d
+			image: "cataclysm:textures/particle/phantom_wing_flame_0.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -2.0d
+			y: 43.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:item/soul_lantern"
+			order: 2
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 43.5d
+		}
+		{
+			height: 5.0d
+			image: "cataclysm:textures/particle/phantom_wing_flame_2.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.5d
+			y: 44.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:item/soul_lantern"
+			order: 2
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 43.5d
+		}
+		{
+			height: 6.0d
+			image: "cataclysm:textures/particle/ring_3.png"
+			order: -2
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.0d
+			y: 44.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_blackstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 45.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_blackstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 45.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_blackstone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 45.5d
+		}
+		{
+			height: 1.15d
+			image: "irons_spellbooks:block/nether_brick_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 44.5d
+		}
+		{
+			height: 1.15d
+			image: "irons_spellbooks:block/nether_brick_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 43.5d
+		}
+		{
+			height: 1.15d
+			image: "irons_spellbooks:block/nether_brick_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 44.5d
+		}
+		{
+			height: 1.15d
+			image: "irons_spellbooks:block/nether_brick_pillar"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 43.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/deepslate_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 42.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 42.5d
+		}
+		{
+			height: 1.15d
+			image: "irons_spellbooks:item/brazier"
+			order: 1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 43.5d
+		}
+		{
+			height: 1.15d
+			image: "irons_spellbooks:item/brazier"
+			order: 1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 43.5d
+		}
+		{
+			height: 1.15d
+			image: "irons_spellbooks:block/wisewood_bookshelf_03"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 43.5d
+		}
+		{
+			height: 1.15d
+			image: "irons_spellbooks:block/wisewood_bookshelf_02"
+			rotation: 0.0d
+			width: 1.15d
+			x: 3.0d
+			y: 44.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/cracked_deepslate_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 42.5d
+		}
+		{
+			height: 5.0d
+			image: "irons_spellbooks:textures/particle/flame_strike_3.png"
+			order: 2
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.5d
+			y: 44.5d
+		}
+		{
+			height: 5.0d
+			image: "irons_spellbooks:textures/particle/flame_strike_3.png"
+			order: 2
+			rotation: 180.0d
+			width: 5.0d
+			x: 4.5d
+			y: 43.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/soul_fire_0"
+			rotation: 0.0d
+			width: 1.15d
+			x: -4.0d
+			y: 45.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/soul_fire_0"
+			rotation: 0.0d
+			width: 1.15d
+			x: -2.0d
+			y: 45.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/fire_2"
+			order: 1
+			rotation: 0.0d
+			width: 1.15d
+			x: 4.0d
+			y: 45.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/fire_2"
+			order: 1
+			rotation: 0.0d
+			width: 1.15d
+			x: 2.0d
+			y: 45.5d
+		}
+		{
+			height: 5.0d
+			image: "cataclysm:textures/particle/em_pulse.png"
+			order: -1
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 25.5d
+		}
+		{
+			height: 8.0d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			order: -2
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: 51.5d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/red_nether_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 53.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/red_nether_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 53.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/shroomlight"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 53.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_blackstone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 52.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_blackstone_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 52.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 52.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_blackstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 50.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_blackstone"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 50.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 51.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_basalt_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: 1.0d
+			y: 51.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/polished_basalt_side"
+			rotation: 0.0d
+			width: 1.15d
+			x: -1.0d
+			y: 51.0d
+		}
+		{
+			height: 1.15d
+			image: "minecraft:block/chiseled_nether_bricks"
+			rotation: 0.0d
+			width: 1.15d
+			x: 0.0d
+			y: 50.0d
+		}
+		{
+			height: 4.9d
+			image: "minecraft:block/lava_flow"
+			order: -1
+			rotation: 0.0d
+			width: 3.75d
+			x: 0.0d
+			y: 51.5d
+		}
+		{
+			height: 3.5d
+			image: "cataclysm:textures/entity/leviathan/dimensional_rift/dimensional_rift_idle4.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 0.0d
+			y: 35.5d
+		}
+		{
+			height: 3.5d
+			image: "cataclysm:textures/particle/lightning_storm_1.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 5.0d
+			y: 35.5d
+		}
+		{
+			height: 3.5d
+			image: "cataclysm:textures/particle/lightning_storm_4.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 3.0d
+			y: 35.5d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 51.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D2CA5FFBFA7AB16"]
+			id: "41B9105AB9128396"
+			rewards: [
+				{
+					id: "026451203C0C2D85"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "You stand at the precipice of sorrow."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "430E5A51E27A39F6"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "049A99660A6CC050"
+				structure: "irons_spellbooks:catacombs"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["41B9105AB9128396"]
+			id: "2B6D2E6F08ACAD4F"
+			rewards: [
+				{
+					id: "631AE04BC1913435"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "7B77187D289C32DE"
+					item: {
+						count: 1
+						id: "irons_spellbooks:legendary_ink"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "The sea's sorrow is felt."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "465536DE1199930C"
+					type: "toast"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					id: "irons_spellbooks:wayward_compass"
+				}
+				id: "20F1B777F2FAFB56"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["16C833E99D530D2D"]
+			id: "22F4CF59DCBE913B"
+			rewards: [
+				{
+					id: "2CD4FC14B99EF19B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "The prisoner's roar is close."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2F36FDB4FB252605"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "2CF9D82F0546FBE5"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["22F4CF59DCBE913B"]
+			id: "57F15A80341FC8CC"
+			rewards: [
+				{
+					id: "1A4BAF6606A21C0A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "5644B63327148D93"
+					item: {
+						count: 1
+						id: "minecraft:netherite_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+				{
+					description: "A faint echo of gratitude."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "46BC35926A3EBDC1"
+					type: "toast"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					id: "cataclysm:monstrous_eye"
+				}
+				id: "32832C50E44553BD"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2760B67E11676063"]
+			id: "4252944538746727"
+			rewards: [
+				{
+					id: "0E3C101C3FA4BD22"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "A malevolent energy emanates."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "0552B493574A2A35"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "63A75E4C22BC0EEF"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			x: -2.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["4252944538746727"]
+			id: "744E3F58A2BF8992"
+			rewards: [
+				{
+					id: "413015214BD8EEBB"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "3F26910121C2D789"
+					item: {
+						count: 1
+						id: "cataclysm:void_core"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "A thousand false stars shatter."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "26B08774BB58976B"
+					type: "toast"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: {
+					id: "cataclysm:void_eye"
+				}
+				id: "096012AB66FA57D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["57F15A80341FC8CC"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity/end_portal.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.49d
+			id: "2760B67E11676063"
+			rewards: [
+				{
+					id: "319B4C7065F536DD"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "329448544DE74ECC"
+					item: {
+						count: 1
+						id: "ars_additions:void_protection_charm"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "The great Dragon has taken notice."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7214FF5DF940186B"
+					type: "toast"
+				}
+			]
+			shape: "square"
+			size: 1.75d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_portal_frame"
+				}
+				id: "760AFB31F9370BA8"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2B6D2E6F08ACAD4F"]
+			icon_scale: 1.49d
+			id: "16C833E99D530D2D"
+			rewards: [
+				{
+					id: "501AE7C532364A7E"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "111A64FB3AE81229"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "The air burns with hatred."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5622FFB2F6F39C56"
+					type: "toast"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:block/nether_portal"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1534D540E8971B34"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2D7F9BED8B8873A3"]
+			id: "53279B928EFD7768"
+			rewards: [
+				{
+					id: "21C9F7E42B981AF1"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "The air smells of cold iron."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "24C44BE15E31173E"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "4CA7DFB81772E1BF"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["77AD1FF5AF81A8C7"]
+			id: "764AADB2FCB12E0E"
+			rewards: [
+				{
+					id: "0EDED9612F28FE32"
+					type: "xp"
+					xp: 350
+				}
+				{
+					id: "57EFC825A0E94FB3"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "The sky weeps with tranquility."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "68B03493CF28C990"
+					type: "toast"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: {
+					id: "cataclysm:mech_eye"
+				}
+				id: "4EC6AEC814B2D712"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 26.25d
+		}
+		{
+			dependencies: ["53279B928EFD7768"]
+			icon_scale: 1.5d
+			id: "77AD1FF5AF81A8C7"
+			rewards: [
+				{
+					id: "485D56A5ECF0009B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "A star of pure chaos is yours."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "312218086CFC8BAF"
+					type: "toast"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "1B3D4919FB7785BE"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 25.25d
+		}
+		{
+			dependencies: ["62D920F767328225"]
+			id: "11747DB51D17A212"
+			rewards: [
+				{
+					id: "1E22181922389BBF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "The sand crumbles to dust."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "794855A5BE11814B"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "271A7C4ACBDED1F1"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["11747DB51D17A212"]
+			id: "2E6AC058F44A30BF"
+			rewards: [
+				{
+					id: "1E3FBECA9DC67C5A"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "The necklace invites vertigo."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6D16D078AD6870D9"
+					type: "toast"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "37F98DE233B604D3"
+				item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 34.75d
+		}
+		{
+			dependencies: ["2E6AC058F44A30BF"]
+			id: "2D6C875B01BC41B0"
+			rewards: [
+				{
+					id: "49F44B2A5FF519B8"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "55095D8226344F18"
+					item: {
+						count: 1
+						id: "minecraft:sniffer_egg"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "A clean wind blows once more."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "58D801C5AE372936"
+					type: "toast"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					id: "cataclysm:desert_eye"
+				}
+				id: "6CE2BE2A8D980804"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 35.75d
+		}
+		{
+			dependencies: ["62D920F767328225"]
+			id: "579016CCA20872DE"
+			rewards: [
+				{
+					id: "49C69E1FEBCFFCC4"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "0269780ADFC702E1"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:water_breathing"
+							}
+						}
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "Glory sleeps beneath the waves."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4BC3DD6F7E9F6AA3"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "1077372FBD987AD8"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["579016CCA20872DE"]
+			id: "5B2DE24A0A9911CF"
+			rewards: [
+				{
+					id: "6E9AD3A6034983E6"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "The abyss has taken notice."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4ED51426FA492700"
+					type: "toast"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "443F0B7EE6BD3114"
+				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 34.75d
+		}
+		{
+			dependencies: ["5B2DE24A0A9911CF"]
+			id: "2A1030D9C3CA7DAF"
+			rewards: [
+				{
+					id: "01E804B71AC85A53"
+					type: "xp"
+					xp: 450
+				}
+				{
+					id: "18BBE72A6850EFEA"
+					item: {
+						count: 1
+						id: "minecraft:heart_of_the_sea"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "The sea reclaims its tranquil song."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "310A050242B85872"
+					type: "toast"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: {
+					id: "cataclysm:abyss_eye"
+				}
+				id: "779CD56434BCE14C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 35.75d
+		}
+		{
+			dependencies: ["62D920F767328225"]
+			id: "1F967DD98F01B75C"
+			rewards: [
+				{
+					id: "6BFE7259E8E63A76"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "The wind here weeps."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4C5F02E30E3DE25C"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "6D7C75643E6F8073"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 34.0d
+		}
+		{
+			dependencies: ["1F967DD98F01B75C"]
+			id: "1572C0E1808DF810"
+			rewards: [
+				{
+					id: "51BDA7EDDDFE4332"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "5F8004CCA9E61EBD"
+					item: {
+						count: 1
+						id: "cataclysm:goddess_statue"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "A quiet sigh of release."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "106C2C7ABE198E18"
+					type: "toast"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: {
+					id: "cataclysm:storm_eye"
+				}
+				id: "4380C4D44E1653F4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 35.5d
+		}
+		{
+			dependencies: ["168E42B1A1AFD5CE"]
+			id: "5607AC123F406833"
+			rewards: [
+				{
+					id: "5A80A476C6E7BDDA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "A beautiful, terrible lie."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "0DE6BF4B048E3F3E"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "2181633C67A989D1"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: -3.0d
+			y: 43.25d
+		}
+		{
+			dependencies: ["5607AC123F406833"]
+			id: "1C9E3BEC03EBA9C5"
+			optional: true
+			rewards: [
+				{
+					id: "4E23DD4F8AD51E6B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "Truth in a world of phantoms."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2C81829394FD8676"
+					type: "toast"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "6CC674B54E0E2397"
+				item: { count: 1, id: "cataclysm:strange_key" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["5607AC123F406833"]
+			id: "7CF86978CAAB36D8"
+			rewards: [
+				{
+					id: "560C13246283615C"
+					type: "xp"
+					xp: 550
+				}
+				{
+					id: "149972DF956C740B"
+					item: {
+						count: 1
+						id: "cataclysm:cursium_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "The illusion shatters like glass."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2B2D48C94D0CD228"
+					type: "toast"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					id: "cataclysm:cursed_eye"
+				}
+				id: "5DBE6FF97B2936DD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["168E42B1A1AFD5CE"]
+			id: "234CE19736FB24DE"
+			rewards: [
+				{
+					id: "783D4735E1D1B582"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "Do not falter."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "43E4B5AE08DAE5AB"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "6A1DFF0ABEC01AE8"
+				structure: "irons_spellbooks:citadel"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 43.25d
+		}
+		{
+			dependencies: ["234CE19736FB24DE"]
+			id: "5D83A12E6486CBF5"
+			rewards: [
+				{
+					id: "2F86C0A9ACA485CE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "The bell awaits its toll."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "34AF8DA2C2B81D27"
+					type: "toast"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "75860ECB71F5ED05"
+				item: { count: 1, id: "irons_spellbooks:cinderous_soulcaller" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 44.0d
+		}
+		{
+			dependencies: ["5D83A12E6486CBF5"]
+			id: "40EB43BD8B8CFBE2"
+			rewards: [
+				{
+					id: "60F72B82A327E4DF"
+					type: "xp"
+					xp: 600
+				}
+				{
+					count: 2
+					id: "0667916AC30C9D44"
+					item: {
+						count: 1
+						id: "irons_spellbooks:legendary_ink"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "A hero's soul is free"
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4E4603FB1D495FE1"
+					type: "toast"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				icon: {
+					components: {
+						"irons_spellbooks:furled_map_data": {
+							descriptionOverride: {
+								translate: "item.irons_spellbooks.citadel_map"
+							}
+							destination: "irons_spellbooks:citadel"
+							dimension: "minecraft:the_nether"
+						}
+						"minecraft:lore": ["{\"color\":\"gold\",\"translate\":\"item.irons_spellbooks.furled_map_descriptor_framing\",\"with\":[{\"translate\":\"item.irons_spellbooks.citadel_map\"}]}"]
+					}
+					id: "irons_spellbooks:furled_map_ancient"
+				}
+				id: "416763A9524D09B0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 45.0d
+		}
+		{
+			dependencies: [
+				"7CF86978CAAB36D8"
+				"40EB43BD8B8CFBE2"
+			]
+			id: "5D9A018D40D32DE8"
+			rewards: [
+				{
+					id: "7F9C3A64315F0812"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "The arena awaits a victor"
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4016629F07D30A0E"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "712A6978CE625DAD"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 48.25d
+		}
+		{
+			dependencies: ["5D9A018D40D32DE8"]
+			id: "05C73A65DDBDCDA2"
+			rewards: [
+				{
+					id: "697C3A80A09ED6F2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					auto: "enabled"
+					description: "A great eye begins to open."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "356448C3F71D7E93"
+					type: "toast"
+				}
+			]
+			shape: "rsquare"
+			size: 0.5d
+			tasks: [{
+				id: "6C2F2A52E6B3D045"
+				item: { count: 1, id: "cataclysm:burning_ashes" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 49.0d
+		}
+		{
+			dependencies: ["05C73A65DDBDCDA2"]
+			id: "4EDD3338BAAF743A"
+			rewards: [
+				{
+					id: "64213DF1AD27F236"
+					type: "xp"
+					xp: 650
+				}
+				{
+					id: "154213E5D8086109"
+					item: {
+						count: 1
+						id: "cataclysm:ignitium_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "Balance is restored. By you."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "10DCDDCB0F62DEC1"
+					type: "toast"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					id: "cataclysm:flame_eye"
+				}
+				id: "0B2ADD9BC7D644AE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 51.5d
+		}
+		{
+			dependencies: ["4EDD3338BAAF743A"]
+			id: "7E82CDB6EF9CD85D"
+			rewards: [{
+				auto: "enabled"
+				description: "Your watch is eternal"
+				icon: {
+					components: {
+						"ftbquests:icon": "dragonsurvival:textures/gui/ds_logo.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3CB2B01D071868C9"
+				type: "toast"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0CE36BCEBEB34826"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 57.0d
+		}
+		{
+			id: "3C33ECB2D8ED5091"
+			rewards: [{
+				auto: "enabled"
+				description: "The world watches, and waits."
+				icon: {
+					components: {
+						"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "25EE2D830E2B2697"
+				type: "toast"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1B30746885D6AFA1"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["744E3F58A2BF8992"]
+			id: "2D7F9BED8B8873A3"
+			rewards: [
+				{
+					id: "0B0C6B858B242176"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "4ED091544456CEAD"
+					item: {
+						count: 1
+						id: "dragonsurvival:dragon_soul"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "dragonsurvival:wing_grant"
+				}
+				id: "11EC94D3E0D421B3"
+				structure: "dragonsurvival:treasure_end"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 22.0d
+		}
+		{
+			id: "777B97C1B7F50236"
+			rewards: [
+				{
+					id: "564FF9118388210B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "509E6A654C634D6E"
+					table_id: 6229136032185243381L
+					type: "choice"
+				}
+				{
+					id: "775CCDDCB665C39A"
+					item: {
+						count: 1
+						id: "minecraft:diamond_hoe"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "Halmera's bounty sustains you."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "696028857191AD93"
+					type: "toast"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "2FC97851B69E93C1"
+					item: { count: 1, id: "minecraft:apple" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "36BDE9C7F387ECAD"
+					item: { count: 1, id: "minecraft:wheat" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "688909A44562FDAE"
+					item: { count: 1, id: "minecraft:porkchop" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "1AA97068154AEBE6"
+			rewards: [
+				{
+					id: "0440317A5EBD550A"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DC9AAE4734E4AF0"
+					table_id: 6229136032185243381L
+					type: "choice"
+				}
+				{
+					id: "123F35CDC074900C"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:feather_falling": 2
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "The winds now know your name."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5A33A090BE134280"
+					type: "toast"
+				}
+			]
+			tasks: [
+				{
+					id: "6CBAB96C1EDBDF42"
+					item: { count: 1, id: "naturescompass:naturescompass" }
+					type: "item"
+				}
+				{
+					id: "24F36C239A1056AF"
+					item: { count: 1, id: "explorerscompass:explorerscompass" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/dragon_wings.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7ADF63EDEB65D088"
+					stat: "minecraft:walk_one_cm"
+					type: "stat"
+					value: 200000
+				}
+			]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "6DFF77993ADCAC01"
+			rewards: [
+				{
+					id: "71FBCE96B21379DF"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54922E47F1D12C98"
+					table_id: 6229136032185243381L
+					type: "choice"
+				}
+				{
+					id: "51C6501D30023997"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:sharpness": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "Auron takes notice."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "020EC35D94C2E4DB"
+					type: "toast"
+				}
+			]
+			tasks: [
+				{
+					id: "55FD41FA39208572"
+					item: { count: 1, id: "minecraft:iron_sword" }
+					only_from_crafting: true
+					type: "item"
+				}
+				{
+					id: "529EDE7138C5AD29"
+					item: { count: 1, id: "minecraft:iron_helmet" }
+					type: "item"
+				}
+				{
+					id: "4678B853DDE46684"
+					item: { count: 1, id: "minecraft:iron_chestplate" }
+					type: "item"
+				}
+				{
+					id: "2E2838401546602D"
+					item: { count: 1, id: "minecraft:iron_leggings" }
+					type: "item"
+				}
+				{
+					id: "62900F596900A373"
+					item: { count: 1, id: "minecraft:iron_boots" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:textures/mob_effect/strength.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4A873D93275AC61A"
+					stat: "minecraft:mob_kills"
+					type: "stat"
+					value: 40
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "3F52860FE4840682"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CAD123EFB8F5C85"
+					table_id: 7680297968711281499L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A4A096BD6302AF2"
+					table_id: 6229136032185243381L
+					type: "choice"
+				}
+				{
+					id: "5C21DFCBF415A54C"
+					item: {
+						count: 1
+						id: "minecraft:enchanting_table"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "The whispers await their song."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "675CE711FFDA570B"
+					type: "toast"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "221EA60E17E77FD8"
+					item: { count: 1, id: "minecraft:bookshelf" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1D3ACE0DA7CEA64E"
+					item: { count: 1, id: "minecraft:lapis_lazuli" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "7E17322C5BC6C834"
+			rewards: [
+				{
+					id: "44813E4A4EF6BAFD"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5901A764ECE8349B"
+					table_id: 6229136032185243381L
+					type: "choice"
+				}
+				{
+					count: 3
+					id: "0C43458496800CE7"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_healing"
+							}
+						}
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					type: "item"
+				}
+				{
+					id: "21BA4FA65FE97226"
+					item: {
+						components: {
+							"irons_spellbooks:spell_container": {
+								data: [{
+									id: "irons_spellbooks:healing_circle"
+									index: 0
+									level: 6
+									locked: 1b
+								}]
+								maxSpells: 1
+								mustEquip: 0b
+								spellWheel: 0b
+							}
+						}
+						count: 1
+						id: "irons_spellbooks:scroll"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "Neryssa's grace is with you."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6EB29EDD1425FAE3"
+					type: "toast"
+				}
+			]
+			tasks: [
+				{
+					id: "3DD6F6D6DB0F07CD"
+					item: { count: 1, id: "minecraft:brewing_stand" }
+					type: "item"
+				}
+				{
+					id: "2C2DE12164F75973"
+					item: { components: { "minecraft:potion_contents": { potion: "minecraft:healing" } }, count: 1, id: "minecraft:potion" }
+					match_components: "strict"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3F52860FE4840682"
+				"1AA97068154AEBE6"
+				"6DFF77993ADCAC01"
+				"7E17322C5BC6C834"
+				"777B97C1B7F50236"
+			]
+			id: "0DE90B9549320B4F"
+			rewards: [
+				{
+					id: "1ED2B8F461BB05DE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25D0E510F8CE611E"
+					table_id: 6229136032185243381L
+					type: "choice"
+				}
+				{
+					id: "2DF41215340CA62C"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:protection": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					description: "The whispers now have a name..."
+					icon: {
+						components: {
+							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "50C0CF3D4414E2E0"
+					type: "toast"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "74F5FE55F84538B6"
+					item: { count: 1, id: "minecraft:diamond_sword" }
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					id: "4D936438DB0B2A81"
+					item: { count: 1, id: "minecraft:diamond_helmet" }
+					type: "item"
+				}
+				{
+					id: "2AA885E9979816A7"
+					item: { count: 1, id: "minecraft:diamond_chestplate" }
+					type: "item"
+				}
+				{
+					id: "72E5B2652D1899FA"
+					item: { count: 1, id: "minecraft:diamond_leggings" }
+					type: "item"
+				}
+				{
+					id: "7464716A8A990E6E"
+					item: { count: 1, id: "minecraft:diamond_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DE90B9549320B4F"]
+			id: "4D2CA5FFBFA7AB16"
+			rewards: [{
+				auto: "enabled"
+				description: "The cry leads you downward..."
+				icon: {
+					components: {
+						"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0690F4C9423946F5"
+				type: "toast"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "00AF325E69040990"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2760B67E11676063"]
+			id: "2C7615C45D16431F"
+			optional: true
+			rewards: [{
+				id: "032FB94354D885C2"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "pentagon"
+			size: 1.0d
+			tasks: [{
+				icon: {
+					id: "dragonsurvival:primordial_anchor"
+				}
+				id: "38B512653930D647"
+				observe_type: 0
+				timer: 1L
+				to_observe: "dragonsurvival:primordial_anchor"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["764AADB2FCB12E0E"]
+			id: "62D920F767328225"
+			rewards: [{
+				auto: "enabled"
+				description: "Three shadows rise on the horizon..."
+				icon: {
+					components: {
+						"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1662E335EC51FB29"
+				type: "toast"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2D9051FD26C08626"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: [
+				"2D6C875B01BC41B0"
+				"2A1030D9C3CA7DAF"
+				"1572C0E1808DF810"
+			]
+			id: "168E42B1A1AFD5CE"
+			rewards: [{
+				auto: "enabled"
+				description: "The final battle is upon you"
+				icon: {
+					components: {
+						"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "52E0B9213054ABA0"
+				type: "toast"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "51F525560BCE18B9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 40.0d
+		}
+	]
+}

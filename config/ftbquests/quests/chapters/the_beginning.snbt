@@ -1,0 +1,499 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_beginning"
+	group: "78EA73D4AA556E12"
+	icon: {
+		components: {
+			"!ftbquests:icon": { }
+			"ftbquests:entity_face": "minecraft:ender_dragon"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "291E3F05850D5553"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["52A6312666869670"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/gui/ds_logo.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "64EA09325CA73BE1"
+			rewards: [{
+				id: "1BE58C64F9292FC2"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "434936E164ED05B9"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41290A2221D2FF15"]
+			dependency_requirement: "one_completed"
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/modifier.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5E93B483040C00A6"
+			rewards: [{
+				id: "517B110B39E62E93"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "550E35D62500D84E"
+				type: "checkmark"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E93B483040C00A6"]
+			icon: {
+				id: "dragonsurvival:heart_element"
+			}
+			id: "518911E77C2DE085"
+			rewards: [{
+				id: "3B8468E37E7FC5B0"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0B513F7E014FE614"
+				item: { count: 1, id: "dragonsurvival:heart_element" }
+				optional_task: true
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E93B483040C00A6"]
+			id: "38317B92B9349695"
+			rewards: [{
+				id: "4F967883AE74CE89"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FA7C4C4F28E6F18"
+				item: { count: 1, id: "dragonsurvival:weak_dragon_heart" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E93B483040C00A6"]
+			id: "7C7B76F45CC0CC55"
+			rewards: [{
+				id: "0DF23BBACAFA4994"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "195AB4FA967A6276"
+				item: { count: 1, id: "dragonsurvival:elder_dragon_heart" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E93B483040C00A6"]
+			id: "52C9E1A2A805EFAE"
+			rewards: [{
+				id: "3DF6323B813E308F"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_bone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A6C3C7708DC892E"
+				item: { count: 1, id: "dragonsurvival:star_bone" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5E93B483040C00A6"]
+			id: "4196A0B72778B4A9"
+			rewards: [{
+				id: "77E6FA2CF57D5E55"
+				item: {
+					count: 1
+					id: "dragonsurvival:elder_dragon_bone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1176FAC7EAC5171C"
+				item: { count: 1, id: "dragonsurvival:star_heart" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				components: {
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "minecraft:ender_dragon"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "52A6312666869670"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "63E0277A8BE3409C"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52A6312666869670"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/map"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "268CA98A4617D3B4"
+			rewards: [{
+				id: "34A5DB7A70A9EAD3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "433D1055D03D2A8B"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52A6312666869670"]
+			icon: {
+				id: "create:wrench"
+			}
+			id: "6A8064F3B3ED9A5E"
+			rewards: [{
+				id: "29A278A224364A01"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "51E5215566ED30CA"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["52A6312666869670"]
+			icon: {
+				id: "ars_nouveau:novice_spell_book"
+			}
+			id: "35FDE4956415F691"
+			rewards: [{
+				id: "408A6B3842961946"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2EA997A5CA47AD01"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52A6312666869670"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 6
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:iron_spell_book"
+			}
+			id: "7CFCEE9DE2E87FFD"
+			rewards: [{
+				id: "56541D846CD6305F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2ACB7E8DCA783461"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52A6312666869670"]
+			icon: {
+				components: {
+					"ftbquests:icon": "cataclysm:item/flame_eye"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3B9A9A0AFA3C0380"
+			rewards: [{
+				id: "20CAA883319074D8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6F74D79EEFE82280"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E93B483040C00A6"]
+			icon: {
+				components: {
+					"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/damage_modification_other.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "00C009F41021BDEE"
+			rewards: [{
+				id: "24F363DE201AEA82"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7F77CA977BEBBEDB"
+				type: "checkmark"
+			}]
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64EA09325CA73BE1"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/hud/food_empty.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "41290A2221D2FF15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "010D9DC847EA017B"
+				table_id: 5578025197232981223L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7C3062017591D69D"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E93B483040C00A6"]
+			id: "045F60E47DA778FB"
+			rewards: [{
+				id: "219C446C93AC0628"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E424CC0C4FB6E46"
+				item: { count: 1, id: "dragonsurvival:dragon_soul" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00C009F41021BDEE"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "4138EA22BF8ABF69"
+			rewards: [{
+				id: "48128D12EF76E766"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "32B9FB59BCDCFDCC"
+				type: "checkmark"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52A6312666869670"]
+			icon: {
+				components: {
+					"ftbquests:icon": "lootr:block/barrel_bottom"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "58EDE384B89A5980"
+			rewards: [{
+				id: "2B49EC220353F06D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "648ABF7134821948"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A8064F3B3ED9A5E"]
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			id: "6E2DCC3243C09865"
+			rewards: [{
+				id: "2D8DDE931FF66FF2"
+				item: {
+					count: 1
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "32E07B3446EB571A"
+					item: { count: 1, id: "create:raw_zinc" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "36BB34281EA89C91"
+					item: { count: 1, id: "minecraft:andesite" }
+					type: "item"
+				}
+				{
+					id: "0F848D0B2C02AF81"
+					item: { count: 1, id: "create:zinc_ingot" }
+					type: "item"
+				}
+				{
+					id: "4CEBE0D0099C4B37"
+					item: { count: 1, id: "create:zinc_nugget" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6E2DCC3243C09865"]
+			id: "27DB77533D862C25"
+			rewards: [{
+				id: "4EBF11C5E39CB6B3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					id: "4D6C3C6BCA5A8B95"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+				{
+					id: "4DB1E79155549BAC"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					id: "464B08725B6DBECE"
+					item: { count: 1, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+				{
+					id: "204502AB55BA5866"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6E2DCC3243C09865"]
+			id: "2C5B865DB5AA478E"
+			rewards: [{
+				id: "54D297FDDC539F51"
+				item: {
+					count: 1
+					id: "create:belt_connector"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 6L
+				id: "3FAF770610E8D070"
+				item: { count: 1, id: "minecraft:dried_kelp" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["41290A2221D2FF15"]
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/hud/food_full_hunger.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "42C41C50BA14FFF1"
+			tasks: [{
+				id: "049BA0A4F0D9A6D6"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+	]
+}

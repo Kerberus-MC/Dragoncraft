@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "additionalstructures:scarecrow",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 500,
+    "separation": 470,
+    "salt": 40434013
+  }
+}

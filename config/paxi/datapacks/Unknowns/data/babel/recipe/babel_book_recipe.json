@@ -1,0 +1,1 @@
+{"type": "minecraft:crafting_shapeless", "category": "misc", "ingredients": ["minecraft:chest", "minecraft:emerald", "minecraft:soul_sand", "minecraft:writable_book"], "result": {"id": "minecraft:chest", "count": 1, "components": {"minecraft:container_loot": {"loot_table": "babel:crafted_chest"}, "minecraft:item_name": "{\"text\":\"Random Book Chest\"}"}}}

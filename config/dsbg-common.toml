@@ -1,0 +1,2 @@
+#Whether to suppress "Detected setBlock in a far chunk" logging
+suppressSpam = true

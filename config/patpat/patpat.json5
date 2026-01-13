@@ -1,0 +1,12 @@
+{
+  "debug": false,
+  "version": "1.0.0",
+  "listMode": "DISABLED",
+  "rateLimit": {
+    "tokenIncrement": 1,
+    "tokenIncrementInterval": "1sec",
+    "permissionBypass": "patpat.ratelimit.bypass",
+    "enable": false,
+    "tokenLimit": 20
+  }
+}

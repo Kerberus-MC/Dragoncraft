@@ -1,0 +1,10 @@
+#Allow extracting / inserting only a single item from a container item instead of all items from the selected slot while a modifier key is held.
+#In precision mode left-clicking inserts an item, and right-clicking extracts a single item, overriding vanilla mouse interactions. The scroll wheel can also be used for quickly moving items.
+#Default Value: true
+allow_precision_mode = true
+#Allow using the mouse wheel to scroll between slots in an item tooltip to choose the next item to extract.
+#Default Value: true
+allow_slot_cycling = true
+#Allow dragging the mouse while holding a container item to insert hovered items, or to extract container contents to empty hovered slots.
+#Default Value: true
+allow_mouse_dragging = true
