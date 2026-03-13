@@ -518,6 +518,30 @@
 						#2) Allies - players or entities owned by players in parties that are allied by yours.
 						#3) Every - all players/entities.
 						Anything = 0
+						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: create:blaze_burner.
+						#
+						#1) Party - players or entities owned by players in the same party as you.
+						#2) Allies - players or entities owned by players in parties that are allied by yours.
+						#3) Every - all players/entities.
+						Create_Blaze_Burner = 0
+						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: refurbished_furniture:post_box.
+						#
+						#1) Party - players or entities owned by players in the same party as you.
+						#2) Allies - players or entities owned by players in parties that are allied by yours.
+						#3) Every - all players/entities.
+						Post_Box = 0
+						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: #c:player_workstations/crafting_tables.
+						#
+						#1) Party - players or entities owned by players in the same party as you.
+						#2) Allies - players or entities owned by players in parties that are allied by yours.
+						#3) Every - all players/entities.
+						Crafting_Tables = 0
+						#When enabled, claimed chunk protection makes an exception for interaction with the following blocks: minecraft:smithing_table.
+						#
+						#1) Party - players or entities owned by players in the same party as you.
+						#2) Allies - players or entities owned by players in parties that are allied by yours.
+						#3) Every - all players/entities.
+						Smithing_Tables = 0
 
 					[playerConfig.claims.protection.exceptionGroups.block.break]
 						#When enabled, claimed chunk protection makes an exception for destruction of the following blocks: #minecraft:crops, minecraft:cave_vines(|_plant), minecraft:sweet_berry_bush, alcocraftplus:hop(|_plant), biomeswevegone:blueberry_bush, ars_nouveau:sourceberry_bush, toxony:false_berry_bush, fairydragon:moonlight_berry_bush.
