@@ -1,32 +1,26 @@
-# Dragoncraft Modpack
-## 📦 Downloads
+# Dragoncraft
 
-- **Client Pack**: Download from [Releases](https://github.com/Kerberus-MC/Dragoncraft/releases)
-- **Server Pack**: Download from [Releases](https://github.com/Kerberus-MC/Dragoncraft/releases)
+The ultimate dragon-themed modpack adventure!
 
-## 🐛 Issue Tracking
+[![CurseForge](https://img.shields.io/badge/CurseForge-Download-orange)](https://www.curseforge.com/minecraft/modpacks/dragoncraft)
 
-Please report any bugs, crashes, or issues using our [Issue Templates](https://github.com/Kerberus-MC/Dragoncraft/issues).
+## Download
 
-## 🗓️ Release Management
+- **Client:** Install via [CurseForge App](https://www.curseforge.com/minecraft/modpacks/dragoncraft) or download from [GitHub Releases](https://github.com/Kerberus-MC/Dragoncraft/releases).
+- **Server:** Download server packs from [GitHub Releases](https://github.com/Kerberus-MC/Dragoncraft/releases).
 
-We use GitHub's milestone system to track progress for upcoming releases:
+## Issues
 
-### Current Milestones:
-- [View Active Milestones](https://github.com/Kerberus-MC/Dragoncraft/milestones)
+Found a bug or have a suggestion? [Open an issue](https://github.com/Kerberus-MC/Dragoncraft/issues).
 
-### How We Manage Releases:
-1. **Milestones** track features/bugs for each version
-2. **Releases** contain downloadable client/server packs
-3. **Tags** mark specific versions (e.g., `v1.0.0`)
+## Community
 
-## 🚀 Quick Links
+Join us on Discord: https://discord.gg/kfR6WyFSr7
 
-- [Issues](https://github.com/Kerberus-MC/Dragoncraft/issues)
-- [Discord](https://discord.com/invite/draconia)
-- [Milestones](https://github.com/Kerberus-MC/Dragoncraft/milestones)
-- [Releases](https://github.com/Kerberus-MC/Dragoncraft/releases)
+## Changelog
 
-## 📝 Changelog
+See [CHANGELOG.md](CHANGELOG.md) and [Releases](https://github.com/Kerberus-MC/Dragoncraft/releases) for version history.
 
-See [Releases](https://github.com/Kerberus-MC/Dragoncraft/releases) for version history and changelogs.
+---
+
+> **Note:** `manifest.json` may not always be present in the repo — it is generated at export time by CurseForge.

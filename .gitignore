@@ -1,2 +1,32 @@
-.curseclient
+# Mod JARs — managed by CurseForge, never committed
 mods/
+*.jar
+
+# CurseForge app metadata
+.curseclient
+minecraftinstance.json
+
+# Runtime / generated
+logs/
+crash-reports/
+saves/
+world/
+local/
+replay_recordings/
+replay_downloads/
+screenshots/
+backups/
+*.log
+hs_err_pid*
+
+# OS junk
+Thumbs.db
+.DS_Store
+desktop.ini
+ehthumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
