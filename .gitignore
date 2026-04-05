@@ -17,6 +17,8 @@ replay_downloads/
 screenshots/
 backups/
 *.log
+*.bak
+*.backup*
 hs_err_pid*
 
 # OS junk
