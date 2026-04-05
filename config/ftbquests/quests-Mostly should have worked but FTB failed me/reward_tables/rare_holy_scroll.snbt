@@ -1,0 +1,16 @@
+{
+	id: "0FE720B343CEF334"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ id: "5EB065204621F18D", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:wisp", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "373BDD17314F2ECF", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:divine_smite", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "3CC67C3DC6A424A5", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:blessing_of_life", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "7B83DC298EC939D4", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:fortify", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "336D11597DF95039", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:greater_heal", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "30F2E9D8C0162036", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:guiding_bolt", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "4B20804949568EA9", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:healing_circle", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "1951A43091FD7FE5", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:heal", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "69FED846F195687E", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:sunbeam", index: 0, level: 6, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+	]
+}

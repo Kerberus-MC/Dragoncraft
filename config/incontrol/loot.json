@@ -1,1 +1,218 @@
-[]
+[
+  {
+    "mob": "ars_nouveau:dummy",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "ars_nouveau:dummy",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "ars_nouveau:dummy",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "ars_nouveau:summon_wolf",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "ars_nouveau:summon_wolf",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "ars_nouveau:summon_wolf",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "ars_nouveau:summon_skeleton",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "ars_nouveau:summon_skeleton",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "ars_nouveau:summon_skeleton",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "ars_nouveau:summon_horse",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "ars_nouveau:summon_horse",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "ars_nouveau:summon_horse",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_camel",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "ars_elemental:summon_camel",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_camel",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_direwolf",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "ars_elemental:summon_direwolf",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_direwolf",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_dolphin",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "ars_elemental:summon_dolphin",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_dolphin",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_skelehorse",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "ars_elemental:summon_skelehorse",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_skelehorse",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_strider",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "ars_elemental:summon_strider",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_strider",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_vhex",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "ars_elemental:summon_vhex",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_vhex",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_wskeleton",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "ars_elemental:summon_wskeleton",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "ars_elemental:summon_wskeleton",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_claymore",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_claymore",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_claymore",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_polar_bear",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_polar_bear",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_polar_bear",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_rapier",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_rapier",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_rapier",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_skeleton",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_skeleton",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_skeleton",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_sword",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_sword",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_sword",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_vex",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_vex",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_vex",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_zombie",
+    "remove": "dragonsurvival:heart_element"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_zombie",
+    "remove": "dragonsurvival:weak_dragon_heart"
+  },
+  {
+    "mob": "irons_spellbooks:summoned_zombie",
+    "remove": "dragonsurvival:elder_dragon_heart"
+  }
+]

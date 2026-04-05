@@ -1,0 +1,13 @@
+{
+	id: "4D69205CFD4004E7"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "79D4900E74A27AF9", item: { count: 1, id: "dragonsurvival:charred_meat" } }
+		{ id: "5A4EB797FFAD2E4C", item: { count: 1, id: "dragonsurvival:smelly_meat_porridge" } }
+		{ id: "3B4D8B350326FF44", item: { count: 1, id: "dragonsurvival:seasoned_fish" } }
+		{ id: "7280740223A70E3F", item: { count: 1, id: "mynethersdelight:bacon-wrapped_sausage_on_a_stick" } }
+		{ id: "0007E57FA02F0A00", item: { count: 1, id: "ds_aether_addon:chopfordragon" } }
+		{ id: "3A78C69B55CC6BAC", item: { count: 1, id: "minecraft:sculk" } }
+	]
+}

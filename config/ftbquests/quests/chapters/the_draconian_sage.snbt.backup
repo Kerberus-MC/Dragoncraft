@@ -2473,8 +2473,9 @@
 					id: "minecraft:spyglass"
 				}
 				id: "1538E0A9364809B4"
-				structure: "cataclysm:frosted_prison"
-				type: "structure"
+				key: "frosted prison"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: -3.0d
 			y: 43.25d
@@ -2485,7 +2486,6 @@
 				"7B1478AAF36332B1"
 			]
 			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
 			id: "1C9E3BEC03EBA9C5"
 			optional: true
 			rewards: [
@@ -2514,14 +2514,12 @@
 				item: { count: 1, id: "cataclysm:strange_key" }
 				type: "item"
 			}]
-			x: -2.75d
+			x: -3.0d
 			y: 44.0d
 		}
 		{
-			dependencies: ["66F7BA9BDB94B111"]
-			dependency_requirement: "one_completed"
+			dependencies: ["5607AC123F406833"]
 			id: "7CF86978CAAB36D8"
-			progression_mode: "flexible"
 			rewards: [
 				{
 					id: "560C13246283615C"
@@ -2589,8 +2587,9 @@
 					id: "minecraft:spyglass"
 				}
 				id: "53B1840D1791FF92"
-				structure: "irons_spellbooks:citadel"
-				type: "structure"
+				key: "citadel"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 3.0d
 			y: 43.25d
@@ -2712,8 +2711,9 @@
 					id: "minecraft:spyglass"
 				}
 				id: "57C4E442F517D1EC"
-				structure: "cataclysm:burning_arena"
-				type: "structure"
+				key: "burning arena"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 48.25d
@@ -3720,7 +3720,7 @@
 				]
 				type: "location"
 			}]
-			x: -2.15d
+			x: -1.55d
 			y: 43.25d
 		}
 		{
@@ -3769,33 +3769,6 @@
 			}]
 			x: 0.0d
 			y: 46.95d
-		}
-		{
-			dependencies: [
-				"5607AC123F406833"
-				"7B1478AAF36332B1"
-			]
-			dependency_requirement: "one_completed"
-			disable_toast: true
-			id: "66F7BA9BDB94B111"
-			shape: "none"
-			size: 0.1d
-			tasks: [{
-				disable_toast: true
-				icon: {
-					components: {
-						"ftbquests:icon": "irons_spellbooks:item/invisibility_ring"
-					}
-					id: "ftbquests:custom_icon"
-				}
-				id: "60C046DAF63D8AE5"
-				optional_task: true
-				stat: "minecraft:play_time"
-				type: "stat"
-				value: 1
-			}]
-			x: -2.5625d
-			y: 43.25d
 		}
 	]
 }

@@ -1,0 +1,327 @@
+[
+  {
+    "result": "deny",
+    "when": "onjoin",
+    "mob": "ars_nouveau:dummy",
+    "mincount": 
+    { 
+      "amount": 2, 
+      "perplayer": true 
+    }
+  },
+  {
+    "when": "onjoin",
+    "spawntype": ["mob_summoned", "spawn_egg"],
+    "result": "default"
+  },
+  {
+    "result": "default",
+    "spawntype": "spawner",
+    "maxcount": 
+    { 
+      "amount": 3, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "default",
+    "mob": "minecraft:warden",
+    "maxcount": 
+    { 
+      "amount": 2, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "default",
+    "mob": "minecraft:wither",
+    "maxcount": 
+    { 
+      "amount": 2, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "default",
+    "mob": "ars_nouveau:wilden_boss",
+    "maxcount": 
+    { 
+      "amount": 2, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "default",
+    "mob": "irons_spellbooks:fire_boss",
+    "maxcount": 
+    { 
+      "amount": 2, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "when": "onjoin",
+    "mob": "minecraft:wither",
+    "mincount": 
+    { 
+      "amount": 2, 
+      "perchunk": true 
+    }
+  },
+  {
+    "result": "deny",
+    "when": "onjoin",
+    "mob": "ars_nouveau:wilden_boss",
+    "mincount": 
+    { 
+      "amount": 2, 
+      "perchunk": true 
+    }
+  },
+  {
+    "result": "deny",
+    "when": "onjoin",
+    "mob": "irons_spellbooks:fire_boss",
+    "mincount": 
+    { 
+      "amount": 2, 
+      "perchunk": true 
+    }
+  },
+  {
+    "result": "default",
+    "mob": "irons_spellbooks:dead_king",
+    "maxcount": 
+    { 
+      "amount": 2, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "default",
+    "mob": "irons_spellbooks:dead_king_corpse",
+    "maxcount": 
+    { 
+      "amount": 2, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "default",
+    "mod": "cataclysm",
+    "dimension": "the_void:the_void"
+  },
+  {
+    "result": "deny",
+    "mod": "minecraft",
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+    "mincount": 
+    {
+      "amount": 20,
+      "hostile": true,
+      "perchunk": true,
+      "mod": "minecraft"
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:bat",
+    "mincount": 
+    { 
+      "amount": 1, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:salmon",
+    "mincount": 
+    { 
+      "amount": 6, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:cod",
+    "mincount": 
+    { 
+      "amount": 6, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:tropical_fish",
+    "mincount": 
+    { 
+      "amount": 6, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:squid",
+    "mincount": 
+    { 
+      "amount": 6, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:glow_squid",
+    "mincount": 
+    { 
+      "amount": 4, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:ocelot",
+    "mincount": 
+    { 
+      "amount": 3, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "minecraft",
+    "hostile": false,
+    "dimension": "minecraft:overworld",
+    "mincount": 
+    {
+      "amount": 13,
+      "hostile": false,
+      "perplayer": true,
+      "mod": "minecraft"
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:enderman",
+    "dimension": "minecraft:the_end",
+    "mincount": 
+    { 
+      "amount": 13, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:endermite",
+    "dimension": "minecraft:the_end",
+    "mincount": 
+    { 
+      "amount": 3, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "irons_spellbooks:necromancer",
+    "mincount": 
+    { 
+      "amount": 3, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "enderscape",
+    "mincount": 
+    { 
+      "amount": 4, 
+      "perplayer": true, 
+      "mod": "enderscape" 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "variantsandventures",
+    "mincount": 
+    { 
+      "amount": 4, 
+      "perplayer": true, 
+      "mod": "variantsandventures" 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "kobolds",
+    "mincount": 
+    { 
+      "amount": 5, 
+      "perplayer": true, 
+      "mod": "kobolds" 
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "cataclysm:koboleton",
+    "mincount": 
+    { 
+      "amount": 4, 
+      "perplayer": true 
+    }
+  },
+  {
+    "result": "deny",
+    "dimension": ["minecraft:overworld", "minecraft:nether"],
+    "mod": "cataclysm",
+    "mincount": 
+    { 
+      "amount": 5, 
+      "perplayer": true, 
+      "mod": "cataclysm" 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "netherdepthsupgrade",
+    "mincount": 
+    { 
+      "amount": 5, 
+      "perplayer": true, 
+      "mod": "netherdepthsupgrade" 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "ribbits",
+    "mincount": 
+    { 
+      "amount": 4, 
+      "perplayer": true, 
+      "mod": "ribbits" 
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "minecraft",
+    "dimension": "minecraft:nether",
+    "mincount": 
+    {
+      "amount": 16,
+      "perplayer": true,
+      "mod": "minecraft"
+    }
+  },
+  {
+    "result": "deny",
+    "mod": "minecolonies",
+    "hostile": true,
+    "dimension": "minecraft:overworld",
+    "mincount": 
+    {
+      "amount": 6,
+      "hostile": true,
+      "perplayer": true,
+      "mod": "minecolonies"
+    }
+  }
+]

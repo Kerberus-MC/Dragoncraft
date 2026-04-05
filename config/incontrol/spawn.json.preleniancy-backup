@@ -1,8 +1,84 @@
 [
   {
+    "result": "deny",
     "when": "onjoin",
-    "spawntype": ["mob_summoned", "spawn_egg", "command"],
+    "mob": "ars_nouveau:dummy",
+    "mincount": {
+      "amount": 2,
+      "perplayer": true
+    }
+  },
+  {
+    "when": "onjoin",
+    "spawntype": ["mob_summoned", "spawn_egg"],
     "result": "default"
+  },
+  {
+    "result": "default",
+    "spawntype": "spawner",
+    "maxcount": {
+      "amount": 3,
+      "perplayer": true
+    }
+  },
+  {
+    "result": "default",
+    "mob": "minecraft:warden",
+    "maxcount": {
+      "amount": 2,
+      "perplayer": true
+    }
+  },
+  {
+    "result": "default",
+    "mob": "minecraft:wither",
+    "maxcount": {
+      "amount": 3,
+      "perplayer": true
+    }
+  },
+  {
+    "result": "default",
+    "mob": "ars_nouveau:wilden_boss",
+    "maxcount": {
+      "amount": 2,
+      "perplayer": true
+    }
+  },
+  {
+    "result": "default",
+    "mob": "irons_spellbooks:fire_boss",
+    "maxcount": {
+      "amount": 2,
+      "perplayer": true
+    }
+  },
+  {
+    "result": "deny",
+    "when": "onjoin",
+    "mob": "minecraft:wither",
+    "mincount": {
+      "amount": 3,
+      "perchunk": true
+    }
+  },
+  {
+    "result": "deny",
+    "when": "onjoin",
+    "mob": "ars_nouveau:wilden_boss",
+    "mincount": {
+      "amount": 2,
+      "perchunk": true
+    }
+  },
+  {
+    "result": "deny",
+    "when": "onjoin",
+    "mob": "irons_spellbooks:fire_boss",
+    "mincount": {
+      "amount": 2,
+      "perchunk": true
+    }
   },
   {
     "result": "default",
@@ -12,7 +88,6 @@
   {
     "result": "deny",
     "mob": "minecraft:bat",
-    "when": "onjoin",
     "mincount": {
       "amount": 1,
       "perplayer": true
@@ -20,12 +95,23 @@
   },
   {
     "result": "deny",
-    "mob": [
-        "minecraft:pufferfish",
-        "minecraft:salmon",
-        "minecraft:cod",
-        "minecraft:tropical_fish"
-      ],
+    "mob": "minecraft:salmon",
+    "mincount": {
+      "amount": 8,
+      "perchunk": true
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:cod",
+    "mincount": {
+      "amount": 8,
+      "perchunk": true
+    }
+  },
+  {
+    "result": "deny",
+    "mob": "minecraft:tropical_fish",
     "mincount": {
       "amount": 8,
       "perchunk": true
@@ -57,23 +143,11 @@
   },
   {
     "result": "deny",
-    "mob": [
-        "minecraft:skeleton",
-        "minecraft:zombie"
-    ],
-    "dimension": "minecraft:overworld",
-    "mincount": {
-      "amount": 12,
-      "perchunk": true
-    }
-  },
-  {
-    "result": "deny",
     "mod": "minecraft",
     "hostile": true,
     "dimension": "minecraft:overworld",
     "mincount": {
-      "amount": 12,
+      "amount": 15,
       "perchunk": true
     }
   },
@@ -82,7 +156,7 @@
     "mob": "minecraft:enderman",
     "dimension": "minecraft:the_end",
     "mincount": {
-      "amount": 10,
+      "amount": 13,
       "perplayer": true
     }
   },
@@ -93,15 +167,6 @@
     "mincount": {
       "amount": 3,
       "perplayer": true
-    }
-  },
-  {
-    "result": "deny",
-    "mod": "minecraft",
-    "dimension": "minecraft:nether",
-    "mincount": {
-      "amount": 10,
-      "perchunk": true
     }
   },
   {
@@ -174,12 +239,21 @@
   },
   {
     "result": "deny",
+    "mod": "minecraft",
+    "dimension": "minecraft:nether",
+    "mincount": {
+      "amount": 16,
+      "perchunk": true
+    }
+  },
+  {
+    "result": "deny",
     "mod": "minecolonies",
     "hostile": true,
     "dimension": "minecraft:overworld",
     "mincount": {
-      "amount": 3,
-      "perchunk": true
+      "amount": 6,
+      "perplayer": true
     }
   },
   {
@@ -188,22 +262,6 @@
     "dimension": "minecraft:overworld",
     "mincount": {
       "amount": 1,
-      "perchunk": true
-    }
-  },
-  {
-    "result": "deny",
-    "hostile": true,
-    "mincount": {
-      "amount": 6,
-      "perchunk": true
-    }
-  },
-  {
-    "result": "deny",
-    "hostile": false,
-    "mincount": {
-      "amount": 4,
       "perchunk": true
     }
   }

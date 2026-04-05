@@ -22,7 +22,7 @@ defaultGlobalExecutorParallelismExpression = "default"
 # - https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Thread.html#setPriority(int)
 # 
 threadPoolPriority = "default"
-# (Default: 9) Configures the parallelism of global executor
+# (Default: 6) Configures the parallelism of global executor
 globalExecutorParallelism = "default"
 
 [generalOptimizations]
@@ -62,9 +62,9 @@ globalExecutorParallelism = "default"
 	# 
 	gcFreeChunkSerializer = "default"
 	# (Default: 8192) Soft limit for io worker nbt cache
-	chunkDataCacheSoftLimit = "default"
+	chunkDataCacheSoftLimit = 4096
 	# (Default: 32678) Hard limit for io worker nbt cache
-	chunkDataCacheLimit = "default"
+	chunkDataCacheLimit = 8192
 
 [fixes]
 	# (Default: true) Enforces safe world random access.  
@@ -174,16 +174,16 @@ globalExecutorParallelism = "default"
 [noTickViewDistance]
 	# (Default: true) Whether to enable no-tick view distance
 	enabled = "default"
-	# (Default: 10) No-tick view distance max concurrent chunk loads 
+	# (Default: 7) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
-	maxConcurrentChunkLoads = "default"
+	maxConcurrentChunkLoads = 4
 	# (Default: true) Whether to use compatibility mode to send chunks 
 	#  This may fix some mod compatibility issues
 	compatibilityMode = "default"
 	# (Default: true) Enable server-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 	# This allows requesting render distances higher than 127 chunks from the server
 	# 
-	enableExtRenderDistanceProtocol = "default"
+	enableExtRenderDistanceProtocol = false
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	#  This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"
@@ -191,7 +191,7 @@ globalExecutorParallelism = "default"
 	[clientSideConfig.modifyMaxVDConfig]
 		# (Default: true) Whether to modify maximum view distance
 		enabled = "default"
-		# (Default: 93) Max render distance allowed in game options
+		# (Default: 109) Max render distance allowed in game options
 		maxViewDistance = "default"
 		# (Default: true) Enable client-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 		# This allows requesting render distances higher than 127 chunks from the server

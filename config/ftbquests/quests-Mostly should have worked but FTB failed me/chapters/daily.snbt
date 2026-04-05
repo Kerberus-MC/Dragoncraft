@@ -36,6 +36,17 @@
 		{
 			icon_scale: 1.5d
 			id: "28007DE31E9EA681"
+			rewards: [{
+				id: "1E2791FA1F41F705"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 32L
@@ -49,6 +60,17 @@
 		{
 			icon_scale: 1.5d
 			id: "3E148A56A2180899"
+			rewards: [{
+				id: "74AC0BA0AC41A023"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 64L
@@ -62,6 +84,17 @@
 		{
 			icon_scale: 1.5d
 			id: "24206130C03BF470"
+			rewards: [{
+				id: "7CF0C3697EBB4671"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 16L
@@ -75,6 +108,17 @@
 		{
 			icon_scale: 1.5d
 			id: "7069E58E0D110D10"
+			rewards: [{
+				id: "5992ADFC8D8645FE"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 8L
@@ -88,6 +132,17 @@
 		{
 			icon_scale: 1.5d
 			id: "50FB586FFFAC33AE"
+			rewards: [{
+				id: "03D616DC2F42C636"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 4L
@@ -101,6 +156,17 @@
 		{
 			icon_scale: 1.5d
 			id: "60DFB05FE34646BB"
+			rewards: [{
+				id: "30EA1F3BABD0A919"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 8L
@@ -117,6 +183,17 @@
 			}
 			icon_scale: 1.5d
 			id: "1B8E39CF00E2994E"
+			rewards: [{
+				id: "2E0E94162A4DDCCE"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -145,6 +222,18 @@
 		{
 			icon_scale: 1.5d
 			id: "74A1FC5978293A9D"
+			rewards: [{
+				count: 2
+				id: "134CD045504D8E2D"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 16L
@@ -158,6 +247,18 @@
 		{
 			icon_scale: 1.5d
 			id: "1A3E34C0D1437B0D"
+			rewards: [{
+				count: 2
+				id: "7C681292EBCE8840"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 16L
@@ -171,6 +272,18 @@
 		{
 			icon_scale: 1.5d
 			id: "0B8F40F2B5B1AE7F"
+			rewards: [{
+				count: 2
+				id: "4C9D45489584FFB1"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 16L
@@ -187,6 +300,17 @@
 			}
 			icon_scale: 1.5d
 			id: "6A37B244128879CC"
+			rewards: [{
+				id: "663992E72AC54448"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -215,6 +339,18 @@
 		{
 			icon_scale: 1.5d
 			id: "4F0CACA80CA4F315"
+			rewards: [{
+				count: 4
+				id: "53C93FF83D4DFE03"
+				item: {
+					components: {
+						"ftbquests:missing_item": "numismatics:bevel"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				count: 4L

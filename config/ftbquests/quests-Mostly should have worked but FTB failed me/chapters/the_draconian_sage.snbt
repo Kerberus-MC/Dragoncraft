@@ -1108,6 +1108,14 @@
 			image: "cataclysm:block/polished_azure_seastone"
 			rotation: 0.0d
 			width: 1.15d
+			x: 5.0d
+			y: 33.5d
+		}
+		{
+			height: 1.15d
+			image: "cataclysm:block/polished_azure_seastone"
+			rotation: 0.0d
+			width: 1.15d
 			x: 3.0d
 			y: 33.5d
 		}
@@ -1663,18 +1671,8 @@
 			x: 0.0d
 			y: 51.5d
 		}
-		{
-			height: 1.15d
-			image: "cataclysm:block/polished_azure_seastone"
-			order: -1
-			rotation: 0.0d
-			width: 1.15d
-			x: 5.0d
-			y: 33.5d
-		}
 	]
 	order_index: 0
-	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
@@ -1703,16 +1701,16 @@
 				icon: {
 					id: "minecraft:spyglass"
 				}
-				id: "64D5CE306EB5A3EF"
-				structure: "irons_spellbooks:catacombs"
-				type: "structure"
+				id: "4E437C7AF6620974"
+				key: "discover catacombs"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: -3.5d
-			y: 8.55d
+			y: 8.5d
 		}
 		{
 			dependencies: ["41B9105AB9128396"]
-			dependency_requirement: "one_completed"
 			id: "2B6D2E6F08ACAD4F"
 			rewards: [
 				{
@@ -1743,12 +1741,12 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "irons_spellbooks:dead_king"
 				icon: {
 					id: "irons_spellbooks:wayward_compass"
 				}
-				id: "55C70AB9A2081DB1"
-				type: "kill"
+				id: "24F2515916913F51"
+				key: "kill dead king"
+				type: "extraquests:key_value"
 				value: 1L
 			}]
 			x: -3.5d
@@ -1780,19 +1778,16 @@
 				icon: {
 					id: "minecraft:spyglass"
 				}
-				id: "50BE0E300BD004D4"
-				structure: "cataclysm:soul_black_smith"
-				type: "structure"
+				id: "5EC3FBDBF6FC22A3"
+				key: "soul blacksmith"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 3.5d
 			y: 8.5d
 		}
 		{
-			dependencies: [
-				"22F4CF59DCBE913B"
-				"09C14B04B585D575"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["22F4CF59DCBE913B"]
 			id: "57F15A80341FC8CC"
 			rewards: [
 				{
@@ -1822,12 +1817,12 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "cataclysm:netherite_monstrosity"
 				icon: {
 					id: "cataclysm:monstrous_eye"
 				}
-				id: "415F15EA36561052"
-				type: "kill"
+				id: "001904DEC5735B27"
+				key: "monstrosity"
+				type: "extraquests:key_value"
 				value: 1L
 			}]
 			x: 3.5d
@@ -1859,19 +1854,16 @@
 				icon: {
 					id: "minecraft:spyglass"
 				}
-				id: "213F0F11BA2ACE63"
-				structure: "cataclysm:ruined_citadel"
-				type: "structure"
+				id: "391B9F08238870B0"
+				key: "ruined citadel"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: -2.0d
 			y: 17.0d
 		}
 		{
-			dependencies: [
-				"4252944538746727"
-				"328273969A53D484"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["4252944538746727"]
 			id: "744E3F58A2BF8992"
 			rewards: [
 				{
@@ -1902,12 +1894,12 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "cataclysm:ender_guardian"
 				icon: {
 					id: "cataclysm:void_eye"
 				}
-				id: "15A15CFEA7E2E1C8"
-				type: "kill"
+				id: "63960EF8FAE1BED2"
+				key: "ender guardian"
+				type: "extraquests:key_value"
 				value: 1L
 			}]
 			x: -2.0d
@@ -1953,12 +1945,13 @@
 			shape: "square"
 			size: 1.75d
 			tasks: [{
-				dimension: "minecraft:the_end"
 				icon: {
 					id: "minecraft:end_portal_frame"
 				}
-				id: "3EDEE2AB44532280"
-				type: "dimension"
+				id: "1B0675BBDBD67FBB"
+				key: "enter the end"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 14.0d
@@ -2002,15 +1995,16 @@
 			shape: "square"
 			size: 1.5d
 			tasks: [{
-				dimension: "minecraft:the_nether"
 				icon: {
 					components: {
 						"ftbquests:icon": "minecraft:block/nether_portal"
 					}
 					id: "ftbquests:custom_icon"
 				}
-				id: "177C338966B8C9FB"
-				type: "dimension"
+				id: "44DBA0169B4DA080"
+				key: "enter the nether"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 9.5d
@@ -2041,9 +2035,10 @@
 				icon: {
 					id: "minecraft:spyglass"
 				}
-				id: "08C2EFED21D41A8F"
-				structure: "cataclysm:ancient_factory"
-				type: "structure"
+				id: "0396BB7F8CF23C6A"
+				key: "ancient factory"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 24.5d
@@ -2080,23 +2075,19 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "cataclysm:the_harbinger"
 				icon: {
 					id: "cataclysm:mech_eye"
 				}
-				id: "0CA3E5F6C712EA21"
-				type: "kill"
+				id: "701C4D678170034B"
+				key: "harbinger"
+				type: "extraquests:key_value"
 				value: 1L
 			}]
 			x: 0.0d
 			y: 26.25d
 		}
 		{
-			dependencies: [
-				"53279B928EFD7768"
-				"63389E3587264DD6"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["53279B928EFD7768"]
 			icon_scale: 1.5d
 			id: "77AD1FF5AF81A8C7"
 			rewards: [
@@ -2121,9 +2112,13 @@
 			shape: "rsquare"
 			size: 0.5d
 			tasks: [{
-				id: "166F9B438157BA0A"
-				item: { count: 1, id: "minecraft:nether_star" }
-				type: "item"
+				icon: {
+					id: "minecraft:nether_star"
+				}
+				id: "78D1AB22EF80263B"
+				key: "nether star"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 25.25d
@@ -2154,19 +2149,16 @@
 				icon: {
 					id: "minecraft:spyglass"
 				}
-				id: "3F951C184C1113C8"
-				structure: "cataclysm:cursed_pyramid"
-				type: "structure"
+				id: "164FD471A473F4AA"
+				key: "cursed pyramid"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: -4.0d
 			y: 34.0d
 		}
 		{
-			dependencies: [
-				"11747DB51D17A212"
-				"04A654CCA182DD14"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["11747DB51D17A212"]
 			id: "2E6AC058F44A30BF"
 			rewards: [
 				{
@@ -2190,9 +2182,13 @@
 			shape: "rsquare"
 			size: 0.5d
 			tasks: [{
-				id: "1347D8A71BA4DE3E"
-				item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
-				type: "item"
+				icon: {
+					id: "cataclysm:necklace_of_the_desert"
+				}
+				id: "427E45F748910B38"
+				key: "cursed necklace"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: -4.0d
 			y: 34.75d
@@ -2229,12 +2225,12 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "cataclysm:ancient_remnant"
 				icon: {
 					id: "cataclysm:desert_eye"
 				}
-				id: "7F3226FC40ACEB33"
-				type: "kill"
+				id: "62F562565488DCAB"
+				key: "ancient remnant"
+				type: "extraquests:key_value"
 				value: 1L
 			}]
 			x: -4.0d
@@ -2279,19 +2275,16 @@
 				icon: {
 					id: "minecraft:spyglass"
 				}
-				id: "4A5BB420C4F95936"
-				structure: "cataclysm:sunken_city"
-				type: "structure"
+				id: "5717CC31B4AD707B"
+				key: "sunken city"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 34.0d
 		}
 		{
-			dependencies: [
-				"579016CCA20872DE"
-				"20282EF0B9116E87"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["579016CCA20872DE"]
 			id: "5B2DE24A0A9911CF"
 			rewards: [
 				{
@@ -2315,7 +2308,7 @@
 			shape: "rsquare"
 			size: 0.5d
 			tasks: [{
-				id: "4BBCC34FFE072C79"
+				id: "443F0B7EE6BD3114"
 				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
 				type: "item"
 			}]
@@ -2354,12 +2347,12 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "cataclysm:the_leviathan"
 				icon: {
 					id: "cataclysm:abyss_eye"
 				}
-				id: "444E5AC221472DE3"
-				type: "kill"
+				id: "24CC7A164E681180"
+				key: "leviathan"
+				type: "extraquests:key_value"
 				value: 1L
 			}]
 			x: 0.0d
@@ -2391,19 +2384,16 @@
 				icon: {
 					id: "minecraft:spyglass"
 				}
-				id: "119538040970599E"
-				structure: "cataclysm:acropolis"
-				type: "structure"
+				id: "0E6808B384789646"
+				key: "acropolis"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 4.0d
 			y: 34.0d
 		}
 		{
-			dependencies: [
-				"1F967DD98F01B75C"
-				"533E24CDE4D5AF0C"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["1F967DD98F01B75C"]
 			id: "1572C0E1808DF810"
 			rewards: [
 				{
@@ -2434,12 +2424,12 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "cataclysm:scylla"
 				icon: {
 					id: "cataclysm:storm_eye"
 				}
-				id: "0F07D93ACF17AB88"
-				type: "kill"
+				id: "2D6DB343E0F0EB63"
+				key: "scylla"
+				type: "extraquests:key_value"
 				value: 1L
 			}]
 			x: 4.0d
@@ -2448,7 +2438,6 @@
 		{
 			dependencies: ["168E42B1A1AFD5CE"]
 			id: "5607AC123F406833"
-			progression_mode: "flexible"
 			rewards: [
 				{
 					id: "5A80A476C6E7BDDA"
@@ -2473,19 +2462,15 @@
 					id: "minecraft:spyglass"
 				}
 				id: "1538E0A9364809B4"
-				structure: "cataclysm:frosted_prison"
-				type: "structure"
+				key: "frosted prison"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: -3.0d
 			y: 43.25d
 		}
 		{
-			dependencies: [
-				"5607AC123F406833"
-				"7B1478AAF36332B1"
-			]
-			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
+			dependencies: ["5607AC123F406833"]
 			id: "1C9E3BEC03EBA9C5"
 			optional: true
 			rewards: [
@@ -2510,18 +2495,20 @@
 			shape: "rsquare"
 			size: 0.5d
 			tasks: [{
-				id: "07BCAC3C29B79D75"
-				item: { count: 1, id: "cataclysm:strange_key" }
-				type: "item"
+				icon: {
+					id: "cataclysm:strange_key"
+				}
+				id: "58AE8190FBA50AD2"
+				key: "strange key"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
-			x: -2.75d
+			x: -3.0d
 			y: 44.0d
 		}
 		{
-			dependencies: ["66F7BA9BDB94B111"]
-			dependency_requirement: "one_completed"
+			dependencies: ["5607AC123F406833"]
 			id: "7CF86978CAAB36D8"
-			progression_mode: "flexible"
 			rewards: [
 				{
 					id: "560C13246283615C"
@@ -2551,12 +2538,12 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "cataclysm:maledictus"
 				icon: {
 					id: "cataclysm:cursed_eye"
 				}
-				id: "6C605675D769B33B"
-				type: "kill"
+				id: "1E10F69107A7295E"
+				key: "maledictus"
+				type: "extraquests:key_value"
 				value: 1L
 			}]
 			x: -3.0d
@@ -2589,15 +2576,15 @@
 					id: "minecraft:spyglass"
 				}
 				id: "53B1840D1791FF92"
-				structure: "irons_spellbooks:citadel"
-				type: "structure"
+				key: "citadel"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 3.0d
 			y: 43.25d
 		}
 		{
 			dependencies: ["234CE19736FB24DE"]
-			dependency_requirement: "one_completed"
 			id: "5D83A12E6486CBF5"
 			rewards: [
 				{
@@ -2621,7 +2608,7 @@
 			shape: "rsquare"
 			size: 0.5d
 			tasks: [{
-				id: "105193900A2B23BC"
+				id: "75860ECB71F5ED05"
 				item: { count: 1, id: "irons_spellbooks:cinderous_soulcaller" }
 				type: "item"
 			}]
@@ -2661,7 +2648,6 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "irons_spellbooks:fire_boss"
 				icon: {
 					components: {
 						"irons_spellbooks:furled_map_data": {
@@ -2675,8 +2661,9 @@
 					}
 					id: "irons_spellbooks:furled_map_ancient"
 				}
-				id: "21645743F4BB4DCD"
-				type: "kill"
+				id: "49246DFFF1D9A772"
+				key: "tyros"
+				type: "extraquests:key_value"
 				value: 1L
 			}]
 			x: 3.0d
@@ -2712,18 +2699,15 @@
 					id: "minecraft:spyglass"
 				}
 				id: "57C4E442F517D1EC"
-				structure: "cataclysm:burning_arena"
-				type: "structure"
+				key: "burning arena"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 48.25d
 		}
 		{
-			dependencies: [
-				"5D9A018D40D32DE8"
-				"631C564E17B84D21"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["5D9A018D40D32DE8"]
 			id: "05C73A65DDBDCDA2"
 			rewards: [
 				{
@@ -2747,9 +2731,13 @@
 			shape: "rsquare"
 			size: 0.5d
 			tasks: [{
-				id: "06BCD500015F5BC5"
-				item: { count: 1, id: "cataclysm:burning_ashes" }
-				type: "item"
+				icon: {
+					id: "cataclysm:burning_ashes"
+				}
+				id: "1C357AE8FDA9C56E"
+				key: "burning ashes"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 49.0d
@@ -2786,12 +2774,12 @@
 			]
 			size: 1.5d
 			tasks: [{
-				entity: "cataclysm:ignis"
 				icon: {
 					id: "cataclysm:flame_eye"
 				}
-				id: "5E42795892D90535"
-				type: "kill"
+				id: "51DEA71866FFEA34"
+				key: "ignis"
+				type: "extraquests:key_value"
 				value: 1L
 			}]
 			x: 0.0d
@@ -2868,9 +2856,10 @@
 				icon: {
 					id: "dragonsurvival:wing_grant"
 				}
-				id: "68F38F35D824C047"
-				structure: "dragonsurvival:treasure_end"
-				type: "structure"
+				id: "7AE147AD73282593"
+				key: "treasure end"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 22.0d
@@ -3050,6 +3039,7 @@
 				{
 					id: "55FD41FA39208572"
 					item: { count: 1, id: "minecraft:iron_sword" }
+					only_from_crafting: true
 					type: "item"
 				}
 				{
@@ -3338,11 +3328,10 @@
 				icon: {
 					id: "dragonsurvival:primordial_anchor"
 				}
-				id: "6AEED81243C3FC4A"
-				observe_type: 0
-				timer: 1L
-				to_observe: "dragonsurvival:primordial_anchor"
-				type: "observation"
+				id: "4B8D5BCE6BA9AB43"
+				key: "primordial anchor"
+				type: "extraquests:key_value"
+				value: 1L
 			}]
 			x: 1.5d
 			y: 16.0d
@@ -3398,404 +3387,6 @@
 			}]
 			x: 0.0d
 			y: 40.0d
-		}
-		{
-			dependencies: ["16C833E99D530D2D"]
-			dependency_requirement: "one_completed"
-			id: "09C14B04B585D575"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "70C765C1C409B8C9"
-					type: "xp"
-					xp: 50
-				}
-				{
-					auto: "enabled"
-					description: "The prisoner's roar is close."
-					icon: {
-						components: {
-							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
-						}
-						id: "ftbquests:custom_icon"
-					}
-					id: "755782029DD7AD79"
-					type: "toast"
-				}
-			]
-			tasks: [{
-				dimension: "the_void:the_void"
-				icon: {
-					id: "transmog:void_fragment"
-				}
-				id: "32AEF371F39AFD08"
-				ignore_dimension: false
-				position: [I;
-					-268
-					73
-					315
-				]
-				size: [I;
-					1
-					1
-					1
-				]
-				type: "location"
-			}]
-			x: 1.55d
-			y: 10.15d
-		}
-		{
-			dependencies: ["2760B67E11676063"]
-			id: "328273969A53D484"
-			rewards: [
-				{
-					id: "0E313E3F10C66AFA"
-					type: "xp"
-					xp: 50
-				}
-				{
-					auto: "enabled"
-					description: "A malevolent energy emanates."
-					icon: {
-						components: {
-							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
-						}
-						id: "ftbquests:custom_icon"
-					}
-					id: "5FD7DA9F300BD7FB"
-					type: "toast"
-				}
-			]
-			tasks: [{
-				dimension: "the_void:the_void"
-				icon: {
-					id: "transmog:void_fragment"
-				}
-				id: "0262F9BB4F3A131E"
-				ignore_dimension: false
-				position: [I;
-					-285
-					57
-					-315
-				]
-				size: [I;
-					1
-					1
-					1
-				]
-				type: "location"
-			}]
-			x: -0.55d
-			y: 17.0d
-		}
-		{
-			dependencies: ["2D7F9BED8B8873A3"]
-			id: "63389E3587264DD6"
-			rewards: [
-				{
-					id: "0B09D93A2317678D"
-					type: "xp"
-					xp: 50
-				}
-				{
-					auto: "enabled"
-					description: "The air smells of cold iron."
-					icon: {
-						components: {
-							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
-						}
-						id: "ftbquests:custom_icon"
-					}
-					id: "77239888323DA74E"
-					type: "toast"
-				}
-			]
-			tasks: [{
-				dimension: "the_void:the_void"
-				icon: {
-					id: "transmog:void_fragment"
-				}
-				id: "380C78A45C940FA2"
-				ignore_dimension: false
-				position: [I;
-					-58
-					-25
-					-307
-				]
-				size: [I;
-					1
-					1
-					1
-				]
-				type: "location"
-			}]
-			x: 1.45d
-			y: 24.5d
-		}
-		{
-			dependencies: ["62D920F767328225"]
-			id: "20282EF0B9116E87"
-			rewards: [
-				{
-					id: "4EDDDF7BDE38BF33"
-					type: "xp"
-					xp: 50
-				}
-				{
-					id: "6E96085B5C8F636D"
-					item: {
-						components: {
-							"minecraft:potion_contents": {
-								potion: "minecraft:water_breathing"
-							}
-						}
-						count: 1
-						id: "minecraft:splash_potion"
-					}
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					description: "Glory sleeps beneath the waves."
-					icon: {
-						components: {
-							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
-						}
-						id: "ftbquests:custom_icon"
-					}
-					id: "101EF75C769AB53B"
-					type: "toast"
-				}
-			]
-			tasks: [{
-				dimension: "the_void:the_void"
-				icon: {
-					id: "transmog:void_fragment"
-				}
-				id: "710FC551D9516AB9"
-				ignore_dimension: false
-				position: [I;
-					360
-					187
-					398
-				]
-				size: [I;
-					1
-					1
-					1
-				]
-				type: "location"
-			}]
-			x: 1.3d
-			y: 34.0d
-		}
-		{
-			dependencies: ["62D920F767328225"]
-			id: "533E24CDE4D5AF0C"
-			rewards: [
-				{
-					id: "5CF03B61B4A80C16"
-					type: "xp"
-					xp: 50
-				}
-				{
-					auto: "enabled"
-					description: "The wind here weeps."
-					icon: {
-						components: {
-							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
-						}
-						id: "ftbquests:custom_icon"
-					}
-					id: "1F5AB27B72CD83E0"
-					type: "toast"
-				}
-			]
-			tasks: [{
-				dimension: "the_void:the_void"
-				icon: {
-					id: "transmog:void_fragment"
-				}
-				id: "212D793C6574BE08"
-				ignore_dimension: false
-				position: [I;
-					-39
-					67
-					285
-				]
-				size: [I;
-					1
-					1
-					1
-				]
-				type: "location"
-			}]
-			x: 2.8d
-			y: 34.0d
-		}
-		{
-			dependencies: ["62D920F767328225"]
-			id: "04A654CCA182DD14"
-			rewards: [
-				{
-					id: "38F4B03843B4DFB7"
-					type: "xp"
-					xp: 50
-				}
-				{
-					auto: "enabled"
-					description: "The sand crumbles to dust."
-					icon: {
-						components: {
-							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
-						}
-						id: "ftbquests:custom_icon"
-					}
-					id: "6A35CF34DEB1DDB8"
-					type: "toast"
-				}
-			]
-			tasks: [{
-				dimension: "the_void:the_void"
-				icon: {
-					id: "transmog:void_fragment"
-				}
-				id: "13A5888ECC5D4344"
-				ignore_dimension: false
-				position: [I;
-					402
-					137
-					-336
-				]
-				size: [I;
-					1
-					1
-					1
-				]
-				type: "location"
-			}]
-			x: -2.7d
-			y: 34.0d
-		}
-		{
-			dependencies: ["168E42B1A1AFD5CE"]
-			id: "7B1478AAF36332B1"
-			progression_mode: "flexible"
-			rewards: [
-				{
-					id: "157A9C10E04F82DD"
-					type: "xp"
-					xp: 50
-				}
-				{
-					auto: "enabled"
-					description: "A beautiful, terrible lie."
-					icon: {
-						components: {
-							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
-						}
-						id: "ftbquests:custom_icon"
-					}
-					id: "4DA287950FFE4F34"
-					type: "toast"
-				}
-			]
-			tasks: [{
-				dimension: "the_void:the_void"
-				icon: {
-					id: "transmog:void_fragment"
-				}
-				id: "767A4DDD419E21BC"
-				ignore_dimension: false
-				position: [I;
-					-331
-					36
-					37
-				]
-				size: [I;
-					1
-					1
-					1
-				]
-				type: "location"
-			}]
-			x: -2.15d
-			y: 43.25d
-		}
-		{
-			dependencies: [
-				"7CF86978CAAB36D8"
-				"40EB43BD8B8CFBE2"
-			]
-			id: "631C564E17B84D21"
-			rewards: [
-				{
-					id: "76C389CE88039C42"
-					type: "xp"
-					xp: 50
-				}
-				{
-					auto: "enabled"
-					description: "The arena awaits a victor"
-					icon: {
-						components: {
-							"ftbquests:icon": "dragonsurvival:textures/ability_effect/generic_icons/unknown.png"
-						}
-						id: "ftbquests:custom_icon"
-					}
-					id: "7F83496787EDFC45"
-					type: "toast"
-				}
-			]
-			tasks: [{
-				dimension: "the_void:the_void"
-				icon: {
-					id: "transmog:void_fragment"
-				}
-				id: "463FF2B7C5650B3A"
-				ignore_dimension: false
-				position: [I;
-					246
-					32
-					-9
-				]
-				size: [I;
-					1
-					1
-					1
-				]
-				type: "location"
-			}]
-			x: 0.0d
-			y: 46.95d
-		}
-		{
-			dependencies: [
-				"5607AC123F406833"
-				"7B1478AAF36332B1"
-			]
-			dependency_requirement: "one_completed"
-			disable_toast: true
-			id: "66F7BA9BDB94B111"
-			shape: "none"
-			size: 0.1d
-			tasks: [{
-				disable_toast: true
-				icon: {
-					components: {
-						"ftbquests:icon": "irons_spellbooks:item/invisibility_ring"
-					}
-					id: "ftbquests:custom_icon"
-				}
-				id: "60C046DAF63D8AE5"
-				optional_task: true
-				stat: "minecraft:play_time"
-				type: "stat"
-				value: 1
-			}]
-			x: -2.5625d
-			y: 43.25d
 		}
 	]
 }

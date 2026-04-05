@@ -1,0 +1,504 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "quest_unlocks"
+	group: "5C2E2EE3CBC6B060"
+	icon: {
+		components: {
+			"ftbquests:icon": "dragonsurvival:block/amethyst_dragon_altar_west"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "255729C3968A273E"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			disable_recipe_mod: true
+			id: "700C43C68B190B0E"
+			rewards: [{
+				auto: "invisible"
+				id: "0DEB2430FB0C7D8A"
+				ignore: true
+				key: "soul blacksmith"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "599088C66864F5EC"
+				ignore_dimension: false
+				position: [I;
+					-268
+					73
+					315
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -0.5d
+			y: -2.6d
+		}
+		{
+			id: "40D640021D88B72C"
+			rewards: [{
+				auto: "invisible"
+				id: "1F09ADE73129145E"
+				ignore: false
+				key: "soul blacksmith"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "398BB1FEFC8199E5"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			x: 0.4d
+			y: -2.6d
+		}
+		{
+			id: "2E0BCA3E6B7BB2FD"
+			rewards: [{
+				auto: "invisible"
+				id: "6DD50FBB51A066A0"
+				ignore: false
+				key: "ruined citadel"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "6CB44D57488B45AB"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			x: 0.35d
+			y: -1.45d
+		}
+		{
+			id: "07B863051585B490"
+			rewards: [{
+				auto: "invisible"
+				id: "5C3D902278600D7D"
+				ignore: false
+				key: "sunken city"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "636485ED261FB159"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			x: 0.35000000000000053d
+			y: 1.0d
+		}
+		{
+			id: "56FD1BFB88EFAF07"
+			rewards: [{
+				auto: "invisible"
+				id: "3A78E57C6422F0BE"
+				ignore: false
+				key: "acropolis"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "26FF5831FE52379A"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			x: 2.500000000000001d
+			y: 1.0d
+		}
+		{
+			id: "36F9D8DC516F1DC7"
+			rewards: [{
+				auto: "invisible"
+				id: "18ECE04C8B25E968"
+				ignore: false
+				key: "cursed pyramid"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "69CE7500DD10EAD9"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: -1.8999999999999997d
+			y: 1.0d
+		}
+		{
+			id: "791B71CCD8BC191E"
+			rewards: [{
+				auto: "invisible"
+				id: "767CC8355959B28D"
+				ignore: false
+				key: "frosted prison"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "7C5B4AF51FFC298C"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: -1.1999999999999997d
+			y: 2.3d
+		}
+		{
+			id: "3EE661B8E9DBB204"
+			rewards: [{
+				auto: "invisible"
+				id: "3A7FBF99D60EC6D0"
+				ignore: false
+				key: "citadel"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "2F7B877E00FEC8E0"
+				structure: "irons_spellbooks:citadel"
+				type: "structure"
+			}]
+			x: 1.9500000000000002d
+			y: 2.25d
+		}
+		{
+			id: "2CA815F69C6A40B2"
+			rewards: [{
+				auto: "invisible"
+				id: "2504450B22A2B6C2"
+				ignore: false
+				key: "burning arena"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "2EC6B86B179C10D7"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: 0.4500000000000002d
+			y: 3.45d
+		}
+		{
+			id: "524B308A8CA9C532"
+			rewards: [{
+				auto: "invisible"
+				id: "04FA0656A5A24CBA"
+				ignore: false
+				key: "ruined citadel"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "1CC3CA58F05712E2"
+				ignore_dimension: false
+				position: [I;
+					-285
+					57
+					-315
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -0.55d
+			y: -1.45d
+		}
+		{
+			id: "1761465049B58309"
+			rewards: [{
+				auto: "invisible"
+				id: "72B2D8B80512FA79"
+				ignore: false
+				key: "cursed pyramid"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "32A186AA7E6ADE5F"
+				ignore_dimension: false
+				position: [I;
+					402
+					137
+					-336
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -2.8d
+			y: 1.0d
+		}
+		{
+			id: "32815A49E8F03920"
+			rewards: [{
+				auto: "invisible"
+				id: "236CCD78167C6D01"
+				ignore: false
+				key: "sunken city"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "3DA670EB731ACA6F"
+				ignore_dimension: false
+				position: [I;
+					360
+					187
+					398
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -0.5499999999999998d
+			y: 1.0d
+		}
+		{
+			id: "42D50ACCE109A04C"
+			rewards: [{
+				auto: "invisible"
+				id: "2004503C1B56ECBB"
+				ignore: false
+				key: "acropolis"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "51A8BB2871A764FA"
+				ignore_dimension: false
+				position: [I;
+					-39
+					67
+					285
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: 1.6000000000000005d
+			y: 1.0d
+		}
+		{
+			id: "40F487DA99A44145"
+			rewards: [{
+				auto: "invisible"
+				id: "210FEEEDA1C3FE9D"
+				ignore: false
+				key: "frosted prison"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "0764AB7BF3520458"
+				ignore_dimension: false
+				position: [I;
+					-331
+					36
+					37
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -2.0999999999999996d
+			y: 2.3d
+		}
+		{
+			id: "056C1E3D3BD39F7D"
+			rewards: [{
+				auto: "invisible"
+				id: "4D2EE0B7C87FBC7D"
+				ignore: false
+				key: "burning arena"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "08F5045047DCC5E7"
+				ignore_dimension: false
+				position: [I;
+					246
+					32
+					-9
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -0.49999999999999956d
+			y: 3.45d
+		}
+		{
+			id: "3E89D5E9B11027FA"
+			rewards: [{
+				auto: "invisible"
+				id: "2EC32CF476C932CF"
+				ignore: false
+				key: "catacombs"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "256B0623A94E2A71"
+				structure: "irons_spellbooks:catacombs"
+				type: "structure"
+			}]
+			x: 0.1d
+			y: -3.7d
+		}
+		{
+			id: "50A479606814EF6B"
+			rewards: [{
+				auto: "invisible"
+				id: "64EE5C2436971309"
+				ignore: false
+				key: "ancient factory"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "70108B3D38CEBE0E"
+				ignore_dimension: false
+				position: [I;
+					-58
+					-25
+					-307
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -0.55d
+			y: -0.2d
+		}
+		{
+			id: "7CD66706A87B0D8F"
+			rewards: [{
+				auto: "invisible"
+				id: "307CC7FAF2D79354"
+				ignore: false
+				key: "ancient factory"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "41337AC390EAB443"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 0.4d
+			y: -0.15d
+		}
+		{
+			id: "1BCFBFB2DA5FA1B2"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "27F4A31FE50F34D1"
+				type: "checkmark"
+			}]
+			x: -8.7d
+			y: -3.6d
+		}
+		{
+			dependencies: ["1BCFBFB2DA5FA1B2"]
+			id: "68880DFEED4FB325"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "3561750F0F853462"
+				type: "checkmark"
+			}]
+			x: -10.05d
+			y: -1.6d
+		}
+		{
+			dependencies: ["1BCFBFB2DA5FA1B2"]
+			id: "7CF6D81E3980FB67"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "493C7321987C57B3"
+				type: "checkmark"
+			}]
+			x: -7.55d
+			y: -1.45d
+		}
+		{
+			dependencies: [
+				"7CF6D81E3980FB67"
+				"68880DFEED4FB325"
+			]
+			dependency_requirement: "one_completed"
+			id: "7B802B7AA48227FD"
+			progression_mode: "flexible"
+			tasks: [{
+				id: "5BDF0E10360A65E6"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:spruce_log"
+				type: "observation"
+			}]
+			x: -8.85d
+			y: 0.85d
+		}
+	]
+}

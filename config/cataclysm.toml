@@ -218,7 +218,7 @@
 	# Range: 0.0 ~ 1000000.0
 	EnderGuardianNatureHealing = 10.0
 	#Ender guardian's block breaking ignore the MobGriefing
-	EnderguardianBlockBreaking = true
+	EnderguardianBlockBreaking = false
 	#Guardian's Immune to Long distance attack range.
 	# Default: 12.0
 	# Range: 1.0 ~ 1000000.0
@@ -250,15 +250,15 @@
 	#EnderGuardianBlockBreaking radius
 	# Default: 15
 	# Range: 0 ~ 20
-	"EnderGuardianBlockBreaking X" = 15
+	"EnderGuardianBlockBreaking X" = 0
 	#EnderGuardianBlockBreaking radius
 	# Default: 2
 	# Range: 0 ~ 10
-	"EnderGuardianBlockBreaking Y" = 2
+	"EnderGuardianBlockBreaking Y" = 0
 	#EnderGuardianBlockBreaking radius
 	# Default: 15
 	# Range: 0 ~ 20
-	"EnderGuardianBlockBreaking Z" = 15
+	"EnderGuardianBlockBreaking Z" = 0
 
 ["Netherite Monstrosity"]
 	#Monstrosity's Lavabomb magazine.
@@ -304,7 +304,7 @@
 	# Range: 1.0 ~ 1000000.0
 	"Monstrosity's prevent attacks from far away Range" = 18.0
 	#Monstrosity's block breaking ignore the MobGriefing
-	monstrosityBlockBreaking = true
+	monstrosityBlockBreaking = false
 	#Lava Bomb of Monstrosity's Duration
 	# Default: 350
 	# Range: 1 ~ 10000
@@ -360,7 +360,7 @@
 	# Range: 0 ~ 100
 	IgnisDamageTime = 15
 	#Ignis's cracked block breaking ignore the MobGriefing
-	IgnisBlockBreaking = true
+	IgnisBlockBreaking = false
 
 [revenant]
 	#Revenant's Health Multiplier
@@ -468,7 +468,7 @@
 	# Range: 0 ~ 100
 	"Leviathan DamageTime" = 15
 	#Leviathan's block breaking ignore the MobGriefing
-	LeviathanBlockBreaking = true
+	LeviathanBlockBreaking = false
 	#Leviathan Immune Out of Water
 	LeviathanImmuneOutofWater = true
 
@@ -538,7 +538,7 @@
 	# Range: 0 ~ 100
 	"Ancient Remnant DamageTime" = 12
 	#Ancient Remnant's block breaking ignore the MobGriefing
-	AncientRemnantBlockBreaking = true
+	AncientRemnantBlockBreaking = false
 	#Remnant's Charge Hp Damage
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
@@ -652,7 +652,7 @@
 	# Range: 0.0 ~ 1000000.0
 	"Maledictus's Phantom Arrow Damage" = 5.0
 	#Maledictus's cracked block breaking ignore the MobGriefing
-	MaledictusBlockBreaking = true
+	MaledictusBlockBreaking = false
 
 [spawning]
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
@@ -732,7 +732,7 @@
 	#Defines the area in which the structure check for height variances (1 means 9 chunks will be checked (center + area around it)) - 0 disables this check
 	# Default: 2
 	# Range: 0 ~ 5
-	cursedPyramidCheckRange = 2
+	cursedPyramidCheckRange = 0
 	#Allowed height variance for the check - if the variance is lower than this value the structure will not spawn (has no effect if the are check is disabled)
 	# Default: 2
 	# Range: 0 ~ 32

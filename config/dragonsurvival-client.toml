@@ -10,7 +10,7 @@
 		#How long until the red overlay activates if an ability is disabled.
 		# Default: 0.8
 		# Range: 0.0 ~ 1.7976931348623157E308
-		mark_disabled_abilities_red_delay = 0.8
+		mark_disabled_abilities_red_delay = 0.3
 		#Offset for the y position of the cast bar
 		# Default: 0
 		# Range: > -2147483648
@@ -18,7 +18,7 @@
 		#How fast the lerp speed is for marking disabled abilities red.
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0
-		mark_disabled_abilities_red_lerp_speed = 0.05
+		mark_disabled_abilities_red_lerp_speed = 0.15
 		#Offset for the y position of the mana bar
 		# Default: 0
 		# Range: > -2147483648
@@ -104,7 +104,7 @@
 	# Range: 0.0 ~ 32.0
 	flat_dragon_camera_offset = 2.0
 	#If enabled name tags will be shown for dragons
-	dragon_name_tags = false
+	dragon_name_tags = true
 	#Lower values prevent x-ray through blocks when using a small entity scale
 	#A value that is too low may cause issues when rendering chunks when certain (unknown) mods are present
 	# Default: 0.019999999552965164
@@ -113,7 +113,7 @@
 	#The curios slot which may contain the backpack (if Curios is installed)
 	backpack_slot = "back"
 	#enable / disable backpack rendering
-	render_backpack = true
+	render_backpack = false
 	#If enabled held items will be rendered near the mouth of the dragon
 	#If disabled held items will be displayed on the side of the dragon
 	render_items_in_mouth = false
@@ -141,7 +141,7 @@
 	enable_soul_block_indicator = true
 	#Disables rendering of dragon shadows if a shader from Iris is active
 	#Rendering shadows have a heavy performance impact due to the complexity of the dragon model
-	skip_shader_shadows = false
+	skip_shader_shadows = true
 
 [animation]
 	#The amount by which the movement animation speed factor is multiplied. 1.0 represents the animation speed accurately reflecting the speed of your movement.

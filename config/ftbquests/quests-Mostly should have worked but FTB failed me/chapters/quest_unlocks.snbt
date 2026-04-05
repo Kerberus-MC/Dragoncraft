@@ -1,0 +1,900 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "quest_unlocks"
+	group: "5C2E2EE3CBC6B060"
+	icon: {
+		components: {
+			"ftbquests:icon": "dragonsurvival:block/amethyst_dragon_altar_west"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "255729C3968A273E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			disable_recipe_mod: true
+			id: "700C43C68B190B0E"
+			rewards: [{
+				auto: "invisible"
+				id: "442EEAF98D315C38"
+				ignore: false
+				key: "soul blacksmith"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "599088C66864F5EC"
+				ignore_dimension: false
+				position: [I;
+					-268
+					73
+					315
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -0.5d
+			y: -2.6d
+		}
+		{
+			id: "40D640021D88B72C"
+			rewards: [{
+				auto: "invisible"
+				id: "1F09ADE73129145E"
+				ignore: false
+				key: "soul blacksmith"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "398BB1FEFC8199E5"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			x: 0.4d
+			y: -2.6d
+		}
+		{
+			id: "2E0BCA3E6B7BB2FD"
+			rewards: [{
+				auto: "invisible"
+				id: "6DD50FBB51A066A0"
+				ignore: false
+				key: "ruined citadel"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "6CB44D57488B45AB"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			x: 0.35d
+			y: -1.45d
+		}
+		{
+			id: "07B863051585B490"
+			rewards: [{
+				auto: "invisible"
+				id: "5C3D902278600D7D"
+				ignore: false
+				key: "sunken city"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "636485ED261FB159"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			x: 0.35000000000000053d
+			y: 1.0d
+		}
+		{
+			id: "56FD1BFB88EFAF07"
+			rewards: [{
+				auto: "invisible"
+				id: "3A78E57C6422F0BE"
+				ignore: false
+				key: "acropolis"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "26FF5831FE52379A"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			x: 2.500000000000001d
+			y: 1.0d
+		}
+		{
+			id: "36F9D8DC516F1DC7"
+			rewards: [{
+				auto: "invisible"
+				id: "18ECE04C8B25E968"
+				ignore: false
+				key: "cursed pyramid"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "69CE7500DD10EAD9"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: -1.8999999999999997d
+			y: 1.0d
+		}
+		{
+			id: "791B71CCD8BC191E"
+			rewards: [{
+				auto: "invisible"
+				id: "767CC8355959B28D"
+				ignore: false
+				key: "frosted prison"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "7C5B4AF51FFC298C"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: -1.1999999999999997d
+			y: 2.3d
+		}
+		{
+			id: "3EE661B8E9DBB204"
+			rewards: [{
+				auto: "invisible"
+				id: "3A7FBF99D60EC6D0"
+				ignore: false
+				key: "citadel"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "2F7B877E00FEC8E0"
+				structure: "irons_spellbooks:citadel"
+				type: "structure"
+			}]
+			x: 1.9500000000000002d
+			y: 2.25d
+		}
+		{
+			id: "2CA815F69C6A40B2"
+			rewards: [{
+				auto: "invisible"
+				id: "2504450B22A2B6C2"
+				ignore: false
+				key: "burning arena"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "2EC6B86B179C10D7"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: 0.4500000000000002d
+			y: 3.45d
+		}
+		{
+			id: "524B308A8CA9C532"
+			rewards: [{
+				auto: "invisible"
+				id: "07135947EA31E86D"
+				ignore: false
+				key: "ruined citadel"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "1CC3CA58F05712E2"
+				ignore_dimension: false
+				position: [I;
+					-285
+					57
+					-315
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -0.55d
+			y: -1.45d
+		}
+		{
+			id: "1761465049B58309"
+			rewards: [{
+				auto: "invisible"
+				id: "27999996F5558C10"
+				ignore: false
+				key: "cursed pyramid"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "32A186AA7E6ADE5F"
+				ignore_dimension: false
+				position: [I;
+					402
+					137
+					-336
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -2.8d
+			y: 1.0d
+		}
+		{
+			id: "32815A49E8F03920"
+			rewards: [{
+				auto: "invisible"
+				id: "475965B2B777BA2B"
+				ignore: false
+				key: "sunken city"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "3DA670EB731ACA6F"
+				ignore_dimension: false
+				position: [I;
+					360
+					187
+					398
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -0.5499999999999998d
+			y: 1.0d
+		}
+		{
+			id: "42D50ACCE109A04C"
+			rewards: [{
+				auto: "invisible"
+				id: "38F27FBB65115EAF"
+				ignore: false
+				key: "acropolis"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "51A8BB2871A764FA"
+				ignore_dimension: false
+				position: [I;
+					-39
+					67
+					285
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: 1.6000000000000005d
+			y: 1.0d
+		}
+		{
+			id: "40F487DA99A44145"
+			rewards: [{
+				auto: "invisible"
+				id: "210FEEEDA1C3FE9D"
+				ignore: false
+				key: "frosted prison"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "0764AB7BF3520458"
+				ignore_dimension: false
+				position: [I;
+					-331
+					36
+					37
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -2.0999999999999996d
+			y: 2.3d
+		}
+		{
+			id: "056C1E3D3BD39F7D"
+			rewards: [{
+				auto: "invisible"
+				id: "4D2EE0B7C87FBC7D"
+				ignore: false
+				key: "burning arena"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "08F5045047DCC5E7"
+				ignore_dimension: false
+				position: [I;
+					246
+					32
+					-9
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -0.49999999999999956d
+			y: 3.45d
+		}
+		{
+			id: "4BEA841FA9236B79"
+			rewards: [{
+				auto: "invisible"
+				id: "1AB69CF0609C6C0B"
+				ignore: false
+				key: "treasure end"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				icon: {
+					id: "dragonsurvival:wing_grant"
+				}
+				id: "3C1F4211A997B53D"
+				structure: "dragonsurvival:treasure_end"
+				type: "structure"
+			}]
+			x: -2.45d
+			y: -1.2d
+		}
+		{
+			id: "5E590AA876205508"
+			rewards: [{
+				auto: "invisible"
+				id: "668D67383CE89094"
+				ignore: false
+				key: "enter the nether"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					components: {
+						"ftbquests:icon": "minecraft:block/nether_portal"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "23563AC8984FE430"
+				type: "dimension"
+			}]
+			x: 2.05d
+			y: -4.7d
+		}
+		{
+			id: "51555DF1958077DC"
+			rewards: [{
+				auto: "invisible"
+				id: "7E101DB125467048"
+				ignore: false
+				key: "dead king"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				icon: {
+					id: "irons_spellbooks:wayward_compass"
+				}
+				id: "6FBB5F9D5A15F1B0"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.9d
+			y: -4.0d
+		}
+		{
+			id: "565FF6044B18E50B"
+			rewards: [{
+				auto: "invisible"
+				id: "7E51BA824FDAEACF"
+				ignore: false
+				key: "monstrosity"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					id: "cataclysm:monstrous_eye"
+				}
+				id: "5F42D4562DDA35D2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.9d
+			y: -2.75d
+		}
+		{
+			id: "3E89D5E9B11027FA"
+			rewards: [{
+				auto: "invisible"
+				id: "2EC32CF476C932CF"
+				ignore: false
+				key: "catacombs"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "256B0623A94E2A71"
+				structure: "irons_spellbooks:catacombs"
+				type: "structure"
+			}]
+			x: 0.1d
+			y: -3.7d
+		}
+		{
+			id: "4A47561F2E3BDC34"
+			rewards: [{
+				auto: "invisible"
+				id: "50B151F09ECCF7B5"
+				ignore: false
+				key: "enter the end"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					id: "minecraft:end_portal_frame"
+				}
+				id: "753A7FA735EF5C13"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: -3.6d
+		}
+		{
+			id: "288E1FA19012F9E6"
+			rewards: [{
+				auto: "invisible"
+				id: "587E9563421EF85B"
+				ignore: false
+				key: "ender guardian"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: {
+					id: "cataclysm:void_eye"
+				}
+				id: "15FA7E86FA68EC65"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.9d
+			y: -1.45d
+		}
+		{
+			id: "16FC92219E2B3885"
+			rewards: [{
+				auto: "invisible"
+				id: "2FDB3883B2A7AFBA"
+				ignore: false
+				key: "primordial anchor"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				icon: {
+					id: "dragonsurvival:primordial_anchor"
+				}
+				id: "3EC12EB7A66EBF47"
+				observe_type: 0
+				timer: 1L
+				to_observe: "dragonsurvival:primordial_anchor"
+				type: "observation"
+			}]
+			x: 3.2d
+			y: -3.65d
+		}
+		{
+			id: "50A479606814EF6B"
+			rewards: [{
+				auto: "invisible"
+				id: "723E895A069439D0"
+				ignore: false
+				key: "ancient factory"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				dimension: "the_void:the_void"
+				id: "70108B3D38CEBE0E"
+				ignore_dimension: false
+				position: [I;
+					-58
+					-25
+					-307
+				]
+				size: [I;
+					1
+					1
+					1
+				]
+				type: "location"
+			}]
+			x: -0.55d
+			y: -0.2d
+		}
+		{
+			id: "7CD66706A87B0D8F"
+			rewards: [{
+				auto: "invisible"
+				id: "307CC7FAF2D79354"
+				ignore: false
+				key: "ancient factory"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "41337AC390EAB443"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 0.4d
+			y: -0.15d
+		}
+		{
+			id: "7F32A58A78B43A36"
+			rewards: [{
+				auto: "invisible"
+				id: "4B3DD276CD9FD471"
+				ignore: false
+				key: "harbinger"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: {
+					id: "cataclysm:mech_eye"
+				}
+				id: "59A4328F52104611"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.9d
+			y: -0.25d
+		}
+		{
+			id: "2684033513DB590D"
+			rewards: [{
+				auto: "invisible"
+				id: "62C396EEF1B86DB7"
+				ignore: false
+				key: "desert necklace"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "56B013D8A131128F"
+				item: { count: 1, id: "cataclysm:necklace_of_the_desert" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.1d
+		}
+		{
+			id: "40A59BD40DA9360D"
+			rewards: [{
+				auto: "invisible"
+				id: "1561C53D56B05205"
+				ignore: false
+				key: "ancient remnant"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					id: "cataclysm:desert_eye"
+				}
+				id: "4F0ECCB89831F45E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -7.45d
+			y: 2.2d
+		}
+		{
+			id: "08F79F98A39F6387"
+			rewards: [{
+				auto: "invisible"
+				id: "5C7DA4B947A1360D"
+				ignore: false
+				key: "leviathan"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: {
+					id: "cataclysm:abyss_eye"
+				}
+				id: "1FC522E5CA2FC699"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.45d
+			y: 2.2d
+		}
+		{
+			id: "6F505A91A298237A"
+			rewards: [{
+				auto: "invisible"
+				id: "5F3145326FB48B1A"
+				ignore: false
+				key: "scylla"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				icon: {
+					id: "cataclysm:storm_eye"
+				}
+				id: "465B30CB097D6E64"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.4d
+			y: 2.2d
+		}
+		{
+			id: "0C22F8C1E289AFB4"
+			rewards: [{
+				auto: "invisible"
+				id: "3DBA850AFF68E962"
+				ignore: false
+				key: "cinderous soulcaller"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "2CA894AEC0A29BB5"
+				item: { count: 1, id: "irons_spellbooks:cinderous_soulcaller" }
+				type: "item"
+			}]
+			x: -5.45d
+			y: 3.6d
+		}
+		{
+			id: "23F5298C65332D9C"
+			rewards: [{
+				auto: "invisible"
+				id: "2B7897B9055B4608"
+				ignore: false
+				key: "strange key"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "69DDC4393605E079"
+				item: { count: 1, id: "cataclysm:strange_key" }
+				type: "item"
+			}]
+			x: -6.9d
+			y: 3.6d
+		}
+		{
+			id: "288AB1C2EED111A5"
+			rewards: [{
+				auto: "invisible"
+				id: "0BE724BCE3DD4DDA"
+				ignore: false
+				key: "abyssal sacrifice"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "1C7B4FB66198589F"
+				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			x: -6.45d
+			y: 1.1d
+		}
+		{
+			id: "4087B7065737D0EB"
+			rewards: [{
+				auto: "invisible"
+				id: "20EB775A6CB9ED0A"
+				ignore: false
+				key: "tyros"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				icon: {
+					components: {
+						"irons_spellbooks:furled_map_data": {
+							descriptionOverride: {
+								translate: "item.irons_spellbooks.citadel_map"
+							}
+							destination: "irons_spellbooks:citadel"
+							dimension: "minecraft:the_nether"
+						}
+						"minecraft:lore": ["{\"color\":\"gold\",\"translate\":\"item.irons_spellbooks.furled_map_descriptor_framing\",\"with\":[{\"translate\":\"item.irons_spellbooks.citadel_map\"}]}"]
+					}
+					id: "irons_spellbooks:furled_map_ancient"
+				}
+				id: "3297518BAD63DACD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -5.45d
+			y: 4.8d
+		}
+		{
+			id: "37DB8C8F3C35D0D2"
+			rewards: [{
+				auto: "invisible"
+				id: "32D8BA2E1B9C91CA"
+				ignore: false
+				key: "maledictus"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					id: "cataclysm:cursed_eye"
+				}
+				id: "18C19F2493FA55C9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.95d
+			y: 4.85d
+		}
+		{
+			id: "4497BE5DA392E793"
+			rewards: [{
+				auto: "invisible"
+				id: "21E613DA2D17FF99"
+				ignore: false
+				key: "ignis"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					id: "cataclysm:flame_eye"
+				}
+				id: "100B2D513769F395"
+				type: "kill"
+				value: 1L
+			}]
+			x: -6.1d
+			y: 7.0d
+		}
+		{
+			id: "188D761A6FB8D906"
+			rewards: [{
+				auto: "invisible"
+				id: "75E09177AD22358A"
+				ignore: false
+				key: "burning ashes"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "23F14E591C8C17DD"
+				item: { count: 1, id: "cataclysm:burning_ashes" }
+				type: "item"
+			}]
+			x: -6.15d
+			y: 5.95d
+		}
+		{
+			id: "04026BB4D8CB171B"
+			rewards: [{
+				auto: "invisible"
+				id: "3337354DBA74A812"
+				ignore: false
+				key: "nether star"
+				team_reward: false
+				type: "extraquests:key_value"
+				value: 1L
+			}]
+			tasks: [{
+				id: "5C227EE0D55D550F"
+				item: { count: 1, id: "minecraft:nether_star" }
+				type: "item"
+			}]
+			x: -4.35d
+			y: -0.8d
+		}
+	]
+}
