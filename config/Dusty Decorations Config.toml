@@ -11,6 +11,8 @@
 	"% Drop Equine Skull" = 0.05
 	#Enable or Disable Fish dropping fish bones (True by default)
 	"Drop Fish Bones" = true
+	#Enable or Disable Cows & Mooshrooms dropping Cow-hides (True by default)
+	"Drop Cow Hides" = true
 
 ["Client Settings"]
 	#Enable or Disable the spark particles emitted from shoddy copper lamps (True by default)

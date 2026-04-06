@@ -16,9 +16,9 @@ migrateCopycatsOnInitialize = true
 	inverted_clutch = true
 	empty_fan_catalyst = true
 	parallel_gearbox = true
-	redstone_link_wildcard = false
+	redstone_link_wildcard = true
 	kinetic_battery = true
-	inventory_access_port = false
+	inventory_access_port = true
 	centrifugal_clutch = true
 	copycat_slab = true
 	overstress_clutch = true
@@ -40,7 +40,7 @@ migrateCopycatsOnInitialize = true
 	linked_transmitter = true
 	copycat_beam = true
 	copycat_board = true
-	inventory_bridge = false
+	inventory_bridge = true
 	copycat_fence = true
 
 #.

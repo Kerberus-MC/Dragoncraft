@@ -28,6 +28,7 @@
     "create": false,
     "minecraft:ender_dragon": false
   },
+  "cullProjectiles": false,
   "version": 2,
   "name": "immersive_optimization"
 }

@@ -161,7 +161,7 @@
 	#Enables custom Configured config screen
 	custom_configured_screen = true
 	#unfunny
-	"I am very boring" = true
+	"I am very boring" = false
 
 #Game tweaks
 [tweaks]

@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.11",
-  "config_datetime": "2025-12-26_18-49-01",
+  "config_datetime": "2026-2-27_15-30-01",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -115,7 +115,7 @@
     },
     {
       "name": "toxony:old_experiment_house",
-      "is_disabled": true,
+      "is_disabled": false,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",

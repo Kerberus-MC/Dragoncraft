@@ -117,7 +117,7 @@
 
 [lily_pad]
 	#Allows lilypads to have any block placed ontop
-	better_lilypads = false
+	better_lilypads = true
 
 [fireball]
 	#Cooldown for fire & dragon charges in ticks

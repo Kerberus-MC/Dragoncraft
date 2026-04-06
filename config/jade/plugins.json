@@ -72,6 +72,9 @@
   "ftbquests": {
     "barrier": true
   },
+  "bonsaitrees4": {
+    "jade/bonsai_pot": true
+  },
   "jade": {
     "coordinates.rel": false,
     "registry_name.special": false,
