@@ -1,0 +1,25 @@
+{
+  "logbegone": {
+    "phrases": [
+      "could not be read. If this is a development environment you can ignore this message",
+      "Something went wrong while recoloring. Max iteration step",
+      "Disabling fastItemComparison feature, due to the Owo mod",
+      "has an update available",
+      "Detected debug log level for Easy NPC",
+      "Adjusting log level for Easy NPC",
+      "Add new logger config for Easy NPC",
+      "Access transformer file META-INF/accesstransformer.cfg provided by mod pride does not exist",
+      "Force-disabling mixin",
+      "Attempted to select a dependency jar for JarJar which was passed in as source",
+      "uses unexpected schema",
+      "exceeds the maximum allowed value: 0. Increase the value of maxShiftBy",
+      "Error loading class:",
+      "Disconnecting VANILLA connection attempt",
+      "Channels "
+    ],
+    "regex": [
+      "Reference map '.*\\.refmap\\.json' for .* could not be read",
+      "@Mixin target .* was not found .*\\.mixins\\.json"
+    ]
+  }
+}

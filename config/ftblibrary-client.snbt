@@ -33,6 +33,11 @@
 				x: 2
 				y: 1
 			}
+			"ftbteams:team_lives": {
+				enabled: true
+				x: 2
+				y: 1
+			}
 			"ftblibrary:toggle/gamemode": {
 				enabled: true
 				x: 0

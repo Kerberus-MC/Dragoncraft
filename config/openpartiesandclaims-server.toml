@@ -21,6 +21,21 @@
 	#If an option is in neither of the configurable option lists, then the value in the default player config is used across the server.
 	#Check the default player config .toml file for the option names.
 	opConfigurablePlayerConfigOptions = ["claims.bonusChunkClaims", "claims.bonusChunkForceloads"]
+	#The maximum number of player groups that a player can create in their config. Bonus group limits can be configured for individual players in their config.
+	#This value can be overridden with a player permission.
+	# Default: 16
+	# Range: 0 ~ 512
+	maxPlayerGroups = 16
+	#The space (in entries) available for player groups in a player's config. The space is shared between groups. Bonus group limits can be configured for individual players in their config.
+	#This value can be overridden with a player permission.
+	#Be careful with how much group space you give to your normal players.
+	# Default: 256
+	# Range: 0 ~ 1024
+	playerGroupSpace = 256
+	#The permission that should override the default "maxPlayerGroups" value. Set it to an empty string to never check permissions. The used permission system can be configured with "permissionSystem".
+	maxPlayerGroupsPermission = "xaero.pac_max_player_groups"
+	#The permission that should override the default "playerGroupSpace" value. Set it to an empty string to never check permissions. The used permission system can be configured with "permissionSystem".
+	playerGroupSpacePermission = "xaero.pac_player_group_space"
 
 	[serverConfig.parties]
 		#Whether the parties part of this mod is enabled.
@@ -89,7 +104,7 @@
 		#Dimensions to include/exclude from being claimable, depending on the list type in "claimableDimensionsListType".
 		#For example ["minecraft:overworld", "minecraft:the_nether"].
 		#By default the list is empty and of type ALL_BUT, meaning that all dimensions are claimable.
-		claimableDimensionsList = ["the_void:the_void","fairydragon:elysium"]
+		claimableDimensionsList = ["the_void:the_void", "fairydragon:elysium"]
 		#Whether to allow existing player claims to stay active in unclaimable dimensions which were previously claimable.
 		allowExistingClaimsInUnclaimableDimensions = true
 		#Whether to allow existing player forceloads to stay active in unclaimable dimensions which were previously claimable. Only relevant if existing claims are allowed.
@@ -152,7 +167,7 @@
 			#Prefix "anything$" is the same as no prefix but allows interaction with any item held in the hand. Please make sure that no item does anything bad when used at an entity with such an exception.
 			#Add the same entity/tag multiple times to use multiple prefixes. Supports patterns with special characters *, (, ) and |, where * matches anything, ( ) are used for grouping and | means OR.
 			#For example ["minecraft:villager", "break$minecraft:villager", "break$minecraft:(trader_|)llama"]
-			forcedEntityProtectionExceptionList = ["minecraft:minecart","lootr:lootr_minecart"]
+			forcedEntityProtectionExceptionList = ["minecraft:minecart", "lootr:lootr_minecart"]
 			#Custom groups of entities that a player/claim config should be able to make protection exceptions for. Each group can consist of multiple entities and entity tags.
 			#A group without a prefix creates a player config option for the right-click interaction with the group entities. The format for an entity group is <group ID>{<entities/tags/wildcards separated by ,>}.
 			#The group ID should consist of at most 32 characters that are letters A-Z, numbers 0-9 or the - and _ characters, e.g. "ePiC-GUYS98{minecraft:pig, minecraft:c(ow|at), #minecraft:beehive_inhabitors}".

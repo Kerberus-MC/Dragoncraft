@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "NotPerz",
+      "uniqueId": "760515b5-6cb9-482a-80c6-ed1c506d4e92"
+    },
+    "time": 1776021650955,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/XLBtJXTeMN"
+    }
+  }
+]
