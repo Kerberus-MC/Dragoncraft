@@ -1,0 +1,31 @@
+name: Bug Report
+description: Report a crash, broken feature, or unexpected behavior
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can we trigger this?
+      placeholder: |
+        1. Open the game
+        2. Go to...
+        3. See error
+  - type: textarea
+    id: logs
+    attributes:
+      label: Crash log (if applicable)
+      description: Paste the relevant section from latest.log or crash report
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: Pack version
+      placeholder: e.g. v35.0.7

@@ -25,6 +25,8 @@
 
 # Track these files
 !.gitignore
+!.github/
+!.github/**
 !CHANGELOG.md
 !README.md
 !LICENSE
