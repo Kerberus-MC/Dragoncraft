@@ -1,0 +1,61 @@
+["Chat Settings"]
+	#Maximum distance (in blocks) for proximity chat
+	# Default: 50
+	# Range: 10 ~ 1000
+	proximityDistance = 50
+	#Cooldown (in seconds) between shouts
+	# Default: 30
+	# Range: 0 ~ 3600
+	shoutCooldown = 0
+	#Color for proximity chat messages
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+	proximityColor = "WHITE"
+	#Color for party chat messages
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+	partyColor = "GREEN"
+	#Color for shout messages
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+	shoutColor = "BLUE"
+
+["Party Settings"]
+	#Maximum number of players allowed in a party
+	# Default: 10
+	# Range: 2 ~ 100
+	maxPartySize = 100
+	#List of banned party names
+	bannedPartyNames = ["admin", "mod", "staff"]
+	#Whether parties should persist after server restart
+	persistPartiesOnRestart = true
+
+["Integration Settings"]
+	#Enable integration with Fakename mod
+	enableFakenameIntegration = true
+	#Enable integration with Chat Heads mod
+	enableChatHeadsIntegration = true
+
+["Chat Range Settings"]
+	#Maximum distance (in blocks) for whisper chat
+	# Default: 15
+	# Range: 5 ~ 30
+	whisperDistance = 15
+	#Maximum distance (in blocks) for normal chat
+	# Default: 50
+	# Range: 15 ~ 100
+	normalDistance = 50
+	#Maximum distance (in blocks) for yelling
+	# Default: 100
+	# Range: 50 ~ 200
+	yellDistance = 100
+	#Color for whisper messages
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+	whisperColor = "GRAY"
+	#Color for normal chat messages
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+	normalColor = "WHITE"
+	#Color for yell messages
+	#Allowed Values: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, OBFUSCATED, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, RESET
+	yellColor = "YELLOW"
+	#Cooldown (in seconds) between yells
+	# Default: 30
+	# Range: 0 ~ 3600
+	yellCooldown = 30

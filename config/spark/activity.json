@@ -1,0 +1,89 @@
+[
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1779416870326,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ilqw8a7v7R"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1779416827908,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5rutQVnJjF"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1777826553523,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/GEu8qy59Yz"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "NotPerz",
+      "uniqueId": "760515b5-6cb9-482a-80c6-ed1c506d4e92"
+    },
+    "time": 1777825991696,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/8YIC35jCtA"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "NotPerz",
+      "uniqueId": "760515b5-6cb9-482a-80c6-ed1c506d4e92"
+    },
+    "time": 1777825607625,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/HtaNc7KKXY"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "NotPerz",
+      "uniqueId": "760515b5-6cb9-482a-80c6-ed1c506d4e92"
+    },
+    "time": 1777824282385,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/geLDo0LlZ6"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Server"
+    },
+    "time": 1774481638919,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "/home/container/config/spark/profile-2026-03-25_23.33.57.sparkprofile"
+    }
+  }
+]

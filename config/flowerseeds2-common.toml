@@ -1,0 +1,12 @@
+#Allow Wither Rose seeds to be obtainable from Farmers?
+witherrosetrading = false
+#Wither Rose Farmer Trade Level
+# Default: 5
+# Range: 1 ~ 5
+witherrosetradelevel = 5
+#Allow Wither Rose seeds to be obtainable from master Clerics?
+witherrosetradingcleric = false
+#Wither Rose Cleric Trade Level
+# Default: 5
+# Range: 1 ~ 5
+witherrosetradelevelcleric = 5

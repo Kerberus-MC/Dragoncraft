@@ -1,0 +1,9 @@
+[settings]
+	#Permission Level of the command. This is the level needed to be able to change other people's fakename
+	# Default: 2
+	# Range: 0 ~ 10
+	commandPermissionLevelAll = 2
+	#Permission Level of the command. This is the level needed to be able to change your own fakename
+	# Default: 0
+	# Range: 0 ~ 10
+	commandPermissionLevelSelf = 0

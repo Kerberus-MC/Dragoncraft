@@ -1,0 +1,40 @@
+# Kerberus Pack Manager - CurseForge Instance .gitignore
+# Whitelist approach: ignore everything, then un-ignore what we track
+
+# Ignore everything by default
+*
+
+# Track these directories
+!config/
+!config/**
+!kubejs/
+!kubejs/**
+!datapacks/
+!datapacks/**
+!defaultconfigs/
+!defaultconfigs/**
+!changelogs/
+!changelogs/**
+!local/
+!local/kubejs/
+!local/kubejs/**
+!fancymenu_data/
+!fancymenu_data/**
+!villagerpacks/
+!villagerpacks/**
+
+# Track these files
+!.gitignore
+!CHANGELOG.md
+!README.md
+!LICENSE
+
+# Ignore binary/cache/large files inside tracked dirs
+config/**/*.cache
+config/**/*.dat
+config/**/*.bak
+config/**/*.sparkprofile
+config/**/*.nbt
+config/**/*.zip
+config/**/*.jar
+kubejs/.cache/

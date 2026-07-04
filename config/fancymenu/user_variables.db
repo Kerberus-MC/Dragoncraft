@@ -1,0 +1,32 @@
+type = user_variables
+
+variable {
+  name = test_server_value
+  value = survie
+  reset_on_launch = false
+}
+
+variable {
+  name = want_multiplayer_list
+  value = no
+  reset_on_launch = false
+}
+
+variable {
+  name = credits
+  value = Credits
+  reset_on_launch = false
+}
+
+variable {
+  name = last_server
+  value = serveur_survie
+  reset_on_launch = false
+}
+
+variable {
+  name = video
+  value = played
+  reset_on_launch = false
+}
+

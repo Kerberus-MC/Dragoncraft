@@ -1,0 +1,60 @@
+#Toxony Server Configurations
+["Toxin System"]
+	#
+	#How much toxin is removed from your system every few seconds. (Default: 1.0)
+	#If set to negative, gives toxin instead.
+	toxinDrain = 1.0
+
+["Affinity System"]
+	#
+	#The minimum requirement to discover a poisonous ingredient's affinity. (Default: 20)
+	#(For reference, eating them gives 1 point of knowledge. Injecting Affinity Solutions give 10)
+	minKnowledgeReq = 20
+	#
+	#Customize which possible affinities appear on any items you define here.
+	#
+	#WARNING! Only change these values BEFORE WORLD CREATION, as the new item affinities will NOT be discoverable on existing worlds!
+	#
+	#List of Affinity IDs:
+	#toxony:moon,
+	#toxony:sun,
+	#toxony:ocean,
+	#toxony:forest,
+	#toxony:wind,
+	#toxony:cold,
+	#toxony:soul,
+	#toxony:decay,
+	#toxony:nether,
+	#toxony:end,
+	#toxony:heat
+	#
+	#Formatted as [item, affinity.., item, affinity.., ...]
+	#
+	#Example: 
+	# customItemAffinities = [
+	# 	"minecraft:golden_apple", "toxony:sun",
+	# 	"modid:random_item", "toxony:ocean", "toxony:forest"
+	# ]
+	customItemAffinities = []
+
+["World System"]
+	#
+	#The multiplier for how quickly plants grow. (Default: 1.0)
+	plantGrowthMult = 1.0
+
+[Items]
+	#
+	#The damage done by iron rounds fired from a flintlock. 2.0 = 1 Heart (Default: 8.0)
+	ironRoundDmg = 8.0
+	#
+	#The damage the flail does when fully charged. 2.0 = 1 Heart (Default: 15.0)
+	flailDmg = 15.0
+	#
+	#The multiplier for how fast the flail spins up. Higher = faster (Default: 1.0)
+	flailSpinSpeedMult = 1.0
+	#
+	#The damage the witching blade can do. Note, this does not modify its bonus damage. (Default: 7.0)
+	witchingBladeDamage = 7.0
+	#
+	#The multiplier for the amount of times oil can be used before its depleted from the item. (Default: 1.0)
+	oilDurabilityMult = 1.0

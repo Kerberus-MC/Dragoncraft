@@ -1,0 +1,101 @@
+[general]
+	#Delay in seconds before showing welcome message after join
+	# Default: 5
+	# Range: 0 ~ 60
+	joinDelaySeconds = 5
+
+[links]
+	#Store URL. Leave empty to hide from welcome message.
+	storeUrl = "https://ko-fi.com/draconiagaming"
+	#Wiki URL. Leave empty to hide from welcome message.
+	wikiUrl = "https://wiki.kerberus.gg"
+
+[chat]
+	#Welcome header line. Supports & formatting codes.
+	welcomeLine = "&6Welcome to the server!"
+	rulesButtonText = "Server Rules"
+	ranksButtonText = "Ranks"
+	storeButtonText = "Support Us"
+	wikiButtonText = "Wiki"
+
+[rules]
+	#Each entry is one page in the rules book.
+	#Supports & formatting codes. Use \n for line breaks.
+	#The mod auto-appends a 'Don't show again' link to the last page.
+	pages = ["""
+&0&lServer Rules
+
+&0Please read these rules before playing.
+
+Click the arrows below to read all pages.""", """
+&0&l1. Respect & Conduct
+
+&0Be civil and respectful.
+No toxicity, harassment, or discrimination.
+No hate speech or threats.
+
+&4Zero tolerance for sexual harassment, death threats, doxxing, or DDoS threats.""", """
+&0&l2. Gameplay
+
+&0No griefing, stealing, or trolling.
+PvP only with consent from all parties.
+No exploits, hacked clients, or X-ray.
+
+&8Report bugs - accidental dupes won't be penalized if reported.""", """
+&0&l3. Builds & Performance
+
+&0Keep farms and automation optimized.
+Use overflow protection on automation.
+No lag-inducing builds.
+
+&8Staff may remove builds causing TPS drops.""", """
+&0&l4. Community
+
+&0No spam or unsafe links.
+Respect staff decisions.
+Do not claim boss arenas, End portal, or spawn.
+
+&8Full rules with penalties: see our wiki."""]
+
+[ranks]
+	#Each entry is one page in the ranks book.
+	#Supports & formatting codes. Use \n for line breaks.
+	pages = ["""
+&0&lRank Progression
+
+&0Ranks unlock automatically based on playtime.
+Higher ranks earn more claims, homes, and commands.""", """
+&0&lEarly Ranks
+
+&7Hatchling &8(0h)
+&0200 claims, 1 home
+/home, /trashcan, /craft
+
+&bYoung Dragon &8(168h / 7d)
+&0260 claims, 2 homes
++ /back, /nickname""", """
+&0&lMid Ranks
+
+&aAdult Dragon &8(336h / 14d)
+&0320 claims, 3 homes
+
+&dElder Dragon &8(504h / 21d)
+&0400 claims, 4 homes
++ /warp""", """
+&0&lLate Ranks
+
+&cAncient Dragon &8(672h / 28d)
+&0500 claims, 5 homes
+
+&6Legendary Dragon &8(840h / 35d)
+&0600 claims, 6 homes"""]
+
+[mail]
+	#Days before mail auto-expires. 0 = never expire.
+	# Default: 30
+	# Range: 0 ~ 365
+	expiryDays = 30
+	#Maximum mail entries per player. Oldest are deleted when exceeded.
+	# Default: 50
+	# Range: 10 ~ 500
+	maxPerPlayer = 50

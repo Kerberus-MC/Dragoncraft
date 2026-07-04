@@ -1,0 +1,350 @@
+{
+	"barMace": {
+		"enabled": true,
+		"baseAttackDamage": 4.550000190734863,
+		"baseAttackSpeed": 1.1799999475479126,
+		"bonusAttackReach": 0.0
+	},
+	"battleaxe": {
+		"enabled": true,
+		"baseAttackDamage": 5.300000190734863,
+		"baseAttackSpeed": 1.0499999523162842,
+		"bonusAttackReach": 0.0
+	},
+	"crowBeak": {
+		"enabled": true,
+		"baseAttackDamage": 4.199999809265137,
+		"baseAttackSpeed": 1.2599999904632568,
+		"bonusAttackReach": 0.0
+	},
+	"franciscaAxe": {
+		"enabled": true,
+		"baseAttackDamage": 4.300000190734863,
+		"baseAttackSpeed": 1.2000000476837158,
+		"bonusAttackReach": 0.0
+	},
+	"roundMace": {
+		"enabled": true,
+		"baseAttackDamage": 4.699999809265137,
+		"baseAttackSpeed": 1.25,
+		"bonusAttackReach": 0.0
+	},
+	"warAxe": {
+		"enabled": true,
+		"baseAttackDamage": 5.300000190734863,
+		"baseAttackSpeed": 1.0499999523162842,
+		"bonusAttackReach": 0.0
+	},
+	"warHammer": {
+		"enabled": true,
+		"baseAttackDamage": 4.599999904632568,
+		"baseAttackSpeed": 1.2000000476837158,
+		"bonusAttackReach": 0.0
+	},
+	"bollockDagger": {
+		"enabled": true,
+		"baseAttackDamage": 2.799999952316284,
+		"baseAttackSpeed": 1.7999999523162842,
+		"bonusAttackReach": 0.0
+	},
+	"dagger": {
+		"enabled": true,
+		"baseAttackDamage": 2.799999952316284,
+		"baseAttackSpeed": 1.7999999523162842,
+		"bonusAttackReach": 0.0
+	},
+	"parryingDagger": {
+		"enabled": true,
+		"baseAttackDamage": 2.5,
+		"baseAttackSpeed": 1.9700000286102295,
+		"bonusAttackReach": 0.0
+	},
+	"rondelDagger": {
+		"enabled": true,
+		"baseAttackDamage": 2.299999952316284,
+		"baseAttackSpeed": 1.649999976158142,
+		"bonusAttackReach": 0.0
+	},
+	"sickle": {
+		"enabled": true,
+		"baseAttackDamage": 1.5,
+		"baseAttackSpeed": 1.600000023841858,
+		"bonusAttackReach": 0.0
+	},
+	"executionersSword": {
+		"enabled": true,
+		"baseAttackDamage": 6.0,
+		"baseAttackSpeed": 1.1200000047683716,
+		"bonusAttackReach": 0.20000000298023224
+	},
+	"germanGreatsword": {
+		"enabled": true,
+		"baseAttackDamage": 5.900000095367432,
+		"baseAttackSpeed": 1.149999976158142,
+		"bonusAttackReach": 0.5
+	},
+	"twoHandedMesser": {
+		"enabled": true,
+		"baseAttackDamage": 5.599999904632568,
+		"baseAttackSpeed": 1.149999976158142,
+		"bonusAttackReach": 0.5
+	},
+	"englishPoleaxe": {
+		"enabled": true,
+		"baseAttackDamage": 7.599999904632568,
+		"baseAttackSpeed": 0.8500000238418579,
+		"bonusAttackReach": 1.0
+	},
+	"frenchHalberd": {
+		"enabled": true,
+		"baseAttackDamage": 7.150000095367432,
+		"baseAttackSpeed": 0.8999999761581421,
+		"bonusAttackReach": 1.0
+	},
+	"italianPoleaxe": {
+		"enabled": true,
+		"baseAttackDamage": 7.400000095367432,
+		"baseAttackSpeed": 0.8999999761581421,
+		"bonusAttackReach": 1.0
+	},
+	"swissHalberd": {
+		"enabled": true,
+		"baseAttackDamage": 7.349999904632568,
+		"baseAttackSpeed": 0.9200000166893005,
+		"bonusAttackReach": 1.0
+	},
+	"lance": {
+		"enabled": true,
+		"baseAttackDamage": 2.0,
+		"baseAttackSpeed": 1.0,
+		"bonusAttackReach": 2.0
+	},
+	"broadaxe": {
+		"enabled": true,
+		"baseAttackDamage": 6.800000190734863,
+		"baseAttackSpeed": 1.0399999618530273,
+		"bonusAttackReach": 0.800000011920929
+	},
+	"daneaxe": {
+		"enabled": true,
+		"baseAttackDamage": 7.199999809265137,
+		"baseAttackSpeed": 0.9399999976158142,
+		"bonusAttackReach": 0.8999999761581421
+	},
+	"gallowglassAxe": {
+		"enabled": true,
+		"baseAttackDamage": 7.199999809265137,
+		"baseAttackSpeed": 0.9399999976158142,
+		"bonusAttackReach": 0.8999999761581421
+	},
+	"hammerSpear": {
+		"enabled": true,
+		"baseAttackDamage": 7.199999809265137,
+		"baseAttackSpeed": 1.0,
+		"bonusAttackReach": 0.800000011920929
+	},
+	"twoHandedEveningStar": {
+		"enabled": true,
+		"baseAttackDamage": 7.199999809265137,
+		"baseAttackSpeed": 1.0,
+		"bonusAttackReach": 0.800000011920929
+	},
+	"cavalrySabre": {
+		"enabled": true,
+		"baseAttackDamage": 3.5799999237060547,
+		"baseAttackSpeed": 1.5299999713897705,
+		"bonusAttackReach": 0.0
+	},
+	"cutlass": {
+		"enabled": true,
+		"baseAttackDamage": 3.799999952316284,
+		"baseAttackSpeed": 1.5299999713897705,
+		"bonusAttackReach": 0.0
+	},
+	"falchion": {
+		"enabled": true,
+		"baseAttackDamage": 3.549999952316284,
+		"baseAttackSpeed": 1.5499999523162842,
+		"bonusAttackReach": 0.0
+	},
+	"feder": {
+		"enabled": true,
+		"baseAttackDamage": 0.0,
+		"baseAttackSpeed": 1.5,
+		"bonusAttackReach": 0.20000000298023224
+	},
+	"grandFalchion": {
+		"enabled": true,
+		"baseAttackDamage": 5.909999847412109,
+		"baseAttackSpeed": 1.059999942779541,
+		"bonusAttackReach": 0.0
+	},
+	"kingSword": {
+		"enabled": true,
+		"baseAttackDamage": 4.5,
+		"baseAttackSpeed": 1.3600000143051147,
+		"bonusAttackReach": 0.0
+	},
+	"longsword": {
+		"enabled": true,
+		"baseAttackDamage": 4.199999809265137,
+		"baseAttackSpeed": 1.4199999570846558,
+		"bonusAttackReach": 0.0
+	},
+	"longSeax": {
+		"enabled": true,
+		"baseAttackDamage": 4.0,
+		"baseAttackSpeed": 1.4600000381469727,
+		"bonusAttackReach": 0.0
+	},
+	"maciejowskiMesser": {
+		"enabled": true,
+		"baseAttackDamage": 3.5,
+		"baseAttackSpeed": 1.4800000190734863,
+		"bonusAttackReach": 0.0
+	},
+	"messerSword": {
+		"enabled": true,
+		"baseAttackDamage": 3.450000047683716,
+		"baseAttackSpeed": 1.5,
+		"bonusAttackReach": 0.0
+	},
+	"rapier": {
+		"enabled": true,
+		"baseAttackDamage": 3.4000000953674316,
+		"baseAttackSpeed": 1.600000023841858,
+		"bonusAttackReach": 0.0
+	},
+	"scimitar": {
+		"enabled": true,
+		"baseAttackDamage": 3.9000000953674316,
+		"baseAttackSpeed": 1.5,
+		"bonusAttackReach": 0.0
+	},
+	"sidesword": {
+		"enabled": true,
+		"baseAttackDamage": 3.680000066757202,
+		"baseAttackSpeed": 1.4600000381469727,
+		"bonusAttackReach": 0.10000000149011612
+	},
+	"trainingSword": {
+		"enabled": true,
+		"baseAttackDamage": 0.0,
+		"baseAttackSpeed": 1.399999976158142,
+		"bonusAttackReach": 0.0
+	},
+	"billhook": {
+		"enabled": true,
+		"baseAttackDamage": 2.5299999713897705,
+		"baseAttackSpeed": 1.350000023841858,
+		"bonusAttackReach": 1.5
+	},
+	"boarSpear": {
+		"enabled": true,
+		"baseAttackDamage": 3.0,
+		"baseAttackSpeed": 1.149999976158142,
+		"bonusAttackReach": 1.5
+	},
+	"fauchard": {
+		"enabled": true,
+		"baseAttackDamage": 3.1500000953674316,
+		"baseAttackSpeed": 1.100000023841858,
+		"bonusAttackReach": 2.0
+	},
+	"glaive": {
+		"enabled": true,
+		"baseAttackDamage": 3.0999999046325684,
+		"baseAttackSpeed": 1.149999976158142,
+		"bonusAttackReach": 2.0
+	},
+	"goedendag": {
+		"enabled": true,
+		"baseAttackDamage": 3.9000000953674316,
+		"baseAttackSpeed": 1.100000023841858,
+		"bonusAttackReach": 1.0
+	},
+	"militaryFork": {
+		"enabled": true,
+		"baseAttackDamage": 2.9000000953674316,
+		"baseAttackSpeed": 1.1200000047683716,
+		"bonusAttackReach": 1.7999999523162842
+	},
+	"partisan": {
+		"enabled": true,
+		"baseAttackDamage": 3.3499999046325684,
+		"baseAttackSpeed": 1.1699999570846558,
+		"bonusAttackReach": 1.899999976158142
+	},
+	"scythe": {
+		"enabled": true,
+		"baseAttackDamage": 5.0,
+		"baseAttackSpeed": 0.8500000238418579,
+		"bonusAttackReach": 1.2000000476837158
+	},
+	"shortSpear": {
+		"enabled": true,
+		"baseAttackDamage": 3.0,
+		"baseAttackSpeed": 1.2000000476837158,
+		"bonusAttackReach": 1.4500000476837158
+	},
+	"voulge": {
+		"enabled": true,
+		"baseAttackDamage": 3.200000047683716,
+		"baseAttackSpeed": 1.149999976158142,
+		"bonusAttackReach": 1.600000023841858
+	},
+	"welshGuisarme": {
+		"enabled": true,
+		"baseAttackDamage": 3.5,
+		"baseAttackSpeed": 1.0700000524520874,
+		"bonusAttackReach": 1.899999976158142
+	},
+	"armingSwordTypeXiii": {
+		"enabled": true,
+		"baseAttackDamage": 3.5,
+		"baseAttackSpeed": 1.600000023841858,
+		"bonusAttackReach": 0.0
+	},
+	"armingSwordTypeXiv": {
+		"enabled": true,
+		"baseAttackDamage": 3.5,
+		"baseAttackSpeed": 1.600000023841858,
+		"bonusAttackReach": 0.0
+	},
+	"armingSwordTypeXv": {
+		"enabled": true,
+		"baseAttackDamage": 3.5,
+		"baseAttackSpeed": 1.600000023841858,
+		"bonusAttackReach": 0.0
+	},
+	"richSaxonSword": {
+		"enabled": true,
+		"baseAttackDamage": 3.380000114440918,
+		"baseAttackSpeed": 1.649999976158142,
+		"bonusAttackReach": 0.0
+	},
+	"sabre": {
+		"enabled": true,
+		"baseAttackDamage": 3.609999895095825,
+		"baseAttackSpeed": 1.5800000429153442,
+		"bonusAttackReach": 0.0
+	},
+	"saxonSword": {
+		"enabled": true,
+		"baseAttackDamage": 3.5,
+		"baseAttackSpeed": 1.600000023841858,
+		"bonusAttackReach": 0.0
+	},
+	"shortSeax": {
+		"enabled": true,
+		"baseAttackDamage": 3.25,
+		"baseAttackSpeed": 1.6799999475479126,
+		"bonusAttackReach": 0.0
+	},
+	"swordbreaker": {
+		"enabled": true,
+		"baseAttackDamage": 3.0,
+		"baseAttackSpeed": 1.600000023841858,
+		"bonusAttackReach": 0.0
+	}
+}

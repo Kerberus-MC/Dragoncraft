@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "overrides": {
+    "litematica-printer": {
+      "depends": {}
+    },
+    "litematica": {
+      "depends": {}
+    }
+  }
+}

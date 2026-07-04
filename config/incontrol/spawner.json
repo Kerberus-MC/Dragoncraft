@@ -1,0 +1,50 @@
+[
+  {
+    "mob": "hexerei:crow",
+    "persecond": 0.25,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 20
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inair": true,
+      "mindist": 25,
+      "maxdist": 100,
+      "minheight": 30,
+      "maxheight": 200,
+      "maxthis": 100,
+      "and": {
+        "biometags": "minecraft:is_forest",
+        "seesky": true,
+        "hasstructure": false
+      }
+    }
+  },
+  {
+    "mob": "hexerei:owl",
+    "persecond": 0.25,
+    "attempts": 15,
+    "amount": {
+      "minimum": 1,
+      "maximum": 2,
+      "groupdistance": 20
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "inair": true,
+      "mindist": 25,
+      "maxdist": 100,
+      "minheight": 30,
+      "maxheight": 200,
+      "maxthis": 100,
+      "and": {
+        "biometags": "minecraft:is_forest",
+        "seesky": true,
+        "hasstructure": false
+      }
+    }
+  }
+]

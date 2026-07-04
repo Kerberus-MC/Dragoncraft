@@ -1,0 +1,18 @@
+{
+	id: "3547227E92FB95AA"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ id: "4B4B2BACA43242AC", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:cone_of_cold", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "697FE4F9669F0520", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:frost_step", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "6120C9C6CF89DB93", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ice_block", index: 0, level: 2, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "5CAF9469D4DD0328", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:icicle", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "49598557FAA3850D", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:summon_polar_bear", index: 0, level: 4, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "7D193E1D283FA502", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ray_of_frost", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "368C453923CA3BDB", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ray_of_frost", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "42EE0F20F4F4A2FE", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:frostwave", index: 0, level: 6, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "46FCCD2FEBE906E9", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ice_spikes", index: 0, level: 7, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "6F9B97F60D2994DD", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:ice_tomb", index: 0, level: 5, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+		{ id: "0A2F0CDA86D8EE6C", item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:snowball", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" } }
+	]
+}

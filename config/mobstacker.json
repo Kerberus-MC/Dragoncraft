@@ -1,0 +1,44 @@
+{
+  "killWholeStackOnDeath": false,
+  "stackHealth": false,
+  "maxMobStackSize": 16,
+  "stackRadius": 6.0,
+  "enableSeparator": false,
+  "consumeSeparator": true,
+  "separatorItem": "minecraft:diamond",
+  "enableAssimilator": false,
+  "consumeAssimilator": true,
+  "assimilatorItem": "minecraft:emerald",
+  "ignoredEntities": [
+    "minecraft:ender_dragon",
+    "minecraft:vex",
+    "create:contraption",
+    "minecraft:villager",
+    "ars_nouveau:familiar_amethyst_golem",
+    "ars_nouveau:familiar_bookwyrm",
+    "ars_nouveau:familiar_drygmy",
+    "ars_nouveau:familiar_starbuncle",
+    "ars_nouveau:familiar_whirlisprig",
+    "ars_nouveau:familiar_wixie",
+    "ars_nouveau:alakarkinos",
+    "ars_elemental:siren_entity",
+    "ars_elemental:firenado_entity",
+    "ars_elemental:flashjack_entity",
+    "ars_elemental:siren_familiar",
+    "ars_elemental:firenado_familiar",
+    "ars_elemental:flashjack_familiar"
+  ],
+  "ignoredMods": [
+    "corpse",
+    "easy_npc"
+  ],
+  "mobCaps": {
+    "monster": 22,
+    "creature": 5,
+    "ambient": 7,
+    "axolotls": 2,
+    "undergroundWaterCreature": 2,
+    "waterCreature": 2,
+    "waterAmbient": 8
+  }
+}

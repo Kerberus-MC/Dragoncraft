@@ -1,0 +1,7 @@
+[
+  {
+    "block": ["minecraft:trial_spawner", "lootr:lootr_chest", "lootr:lootr_trapped_chest", "lootr:lootr_barrel", "lootr:decorated_pot", "lootr:suspicious_sand", "lootr:suspicious_gravel"],
+    "message": "This is protected by ancient magic.",
+    "result": "deny"
+  }
+]

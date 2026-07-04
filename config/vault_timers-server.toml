@@ -1,0 +1,8 @@
+#Reset timer for normal vaults in ticks
+# Default: 72000
+# Range: 0 ~ 9223372036854775807
+normal_time = 72000
+#Reset timer for ominous vaults in ticks
+# Default: 360000
+# Range: 0 ~ 9223372036854775807
+ominous_time = 360000

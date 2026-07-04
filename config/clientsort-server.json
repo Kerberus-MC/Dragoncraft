@@ -1,0 +1,91 @@
+{
+  "options": {
+    "validationActiveServer": true,
+    "validateItemType": true,
+    "validateStackSize": true,
+    "validateStackSizeThreshold": 32,
+    "alwaysLogUnexpectedResults": true,
+    "classPolicies": {
+      "com.minecolonies.api.inventory.container.ContainerBuildingInventory": {
+        "className": "com.minecolonies.api.inventory.container.ContainerBuildingInventory",
+        "sortEnabled": false,
+        "stackFillEnabled": true,
+        "transferEnabled": true,
+        "lastAutoEditTime": "2025-12-18T22:16:03.977711441Z",
+        "lastAutoEditReason": "Sort operation failed at slot mapping 25->14: Expected '9 minecolonies:butter' in destination after set, got '16 minecolonies:manchet_dough'!"
+      },
+      "com.minecolonies.api.inventory.container.ContainerRack": {
+        "className": "com.minecolonies.api.inventory.container.ContainerRack",
+        "sortEnabled": false,
+        "stackFillEnabled": true,
+        "transferEnabled": true,
+        "lastAutoEditTime": "2025-12-14T20:10:56.821582059Z",
+        "lastAutoEditReason": "Collect operation failed to safe-insert from slot 22 with item '59 minecraft:spruce_stairs' to slot 18 with item '3 minecraft:spruce_stairs': Expected '62 minecraft:spruce_stairs' in destination after set, got '6 minecraft:spruce_stairs'!"
+      },
+      "com.simibubi.create.api.contraption.storage.item.menu.StorageInteractionWrapper": {
+        "className": "com.simibubi.create.api.contraption.storage.item.menu.StorageInteractionWrapper",
+        "sortEnabled": false,
+        "stackFillEnabled": true,
+        "transferEnabled": true,
+        "lastAutoEditTime": "2025-11-03T05:32:38.957895734Z",
+        "lastAutoEditReason": "Collect operation failed to safe-insert from slot 49 with item '57 minecraft:diorite' to slot 47 with item '18 minecraft:diorite': Expected '64 minecraft:diorite' in destination after set, got '27 minecraft:diorite'!"
+      },
+      "com.simibubi.create.content.equipment.toolbox.ToolboxMenu": {
+        "className": "com.simibubi.create.content.equipment.toolbox.ToolboxMenu",
+        "sortEnabled": false,
+        "stackFillEnabled": false,
+        "transferEnabled": false
+      },
+      "com.tiviacz.travelersbackpack.inventory.menu.BackpackSettingsMenu": {
+        "className": "com.tiviacz.travelersbackpack.inventory.menu.BackpackSettingsMenu",
+        "sortEnabled": false,
+        "stackFillEnabled": false,
+        "transferEnabled": false
+      },
+      "com.tom.storagemod.menu.CraftingTerminalMenu": {
+        "className": "com.tom.storagemod.menu.CraftingTerminalMenu",
+        "sortEnabled": false,
+        "stackFillEnabled": false,
+        "transferEnabled": false
+      },
+      "com.tom.storagemod.menu.StorageTerminalMenu": {
+        "className": "com.tom.storagemod.menu.StorageTerminalMenu",
+        "sortEnabled": false,
+        "stackFillEnabled": false,
+        "transferEnabled": false
+      },
+      "de.markusbordihn.easymobfarm.block.entity.MobFarmBlockEntityWrapper": {
+        "className": "de.markusbordihn.easymobfarm.block.entity.MobFarmBlockEntityWrapper",
+        "sortEnabled": false,
+        "stackFillEnabled": true,
+        "transferEnabled": true,
+        "lastAutoEditTime": "2026-06-02T14:04:38.053378246+01:00",
+        "lastAutoEditReason": "Collect operation failed to safe-insert from slot 18 with item '54 minecraft:spider_eye' to slot 15 with item '22 minecraft:spider_eye': Expected '64 minecraft:spider_eye' in destination after set, got '22 minecraft:spider_eye'!"
+      },
+      "net.minecraft.world.CompoundContainer": {
+        "className": "net.minecraft.world.CompoundContainer",
+        "sortEnabled": false,
+        "stackFillEnabled": true,
+        "transferEnabled": true,
+        "lastAutoEditTime": "2025-11-24T16:14:43.869126087Z",
+        "lastAutoEditReason": "Collect operation failed to safe-insert from slot 28 with item '58 minecraft:bone' to slot 20 with item '14 minecraft:bone': Expected '64 minecraft:bone' in destination after set, got '16 minecraft:bone'!"
+      },
+      "net.minecraft.world.entity.player.Inventory": {
+        "className": "net.minecraft.world.entity.player.Inventory",
+        "sortEnabled": false,
+        "stackFillEnabled": true,
+        "transferEnabled": true,
+        "lastAutoEditTime": "2026-05-29T04:21:40.359625676+01:00",
+        "lastAutoEditReason": "Collect operation failed to safe-insert from slot 18 with item '58 sophisticatedstorage:limited_gold_barrel_1' to slot 17 with item '28 sophisticatedstorage:limited_gold_barrel_1': Expected '64 sophisticatedstorage:limited_gold_barrel_1' in destination after set, got '29 sophisticatedstorage:limited_gold_barrel_1'!"
+      },
+      "noobanidus.mods.lootr.common.data.LootrInventory": {
+        "className": "noobanidus.mods.lootr.common.data.LootrInventory",
+        "sortEnabled": false,
+        "stackFillEnabled": true,
+        "transferEnabled": true,
+        "lastAutoEditTime": "2026-02-19T17:02:35.527766001Z",
+        "lastAutoEditReason": "Collect operation failed to safe-insert from slot 9 with item '34 minecraft:iron_nugget' to slot 6 with item '1 minecraft:iron_nugget': Expected '35 minecraft:iron_nugget' in destination after set, got '3 minecraft:iron_nugget'!"
+      }
+    }
+  }
+}

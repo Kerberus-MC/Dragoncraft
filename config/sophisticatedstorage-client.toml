@@ -1,0 +1,4 @@
+#Client-side Settings
+[client]
+	#Determines whether JEI and creative tab will show only one wood variant of each storage item tier. Makes creative tab and JEI lists smaller.
+	showSingleWoodVariantOnly = false

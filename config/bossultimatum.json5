@@ -1,0 +1,46 @@
+{
+  // --------------------------------------------------------------------------------------------------------
+  //                                    Boss Ultimatum by ElocinDev
+  // --------------------------------------------------------------------------------------------------------
+  "ultimatums": [
+    {
+      // Cataclysm & Iron's Spells Bosses
+      // These are high-tier modded bosses. They get a moderate health gain from player deaths
+      // and have a 3-life ultimatum system, becoming drastically stronger on the final life.
+      "entity_regex": "(cataclysm:.*|irons_spellbooks:dead_king|irons_spellbooks:tyros)",
+      "direct_kill": false,
+      "indirect_radius": 50,
+      "minimum_hp": 200,
+      "healing_events": [
+        {
+          "health_gain_per_death": 0.15,
+          "ultimatum_death_count": 3,
+          "ultimatum_heals_maxhp": true,
+          "ultimatum_death_healing": 1.0,
+          "require_difficulty": false,
+          "difficulty": ["easy", "normal", "hard"],
+          "remove_boss_instead_of_healing": false
+        }
+      ]
+    },
+    {
+      // Minecraft Bosses
+      // The vanilla bosses are iconic, so they get a simple but punishing full-heal ultimatum.
+      "entity_regex": "minecraft:(wither|ender_dragon)",
+      "direct_kill": false,
+      "indirect_radius": 100,
+      "minimum_hp": 100,
+      "healing_events": [
+        {
+          "health_gain_per_death": 0.1,
+          "ultimatum_death_count": 2,
+          "ultimatum_heals_maxhp": true,
+          "ultimatum_death_healing": 1.0,
+          "require_difficulty": false,
+          "difficulty": ["easy", "normal", "hard"],
+          "remove_boss_instead_of_healing": false
+        }
+      ]
+    }
+  ]
+}
