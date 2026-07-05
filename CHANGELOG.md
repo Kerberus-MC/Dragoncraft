@@ -1,3 +1,14 @@
+# Dragoncraft 35.1.1
+
+**Release** - 2026-07-05
+
+## Added
+
+- No Chat Reports
+- No Chat Restrictions
+
+---
+
 **Dragoncraft 35.1.0** (Release) - 2026-06-28
 
 **Added:**
