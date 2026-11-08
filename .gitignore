@@ -40,3 +40,4 @@ config/**/*.nbt
 config/**/*.zip
 config/**/*.jar
 kubejs/.cache/
+config/**/*.db
